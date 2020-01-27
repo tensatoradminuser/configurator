@@ -1,0 +1,21 @@
+id,cassette_assy,web_type,web_pt_search,topcap_label_deny,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30,r31,r32,r33,padprint_smartcode_suffix,smart_cass_id,cassfg_num,comment_string,cycle_time_selector
+No Cassette,,,,,x,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,
+4Way Std Plain,53577-AAB,STD,04837,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,CAS,Standard Cassette,std
+4Way Std Printed,53577-AAA,STD,04837,TRUE,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,007,2,CAS,Standard Cassette,std
+4Way Max Plain,53578-AAB,MAX,08136,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,CAS,Max Cassette,std
+4Way Max Printed,53578-AAA,MAX,08136,TRUE,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,007,4,CAS,Max Cassette,std
+Mag Spline Std Plain,54173-000,STD,04837,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,CAS-MAG,Magnetic Standard Cassette.,std
+Mag Spline Max Plain,54174-000,MAX,08136,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,CAS-MAG,Magnetic Max Cassette,std
+Magnetic Dummy,52451-000,RCV,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,CAS-MAG-RCV,Magnetic Dummy Cassette,std
+Dualline 4Way Std,54014-000,STD,04837,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16,CASD,Dualline Standard Cassette,std
+Dualline 4Way Max,54082-000,MAX,08136,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,CASD,Dualline Max Cassette,std
+Dualline Dummy,58578-33S,RCV,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18,CASD-RCV,Dualline Dummy Cassette,std
+Dualline 4Way Std Zinc,59235-33S,STD,04837,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,CAS-ZINC,Dualline HeavyDuty Standard Cassette,std
+Dualline 4Way Max Zinc,50478-33S,MAX,08136,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,CAS-ZINC,Dualline HeavyDuty Max Cassette,std
+Dualline Zinc Dummy,69235-33S,RCV,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21,CAS-ZINC-RCV,Dualline HeavyDuty Dummy Cassette,std
+Dualline Magnetic Cassette Std,54175-AAB,STD,04837,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22,CASD-MAG,Dualline Magnetic Standard Cassette,std
+4Way Dummy Printed,54043-AAC,RCV,,TRUE,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,007,25,CAS-RCV,Dummy Cassette,std
+4Way Dummy Plain,54043-AAD,RCV,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,CAS-RCV,Dummy Cassette,std
+4Way Zinc Dummy Plain,54048-000,RCV,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27,CAS-ZINC-RCV,HeavyDuty Dummy Cassette,std
+4Way Std Zinc,54017-000,STD,04837,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23,CAS-ZINC,HeavyDuty Standard Cassette,std
+4Way Max Zinc,54532-000,MAX,08136,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24,CAS-ZINC,HeavyDuty Max Cassette,std

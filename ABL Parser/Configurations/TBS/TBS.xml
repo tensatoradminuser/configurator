@@ -1,0 +1,4956 @@
+<?xml version="1.0" standalone="yes"?>
+<ConfigImportExportDataSet xmlns="http://www.epicor.com/Ice/300/BO/ConfiguratorDef/ConfigImportExport">
+  <PcStatus>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <Approved>true</Approved>
+    <ApprovedDate>2020-01-22T00:00:00-05:00</ApprovedDate>
+    <ApprovedBy>keith.humphrey</ApprovedBy>
+    <StringStyle>ConStr</StringStyle>
+    <Separator>-</Separator>
+    <NumberFormat />
+    <StartNumber>0</StartNumber>
+    <CrtCustPart>false</CrtCustPart>
+    <PrefacePart>false</PrefacePart>
+    <ConfigVersion>19</ConfigVersion>
+    <QuotePCode />
+    <OrderPCode />
+    <OrdQuoCom>false</OrdQuoCom>
+    <JobPickCom>false</JobPickCom>
+    <ShipCom>false</ShipCom>
+    <InvCom>false</InvCom>
+    <CreatePart>true</CreatePart>
+    <CrtPartUsing>SmartString</CrtPartUsing>
+    <InQuoting>true</InQuoting>
+    <AutoCrtPart>false</AutoCrtPart>
+    <NotUnique>false</NotUnique>
+    <InOrderEntry>true</InOrderEntry>
+    <InJobEntry>false</InJobEntry>
+    <CreateBOM>false</CreateBOM>
+    <ZeroCost>false</ZeroCost>
+    <CrtPartDesc>false</CrtPartDesc>
+    <FileName />
+    <SingleLevelConf>false</SingleLevelConf>
+    <SaveInputValues>false</SaveInputValues>
+    <SetPartNumOnly>true</SetPartNumOnly>
+    <Comments />
+    <AprvRev>true</AprvRev>
+    <EntprsConf>false</EntprsConf>
+    <Synchronize>false</Synchronize>
+    <DispConfSummary>false</DispConfSummary>
+    <PartComments />
+    <CompPricing>false</CompPricing>
+    <ExtConfig>false</ExtConfig>
+    <ExtMfgCompID />
+    <TestPlan>false</TestPlan>
+    <MarkMtlGlb>false</MarkMtlGlb>
+    <SIValuesUseQt>false</SIValuesUseQt>
+    <AllowSmartString>true</AllowSmartString>
+    <InDemandEntry>false</InDemandEntry>
+    <DemandPCode />
+    <AllAltMethods>false</AllAltMethods>
+    <AllowReconPO>false</AllowReconPO>
+    <CompPricingJobMethod>false</CompPricingJobMethod>
+    <CreateRev>false</CreateRev>
+    <DefaultECO />
+    <GenerateMethod>false</GenerateMethod>
+    <PromptForConfig>false</PromptForConfig>
+    <PromptForCheckout>false</PromptForCheckout>
+    <RemoveLink>false</RemoveLink>
+    <SIValuesUseGenMethod>false</SIValuesUseGenMethod>
+    <UseSavedLayout>false</UseSavedLayout>
+    <Description>TBS_A</Description>
+    <ConfigType>PC</ConfigType>
+    <ConfigID>TBS_A</ConfigID>
+    <RegenConfig>false</RegenConfig>
+    <CreateNewConfigID>false</CreateNewConfigID>
+    <UseTemplatePartDefaults>false</UseTemplatePartDefaults>
+    <DefaultPartNum />
+    <DefaultRevisionNum />
+    <SysRevID>93122704</SysRevID>
+    <SysRowID>f35b0f36-0568-f9b8-e311-d6347976d2ad</SysRowID>
+    <AttrClassID />
+    <RecycleJobs>false</RecycleJobs>
+    <EWCClientSyncRequired>false</EWCClientSyncRequired>
+    <ShrinkFieldProperties>false</ShrinkFieldProperties>
+  </PcStatus>
+  <PcDocRules>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <ExtCompanyID />
+    <RuleSeq>1</RuleSeq>
+    <RuleString />
+    <RuleType>StaticCondition</RuleType>
+    <CalcName />
+    <CalcDataType />
+    <dbField />
+    <dbTable />
+    <SourceDBRecid />
+    <Comments />
+    <RuleExpr>Always execute</RuleExpr>
+    <ProcessSeq>1</ProcessSeq>
+    <ConfigID>TBS_A</ConfigID>
+    <LValue />
+    <CompareOpr />
+    <RValue>true</RValue>
+    <RValueType />
+    <Description>Rule Condition</Description>
+    <ExtCompanyList />
+    <SysRevID>89460582</SysRevID>
+    <SysRowID>13317cfc-be3d-43d8-928d-65a0eaad14d2</SysRowID>
+  </PcDocRules>
+  <PcDocRules>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <ExtCompanyID />
+    <RuleSeq>2</RuleSeq>
+    <RuleString />
+    <RuleType>StaticCondition</RuleType>
+    <CalcName />
+    <CalcDataType />
+    <dbField />
+    <dbTable />
+    <SourceDBRecid />
+    <Comments />
+    <RuleExpr>Always execute</RuleExpr>
+    <ProcessSeq>1</ProcessSeq>
+    <ConfigID>TBS_A</ConfigID>
+    <LValue />
+    <CompareOpr />
+    <RValue>true</RValue>
+    <RValueType />
+    <Description>Rule Condition</Description>
+    <ExtCompanyList />
+    <SysRevID>89475094</SysRevID>
+    <SysRowID>1add6142-e289-441c-be59-a11a2abad852</SysRowID>
+  </PcDocRules>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>1</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>20</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>QuoteDtl.LineDesc = Inputs.var_fgdesc.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474823</SysRevID>
+    <SysRowID>43d477d4-9f27-4846-a4e2-097216467a69</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>2</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>40</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>OrderDtl.LineDesc = Inputs.var_fgdesc.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474824</SysRevID>
+    <SysRowID>6c37fcae-4714-4600-ac11-a126938f8fc1</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>3</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>21</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>QuoteDtl.ProdCode = Inputs.var_smart1.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474825</SysRevID>
+    <SysRowID>9e4f4919-b498-4472-af58-0359333ecd1a</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>4</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>22</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>QuoteDtl.POLine = Inputs.var_smart2.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474826</SysRevID>
+    <SysRowID>24055435-86b2-45da-bb2d-1bd899a7a8c3</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>5</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>41</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>OrderDtl.ProdCode = Inputs.var_smart1.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474827</SysRevID>
+    <SysRowID>75e3f0f9-0550-41e4-822f-ff3f5a5b2a10</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>6</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>42</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>OrderDtl.POLine = Inputs.var_smart2.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474828</SysRevID>
+    <SysRowID>b088666c-560c-4e2b-a0be-e095506bf675</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>7</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>52</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>QuoteDtl.SalesCatID = Inputs.var_sumsalesid.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474829</SysRevID>
+    <SysRowID>b6496cfa-f980-48eb-83bc-0174d801986b</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>8</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>62</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>OrderDtl.SalesCatID = Inputs.var_sumsalesid.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474830</SysRevID>
+    <SysRowID>bca56b6b-ceda-4546-b05b-0e8ab98fdaa6</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>9</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>72</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>QuoteDtl["ShortChar01"] = Inputs.var_commodity.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474831</SysRevID>
+    <SysRowID>5ddd2dc8-2003-4507-9661-c3e9c8865cda</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>10</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>82</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>OrderDtl["ShortChar01"] = Inputs.var_commodity.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474832</SysRevID>
+    <SysRowID>86c3dff4-2faf-480c-a2fd-f5c23a06a2ed</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>11</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>92</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>QuoteDtl["Number01"] = Inputs.var_netweight.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474833</SysRevID>
+    <SysRowID>c7097e31-d0dd-4436-b05a-708a8e95e487</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>12</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>102</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>OrderDtl["Number01"] = Inputs.var_netweight.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474834</SysRevID>
+    <SysRowID>055f7cc5-9786-4590-9cc9-d65f668c2301</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>13</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>112</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>QuoteDtl.Character02 = Inputs.var_smartstring.Value.Entry(2,"|");</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>90353777</SysRevID>
+    <SysRowID>d854c24d-b41c-42f3-a835-e50ecb7e879d</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>14</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>212</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>OrderDtl.Character02 = Inputs.var_smartstring.Value.Entry(2,"|");</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>90353778</SysRevID>
+    <SysRowID>70533c6f-4cb4-404b-8fe4-aed675ad7100</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>15</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>312</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>QuoteDtl.WarrantyCode = Inputs.chk_overridewarranty.Value == true &amp;&amp; Inputs.var_warrantycode.Value != "" ? Inputs.var_warrantycode.Value : Inputs.chr_warranty.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474837</SysRevID>
+    <SysRowID>dbf57d44-69ad-41a4-b721-1677b1f84c2d</SysRowID>
+  </PcDocRulesExpr>
+  <PcDocRulesExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <RuleSeq>1</RuleSeq>
+    <SeqNum>16</SeqNum>
+    <Expression />
+    <TypeCode>P</TypeCode>
+    <ConfigID>TBS_A</ConfigID>
+    <ProcessOrder>322</ProcessOrder>
+    <ExprType>ExecuteExpression</ExprType>
+    <LValue>OrderDtl.WarrantyCode = Inputs.chk_overridewarranty.Value == true &amp;&amp; Inputs.var_warrantycode.Value != "" ? Inputs.var_warrantycode.Value : Inputs.chr_warranty.Value;</LValue>
+    <CompareOpr />
+    <RValue />
+    <RValueType />
+    <SysRevID>89474838</SysRevID>
+    <SysRowID>7cc6dad9-49d5-4f9f-a72d-c5f63a2d236f</SysRowID>
+  </PcDocRulesExpr>
+  <PcDynLst>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_frame</InputName>
+    <ListSeq>1</ListSeq>
+    <Condition>return true;</Condition>
+    <ListItems />
+    <InitVal />
+    <BAQRunProgram>false</BAQRunProgram>
+    <BAQProgramName />
+    <BAQDispValue />
+    <BAQInputVal />
+    <ListDataSource>LooK</ListDataSource>
+    <ConfigID>TBS_A</ConfigID>
+    <RunTblLookup>false</RunTblLookup>
+    <TblLookupID>TBSSignHolderFrameOption</TblLookupID>
+    <TblLookupFunc>DataColumnLookupList</TblLookupFunc>
+    <RunUserDefined />
+    <UserDefinedName />
+    <SysRevID>90353579</SysRevID>
+    <SysRowID>b2eb2156-2fa3-47ca-8baa-799b2261ffc2</SysRowID>
+    <SortOrder />
+    <SubReturnColumn />
+    <ScriptCondition />
+    <AttributeID />
+  </PcDynLst>
+  <PcDynLst>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_pallettype</InputName>
+    <ListSeq>1</ListSeq>
+    <Condition>return true;</Condition>
+    <ListItems />
+    <InitVal />
+    <BAQRunProgram>false</BAQRunProgram>
+    <BAQProgramName />
+    <BAQDispValue />
+    <BAQInputVal />
+    <ListDataSource>LooK</ListDataSource>
+    <ConfigID>TBS_A</ConfigID>
+    <RunTblLookup>false</RunTblLookup>
+    <TblLookupID>CountryPalletTypes</TblLookupID>
+    <TblLookupFunc>DataColumnLookupList</TblLookupFunc>
+    <RunUserDefined />
+    <UserDefinedName />
+    <SysRevID>90354491</SysRevID>
+    <SysRowID>bc9f325f-b243-4471-b325-491210a82ff3</SysRowID>
+    <SortOrder />
+    <SubReturnColumn />
+    <ScriptCondition />
+    <AttributeID />
+  </PcDynLst>
+  <PcDynLst>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_sector</InputName>
+    <ListSeq>1</ListSeq>
+    <Condition>return true;</Condition>
+    <ListItems />
+    <InitVal />
+    <BAQRunProgram>false</BAQRunProgram>
+    <BAQProgramName />
+    <BAQDispValue />
+    <BAQInputVal />
+    <ListDataSource>LooK</ListDataSource>
+    <ConfigID>TBS_A</ConfigID>
+    <RunTblLookup>false</RunTblLookup>
+    <TblLookupID>Sectors</TblLookupID>
+    <TblLookupFunc>DataColumnList</TblLookupFunc>
+    <RunUserDefined />
+    <UserDefinedName />
+    <SysRevID>90353637</SysRevID>
+    <SysRowID>7dc91eb0-4f0a-4f7e-ab8f-27c6109f1eb0</SysRowID>
+    <SortOrder />
+    <SubReturnColumn />
+    <ScriptCondition />
+    <AttributeID />
+  </PcDynLst>
+  <PcDynLst>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_type</InputName>
+    <ListSeq>1</ListSeq>
+    <Condition>return true;</Condition>
+    <ListItems />
+    <InitVal />
+    <BAQRunProgram>false</BAQRunProgram>
+    <BAQProgramName />
+    <BAQDispValue />
+    <BAQInputVal />
+    <ListDataSource>LooK</ListDataSource>
+    <ConfigID>TBS_A</ConfigID>
+    <RunTblLookup>false</RunTblLookup>
+    <TblLookupID>TBSSignHolderType</TblLookupID>
+    <TblLookupFunc>DataColumnList</TblLookupFunc>
+    <RunUserDefined />
+    <UserDefinedName />
+    <SysRevID>90353295</SysRevID>
+    <SysRowID>09fdc2af-e677-481c-a530-321da083949c</SysRowID>
+    <SortOrder />
+    <SubReturnColumn />
+    <ScriptCondition />
+    <AttributeID />
+  </PcDynLst>
+  <PcDynLst>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_warrantycode</InputName>
+    <ListSeq>10</ListSeq>
+    <Condition>return Inputs.chk_overridewarranty.Value == true;</Condition>
+    <ListItems />
+    <InitVal />
+    <BAQRunProgram>true</BAQRunProgram>
+    <BAQProgramName>TENLTD-Configurator_Warranty</BAQProgramName>
+    <BAQDispValue>FSWarrCd.WarrDescription</BAQDispValue>
+    <BAQInputVal>FSWarrCd.WarrantyCode</BAQInputVal>
+    <ListDataSource>BAQ</ListDataSource>
+    <ConfigID>TBS_A</ConfigID>
+    <RunTblLookup>false</RunTblLookup>
+    <TblLookupID />
+    <TblLookupFunc />
+    <RunUserDefined />
+    <UserDefinedName />
+    <SysRevID>89473879</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc224d96bb</SysRowID>
+    <SortOrder />
+    <SubReturnColumn />
+    <ScriptCondition />
+    <AttributeID />
+  </PcDynLst>
+  <PcDynLstParams>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <InputName>cmb_frame</InputName>
+    <ListSeq>1</ListSeq>
+    <ParamName>colName</ParamName>
+    <ParamConst>false</ParamConst>
+    <ParamValue>var_frameoption</ParamValue>
+    <SysRevID>90353596</SysRevID>
+    <SysRowID>b3f94ccd-c025-41c8-ae43-c69187dc6386</SysRowID>
+  </PcDynLstParams>
+  <PcDynLstParams>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <InputName>cmb_frame</InputName>
+    <ListSeq>1</ListSeq>
+    <ParamName>searchValue</ParamName>
+    <ParamConst>true</ParamConst>
+    <ParamValue>x</ParamValue>
+    <SysRevID>90353584</SysRevID>
+    <SysRowID>7e6ecfba-a0ed-4caf-8141-fd9b2efa4596</SysRowID>
+  </PcDynLstParams>
+  <PcDynLstParams>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <InputName>cmb_pallettype</InputName>
+    <ListSeq>1</ListSeq>
+    <ParamName>colName</ParamName>
+    <ParamConst>false</ParamConst>
+    <ParamValue>var_palletlookup</ParamValue>
+    <SysRevID>90354494</SysRevID>
+    <SysRowID>9ba33096-55ca-4965-a74d-b1074631a13a</SysRowID>
+  </PcDynLstParams>
+  <PcDynLstParams>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <InputName>cmb_pallettype</InputName>
+    <ListSeq>1</ListSeq>
+    <ParamName>searchValue</ParamName>
+    <ParamConst>true</ParamConst>
+    <ParamValue>x</ParamValue>
+    <SysRevID>90354495</SysRevID>
+    <SysRowID>c10ea152-f607-492d-817d-197dc7e228c3</SysRowID>
+  </PcDynLstParams>
+  <PcDynLstParams>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <InputName>cmb_sector</InputName>
+    <ListSeq>1</ListSeq>
+    <ParamName>colName</ParamName>
+    <ParamConst>true</ParamConst>
+    <ParamValue>sector</ParamValue>
+    <SysRevID>90353639</SysRevID>
+    <SysRowID>ec8cd880-a4e8-4555-81ab-dc69b474f316</SysRowID>
+  </PcDynLstParams>
+  <PcDynLstParams>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <InputName>cmb_type</InputName>
+    <ListSeq>1</ListSeq>
+    <ParamName>colName</ParamName>
+    <ParamConst>true</ParamConst>
+    <ParamValue>id</ParamValue>
+    <SysRevID>90353494</SysRevID>
+    <SysRowID>e05e7358-a1eb-40a0-a5ea-feb14aa73eb1</SysRowID>
+  </PcDynLstParams>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCountryDescription</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Country country;
+
+Description = "";
+
+country = (from country_Row in Db.Country
+		    where (country_Row.Company == Company &amp;&amp; country_Row.CountryNum == CountryNum)
+		    select country_Row).FirstOrDefault();
+
+if (country == null) { return false; }
+else {
+  Description = country.Description;  
+  return true;
+}
+
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353675</SysRevID>
+    <SysRowID>8c951ec3-df97-41ea-ae57-e5774a160c80</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Customer customer;
+
+Name = "";
+Country = "";
+
+customer = (from customer_Row in Db.Customer
+		    where (customer_Row.Company == Company &amp;&amp; customer_Row.CustID == CustID.ToString())
+		    select customer_Row).FirstOrDefault();
+
+if (customer == null) { return false; }
+else {
+  Name = customer.Name;  
+  Country = customer.Country;
+  return true;
+}
+
+
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353680</SysRevID>
+    <SysRowID>d216ef4b-6de3-4508-bce2-91a02795fa55</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetICommImportCode</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a bool value.
+Erp.Tables.ICommCode iCommCode;
+
+iCommCode = (from iCommCode_Row in Db.ICommCode
+		    where (iCommCode_Row.Company == Company &amp;&amp; iCommCode_Row.CommodityCode == CommodityCode)
+		    select iCommCode_Row).FirstOrDefault();
+ICommCodeImportCode = "";
+if (iCommCode == null) { return false; }
+else {
+  ICommCodeImportCode = iCommCode.ImportCode;
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353687</SysRevID>
+    <SysRowID>9706384f-2161-4331-a6b7-5c0adbd6ccee</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.OrderHed orderHed;
+
+CustNum = 0;
+ShipToNum = "";
+UseOTS = false;
+
+orderHed = (from orderHed_Row in Db.OrderHed
+		    where (orderHed_Row.Company == Company &amp;&amp; orderHed_Row.OrderNum == OrderNum)
+		    select orderHed_Row).FirstOrDefault();
+
+if (orderHed == null) { return false; }
+else {
+  CustNum = orderHed.CustNum;
+  ShipToNum = orderHed.ShipToNum;
+  UseOTS = orderHed.UseOTS;  
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353691</SysRevID>
+    <SysRowID>311ec6f9-aab2-4bfd-a28b-a531f73c0e9f</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHedOTSCountryNum</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.OrderHed orderHed;
+
+OTSCountryNum = 0;
+
+orderHed = (from orderHed_Row in Db.OrderHed
+		    where (orderHed_Row.Company == Company &amp;&amp; orderHed_Row.OrderNum == OrderNum)
+		    select orderHed_Row).FirstOrDefault();
+
+if (orderHed == null) { return false; }
+else {
+  OTSCountryNum = orderHed.OTSCountryNum;  
+  return true;
+}</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353698</SysRevID>
+    <SysRowID>7c822b95-7fe0-4e52-b837-0bd92da6530d</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClass</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Part part;
+
+PartClass = "";
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  PartClass =  part.ClassID;
+  return true;
+}</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353703</SysRevID>
+    <SysRowID>f607b431-9e0d-484a-b639-7c25a0d77c38</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClassCommodity</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a bool value.
+Erp.Tables.PartClass partClass;
+
+PartClassCommodityCode = "";
+
+partClass = (from PartClass_Row in Db.PartClass
+		    where (PartClass_Row.Company == Company &amp;&amp; PartClass_Row.ClassID == ClassID)
+		    select PartClass_Row).FirstOrDefault();
+
+if (partClass == null) { return false; }
+else {
+  PartClassCommodityCode = partClass.CommodityCode;
+  return true;
+}
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353709</SysRevID>
+    <SysRowID>d23f8773-6c1c-48f7-a142-58e8291b6b54</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartDescription</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>Erp.Tables.Part part;
+
+Description = "";
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  Description = part.PartDescription;
+  return true;
+}
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353717</SysRevID>
+    <SysRowID>dea7cf2a-658d-4bce-afcc-eadd92e3334a</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartIUM</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Part part;
+
+PartIUM = "";
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  PartIUM =  part.IUM;
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353722</SysRevID>
+    <SysRowID>b1fd93e9-be04-4f97-b6fd-2b0aaec226f5</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartPrice</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Part part;
+
+UnitPrice = 0m;
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  UnitPrice =  part.UnitPrice;
+  return true;
+}</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353966</SysRevID>
+    <SysRowID>fa7fb82a-164d-4f0c-b4d3-e6d34a680324</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartWeight</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter validC# code and do not forget this method returns a decimal value.
+Erp.Tables.Part part;
+
+PartWeight = 0;
+
+/*var partQuery = (from PartRow in Db.Part where part.Company = Session.Company select PartRow);*/
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  PartWeight = part.NetWeight;  
+  return true;
+}
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353727</SysRevID>
+    <SysRowID>d00d0bbb-2ffd-4434-ad9e-69e0d3e4e754</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.QuoteHed quoteHed;
+
+CustNum = 0;
+ShipToNum = "";
+UseOTS = false;
+
+quoteHed = (from quoteHed_Row in Db.QuoteHed
+		    where (quoteHed_Row.Company == Company &amp;&amp; quoteHed_Row.QuoteNum == QuoteNum)
+		    select quoteHed_Row).FirstOrDefault();
+
+if (quoteHed == null) { return false; }
+else {
+  CustNum = quoteHed.CustNum;
+  ShipToNum = quoteHed.ShipToNum;
+  UseOTS = quoteHed.UseOTS;  
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353732</SysRevID>
+    <SysRowID>0e080f13-db6f-4c1f-bd20-627bf4758a66</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHedOTSCountryNum</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.OrderHed orderHed;
+
+OTSCountryNum = 0;
+
+orderHed = (from orderHed_Row in Db.OrderHed
+		    where (orderHed_Row.Company == Company &amp;&amp; orderHed_Row.OrderNum == OrderNum)
+		    select orderHed_Row).FirstOrDefault();
+
+if (orderHed == null) { return false; }
+else {
+  OTSCountryNum = orderHed.OTSCountryNum;  
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353739</SysRevID>
+    <SysRowID>2ca49762-a87e-48c4-b488-f84962ffdcfb</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetShipToCountryNum</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.ShipTo shipTo;
+
+CountryNum = 0;
+
+shipTo = (from shipTo_Row in Db.ShipTo
+		    where (shipTo_Row.Company == Company &amp;&amp; shipTo_Row.ShipToNum == ShipToNum)
+		    select shipTo_Row).FirstOrDefault();
+
+if (shipTo == null) { return false; }
+else {
+  CountryNum = shipTo.CountryNum;  
+  return true;
+}
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353745</SysRevID>
+    <SysRowID>d291d032-3abc-46b8-9f64-af81bd7b93ba</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>PartExists</FunctionName>
+    <Description />
+    <ConfigID>TBS_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Part part;
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+return part != null;
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90353749</SysRevID>
+    <SysRowID>e13831fc-38ca-4b4c-845a-90988490e892</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCountryDescription</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353676</SysRevID>
+    <SysRowID>b95cb752-9176-4ea2-b72c-6dc20aa7c419</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCountryDescription</FunctionName>
+    <ParameterName>CountryNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353677</SysRevID>
+    <SysRowID>8c0574cc-d8ea-4844-bb50-8c2f24add408</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCountryDescription</FunctionName>
+    <ParameterName>Description</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353678</SysRevID>
+    <SysRowID>8c56016a-186b-4e0d-a0ef-b3bac62d24e8</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353681</SysRevID>
+    <SysRowID>4d66b746-2444-434e-9c4d-8e1ec7c1ac4a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <ParameterName>Country</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>3</ParamSeq>
+    <SysRevID>90353684</SysRevID>
+    <SysRowID>3c6832c7-5757-425a-8f91-e1b425541219</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <ParameterName>CustID</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353682</SysRevID>
+    <SysRowID>5b2ce24d-f7f9-4fbc-a094-b87d9b02f1c1</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <ParameterName>Name</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353683</SysRevID>
+    <SysRowID>ee275e48-b10e-41d5-baeb-350f2aa92db3</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetICommImportCode</FunctionName>
+    <ParameterName>CommodityCode</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353689</SysRevID>
+    <SysRowID>1c30103d-110d-4ad2-9971-d8af656af703</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetICommImportCode</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353688</SysRevID>
+    <SysRowID>40b69fb7-1ed0-4d1e-98ac-8d0fe7e9fe3b</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetICommImportCode</FunctionName>
+    <ParameterName>ICommCodeImportCode</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353690</SysRevID>
+    <SysRowID>3b273cee-769c-4397-99a3-ff92a29f0b13</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353692</SysRevID>
+    <SysRowID>79efe9db-9ee5-410c-b889-6c1e36d552d7</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>CustNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353694</SysRevID>
+    <SysRowID>af2c3808-d17d-4c0a-bb3b-9bbbdb25f994</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>OrderNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353693</SysRevID>
+    <SysRowID>f092d73c-9537-41ca-8a62-ed660b50e26a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>ShipToNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>3</ParamSeq>
+    <SysRevID>90353695</SysRevID>
+    <SysRowID>a73d3bdd-064b-4ea0-858a-58c7770974e8</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>UseOTS</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>bool</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>4</ParamSeq>
+    <SysRevID>90353696</SysRevID>
+    <SysRowID>d0ba7f55-b281-45bf-a568-725d8083e18c</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHedOTSCountryNum</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353699</SysRevID>
+    <SysRowID>6dd64d68-4fff-4d50-be1b-80686c3cc462</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHedOTSCountryNum</FunctionName>
+    <ParameterName>OrderNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353700</SysRevID>
+    <SysRowID>e46dfbea-45fd-449d-b760-3c1905a43639</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHedOTSCountryNum</FunctionName>
+    <ParameterName>OTSCountryNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353701</SysRevID>
+    <SysRowID>464ecd07-987f-43bf-ba84-b58223ce2fad</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClass</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353704</SysRevID>
+    <SysRowID>73de389f-4c90-433e-92b4-67c4779b1dd8</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClass</FunctionName>
+    <ParameterName>PartClass</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353706</SysRevID>
+    <SysRowID>41f1a9e1-eaa7-4dfe-85ce-7380b522bf19</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClass</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353705</SysRevID>
+    <SysRowID>6a7a51fa-d9de-4617-9376-c39761665cc1</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClassCommodity</FunctionName>
+    <ParameterName>ClassID</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353711</SysRevID>
+    <SysRowID>9450f2ec-448e-444a-9fca-f00850e501ad</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClassCommodity</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353710</SysRevID>
+    <SysRowID>96ed83d3-58f3-4047-a857-11b5e1766cb1</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClassCommodity</FunctionName>
+    <ParameterName>PartClassCommodityCode</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353712</SysRevID>
+    <SysRowID>57daafc6-2d86-4060-a32b-0380d1107d4a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartDescription</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353718</SysRevID>
+    <SysRowID>3757aefd-b70a-4e91-ad00-491a8ce94a82</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartDescription</FunctionName>
+    <ParameterName>Description</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353720</SysRevID>
+    <SysRowID>03c971c3-c4e1-4e1e-ba48-7354b9537634</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartDescription</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353719</SysRevID>
+    <SysRowID>8b9fe9a3-d7f3-40e2-a3df-86e8176ddd12</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartIUM</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353723</SysRevID>
+    <SysRowID>5b280e05-9ae1-4f6e-bf0d-7d3117b6b3f1</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartIUM</FunctionName>
+    <ParameterName>PartIUM</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353725</SysRevID>
+    <SysRowID>c1be4d4c-7232-4651-aa95-d7b6e42741c8</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartIUM</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353724</SysRevID>
+    <SysRowID>328c2247-8110-4229-95e4-5cac4115120c</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartPrice</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353967</SysRevID>
+    <SysRowID>c6854166-168d-43ee-b8c7-441dbb4fb33a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartPrice</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353968</SysRevID>
+    <SysRowID>a351795b-bd22-430a-82eb-446159ffcdcf</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartPrice</FunctionName>
+    <ParameterName>UnitPrice</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>decimal</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353969</SysRevID>
+    <SysRowID>af2ba262-e9ae-4fc0-9d58-5225d0e683d0</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartWeight</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353728</SysRevID>
+    <SysRowID>2e1792ec-41a3-4f59-ad4e-453d2f158748</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartWeight</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353729</SysRevID>
+    <SysRowID>d89094ca-30f4-4a93-b0be-eeb37d5aa93f</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartWeight</FunctionName>
+    <ParameterName>PartWeight</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>decimal</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353730</SysRevID>
+    <SysRowID>a236487e-9b2a-4ee0-9259-e18a793e3d5a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353733</SysRevID>
+    <SysRowID>94e213dc-ea15-440d-9ffb-75f4d784e9f0</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>CustNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353735</SysRevID>
+    <SysRowID>122a7a18-bbd6-4bb5-a503-276a25b8c90e</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>QuoteNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353734</SysRevID>
+    <SysRowID>cd2e422e-fc3b-4190-a50b-e7c8299d58c6</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>ShipToNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>3</ParamSeq>
+    <SysRevID>90353736</SysRevID>
+    <SysRowID>9f2cb763-55ec-46a7-9c43-00008d99187a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>UseOTS</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>bool</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>4</ParamSeq>
+    <SysRevID>90353737</SysRevID>
+    <SysRowID>35f00147-93de-4a0e-8f07-c091d053f6c3</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHedOTSCountryNum</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353740</SysRevID>
+    <SysRowID>482d9a21-2075-4bd0-8cb3-f9274d736a2a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHedOTSCountryNum</FunctionName>
+    <ParameterName>OrderNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353741</SysRevID>
+    <SysRowID>c9a582cc-e72d-41f2-9316-d805778ea333</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHedOTSCountryNum</FunctionName>
+    <ParameterName>OTSCountryNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353742</SysRevID>
+    <SysRowID>780a10d0-ecd1-4970-8dfd-229ee5e72f02</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetShipToCountryNum</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353746</SysRevID>
+    <SysRowID>186efc42-4607-4577-9e69-ffd70518cff0</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetShipToCountryNum</FunctionName>
+    <ParameterName>CountryNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90353748</SysRevID>
+    <SysRowID>16a0cd8f-d809-4f61-abc4-47e433771c24</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetShipToCountryNum</FunctionName>
+    <ParameterName>ShipToNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353747</SysRevID>
+    <SysRowID>b777dbff-abc4-47bf-bf6e-fc19191d214a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>PartExists</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90353750</SysRevID>
+    <SysRowID>fc602af7-0715-44de-b419-65d41c8739cc</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>PartExists</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>TBS_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90353751</SysRevID>
+    <SysRowID>ecbf3690-3011-44be-9ca1-95fcc7b5cb42</SysRowID>
+  </PcFunctionParam>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>chk_erroron</InputName>
+    <TabOrder>110</TabOrder>
+    <DataType>Boolean</DataType>
+    <FormatString>true/false</FormatString>
+    <InitVal>true</InitVal>
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Part Messaging Error:</SideLabel>
+    <xPos>600</xPos>
+    <yPos>442</yPos>
+    <pWidth>16</pWidth>
+    <pHeight>17</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiCheckBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>chk_erroron</WebInputName>
+    <SummaryLabel>Part Messaging Error:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcCheckBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89470161</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc223d6fbb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>chk_overridewarranty</InputName>
+    <TabOrder>250</TabOrder>
+    <DataType>Boolean</DataType>
+    <FormatString>true/false</FormatString>
+    <InitVal>false</InitVal>
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Override Warranty Default:</SideLabel>
+    <xPos>346</xPos>
+    <yPos>115</yPos>
+    <pWidth>16</pWidth>
+    <pHeight>17</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiCheckBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>chk_overridewarranty</WebInputName>
+    <SummaryLabel>Override Warranty Default:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcCheckBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89470162</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc42317ebb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>chr_warranty</InputName>
+    <TabOrder>240</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Warranty Code:</SideLabel>
+    <xPos>118</xPos>
+    <yPos>115</yPos>
+    <pWidth>66</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>chr_warranty</WebInputName>
+    <SummaryLabel>Warranty Code:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467461</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efca21b7fbb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>cmb_coresolution</InputName>
+    <TabOrder>80</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(30)</FormatString>
+    <InitVal>Solution</InitVal>
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Sale Category:</SideLabel>
+    <xPos>124</xPos>
+    <yPos>174</yPos>
+    <pWidth>132</pWidth>
+    <pHeight>22</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiUltraCombo, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems>Solution`Solution</ListItems>
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>cmb_coresolution</WebInputName>
+    <SummaryLabel>Sale Category:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcUltraCombo, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467463</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcb29c70bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>cmb_frame</InputName>
+    <TabOrder>30</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(30)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Select Frame:</SideLabel>
+    <xPos>124</xPos>
+    <yPos>102</yPos>
+    <pWidth>311</pWidth>
+    <pHeight>22</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiUltraCombo, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems>Item 1`Item 1~Item 2`Item 2~Item 3`Item 3</ListItems>
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>cmb_frame</WebInputName>
+    <SummaryLabel>Select Frame:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2>/* Returns Image de...</OnLeave2>
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcUltraCombo, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>90352760</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc026071bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>cmb_pallettype</InputName>
+    <TabOrder>180</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(30)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Define Pallet Type:</SideLabel>
+    <xPos>118</xPos>
+    <yPos>326</yPos>
+    <pWidth>400</pWidth>
+    <pHeight>22</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiUltraCombo, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>cmb_pallettype</WebInputName>
+    <SummaryLabel>Define Pallet Type:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2>/* Returns from csv...</OnLeave2>
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcUltraCombo, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>90354448</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efce2b77fbb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>cmb_sector</InputName>
+    <TabOrder>90</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(30)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Sector:</SideLabel>
+    <xPos>318</xPos>
+    <yPos>145</yPos>
+    <pWidth>175</pWidth>
+    <pHeight>22</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiUltraCombo, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems>Item 1`Item 1~Item 2`Item 2~Item 3`Item 3</ListItems>
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>cmb_sector</WebInputName>
+    <SummaryLabel>Sector:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2>Inputs.var_sectorco...</OnLeave2>
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcUltraCombo, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>90352778</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc92bf72bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>cmb_sumsalescat</InputName>
+    <TabOrder>170</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(30)</FormatString>
+    <InitVal>Solution</InitVal>
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Summary SO Type:</SideLabel>
+    <xPos>124</xPos>
+    <yPos>145</yPos>
+    <pWidth>132</pWidth>
+    <pHeight>22</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiUltraCombo, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems>Solution`Solution</ListItems>
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>cmb_sumsalescat</WebInputName>
+    <SummaryLabel>Summary SO Type:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2>
+if (Inputs.cmb_su...</OnLeave2>
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcUltraCombo, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>90352773</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc221f74bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>cmb_type</InputName>
+    <TabOrder>20</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(30)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Sign Holder Type:</SideLabel>
+    <xPos>124</xPos>
+    <yPos>72</yPos>
+    <pWidth>267</pWidth>
+    <pHeight>22</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiUltraCombo, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems>Item 1`Item 1~Item 2`Item 2~Item 3`Item 3</ListItems>
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>cmb_type</WebInputName>
+    <SummaryLabel>Sign Holder Type:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2>string frameoption ...</OnLeave2>
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcUltraCombo, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>90352767</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc820975bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>dec_price</InputName>
+    <TabOrder>80</TabOrder>
+    <DataType>Decimal</DataType>
+    <FormatString>-&gt;&gt;&gt;,&gt;&gt;9.99</FormatString>
+    <InitVal>0</InitVal>
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Default Sales Price:</SideLabel>
+    <xPos>118</xPos>
+    <yPos>145</yPos>
+    <pWidth>82</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiNumericEditor, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>dec_price</WebInputName>
+    <SummaryLabel>Default Sales Price:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcNumericEditor, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307141</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc52c980bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>image_master</InputName>
+    <TabOrder>150</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(1000)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel />
+    <xPos>144</xPos>
+    <yPos>225</yPos>
+    <pWidth>169</pWidth>
+    <pHeight>195</pHeight>
+    <ControlType>Erp.Lib.Configurator.PcControls.EpiPcBrowser, Erp.Lib.Configurator</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>image_master</WebInputName>
+    <SummaryLabel>BROWSER1</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcBrowser, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307142</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efce2f375bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>RECTANGLE1</InputName>
+    <TabOrder>140</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel />
+    <xPos>124</xPos>
+    <yPos>212</yPos>
+    <pWidth>206</pWidth>
+    <pHeight>223</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiGroupBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>RECTANGLE1</WebInputName>
+    <SummaryLabel>RECTANGLE1</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcGroupBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307143</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc32b776bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>TEXT1</InputName>
+    <TabOrder>10</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Tensabarrier Sign Holder Configurator V1.0</SideLabel>
+    <xPos>123</xPos>
+    <yPos>7</yPos>
+    <pWidth>332</pWidth>
+    <pHeight>20</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiLabel, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>TEXT1</WebInputName>
+    <SummaryLabel>TEXT1</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcLabel, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307144</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc725377bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>TEXT2</InputName>
+    <TabOrder>70</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Configuration Summary:</SideLabel>
+    <xPos>124</xPos>
+    <yPos>18</yPos>
+    <pWidth>252</pWidth>
+    <pHeight>20</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiLabel, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>TEXT2</WebInputName>
+    <SummaryLabel>TEXT2</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcLabel, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307145</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efca28c81bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>TEXT3</InputName>
+    <TabOrder>120</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Release: 18/01/2018</SideLabel>
+    <xPos>31</xPos>
+    <yPos>443</yPos>
+    <pWidth>120</pWidth>
+    <pHeight>20</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiLabel, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>TEXT3</WebInputName>
+    <SummaryLabel>TEXT3</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcLabel, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307146</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcd23d78bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>TEXT4</InputName>
+    <TabOrder>160</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Image for Reference Only....</SideLabel>
+    <xPos>337</xPos>
+    <yPos>413</yPos>
+    <pWidth>162</pWidth>
+    <pHeight>20</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiLabel, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>TEXT4</WebInputName>
+    <SummaryLabel>TEXT4</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcLabel, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307147</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc220179bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>TEXT5</InputName>
+    <TabOrder>180</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>Do not utilise Configurator for Qmatic Orders, enter part number at Sales Line level.</SideLabel>
+    <xPos>124</xPos>
+    <yPos>39</yPos>
+    <pWidth>500</pWidth>
+    <pHeight>19</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiLabel, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>TEXT5</WebInputName>
+    <SummaryLabel>TEXT5</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcLabel, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307148</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc82eb79bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>TEXT6</InputName>
+    <TabOrder>170</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Specifying a Pallet type will auto populate the Pack/Job Comment.</SideLabel>
+    <xPos>118</xPos>
+    <yPos>304</yPos>
+    <pWidth>403</pWidth>
+    <pHeight>13</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiLabel, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>TEXT6</WebInputName>
+    <SummaryLabel>TEXT6</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcLabel, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307149</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcf24f82bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>TEXT7</InputName>
+    <TabOrder>190</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>(Optional)</SideLabel>
+    <xPos>526</xPos>
+    <yPos>326</yPos>
+    <pWidth>63</pWidth>
+    <pHeight>20</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiLabel, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>TEXT7</WebInputName>
+    <SummaryLabel>TEXT7</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcLabel, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307150</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc421383bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>TEXT8</InputName>
+    <TabOrder>200</TabOrder>
+    <DataType>String</DataType>
+    <FormatString />
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Note. Select a Pallet type first then add additional comments (if required)</SideLabel>
+    <xPos>118</xPos>
+    <yPos>354</yPos>
+    <pWidth>431</pWidth>
+    <pHeight>17</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiLabel, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>TEXT8</WebInputName>
+    <SummaryLabel>TEXT8</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>false</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcLabel, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307151</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc82af83bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_commodity</InputName>
+    <TabOrder>140</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Commodity Code:</SideLabel>
+    <xPos>118</xPos>
+    <yPos>220</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_commodity</WebInputName>
+    <SummaryLabel>Commodity Code:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467467</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcd27284bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_custid</InputName>
+    <TabOrder>270</TabOrder>
+    <DataType>Decimal</DataType>
+    <FormatString>-&gt;&gt;&gt;,&gt;&gt;9.99</FormatString>
+    <InitVal>0</InitVal>
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>var_custid</SideLabel>
+    <xPos>377</xPos>
+    <yPos>436</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>22</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiNumericEditor, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_custid</WebInputName>
+    <SummaryLabel>var_custid</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcNumericEditor, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467469</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc428485bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_fgdesc</InputName>
+    <TabOrder>60</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>X(200)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>FG Description:</SideLabel>
+    <xPos>118</xPos>
+    <yPos>88</yPos>
+    <pWidth>500</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_fgdesc</WebInputName>
+    <SummaryLabel>FG Description:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467471</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efca26e86bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_fgnum</InputName>
+    <TabOrder>50</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>FG Part Number:</SideLabel>
+    <xPos>118</xPos>
+    <yPos>60</yPos>
+    <pWidth>287</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_fgnum</WebInputName>
+    <SummaryLabel>FG Part Number:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467473</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc025987bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_frameoption</InputName>
+    <TabOrder>70</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>var_frameoption</SideLabel>
+    <xPos>124</xPos>
+    <yPos>428</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_frameoption</WebInputName>
+    <SummaryLabel>var_frameoption</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307156</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcd2ae7abb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_imagedetails</InputName>
+    <TabOrder>120</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>var_imagedetails</SideLabel>
+    <xPos>122</xPos>
+    <yPos>417</yPos>
+    <pWidth>467</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_imagedetails</WebInputName>
+    <SummaryLabel>var_imagedetails</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307157</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc521c88bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_netweight</InputName>
+    <TabOrder>150</TabOrder>
+    <DataType>Decimal</DataType>
+    <FormatString>-&gt;&gt;&gt;,&gt;&gt;9.99</FormatString>
+    <InitVal>0</InitVal>
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Net Weight (Kg):</SideLabel>
+    <xPos>327</xPos>
+    <yPos>219</yPos>
+    <pWidth>71</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiNumericEditor, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_netweight</WebInputName>
+    <SummaryLabel>Net Weight (Kg):</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcNumericEditor, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467475</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcb20689bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_orderdtl</InputName>
+    <TabOrder>210</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Order Detail:</SideLabel>
+    <xPos>118</xPos>
+    <yPos>159</yPos>
+    <pWidth>500</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_orderdtl</WebInputName>
+    <SummaryLabel>Order Detail:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467477</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc12f189bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_packcomment</InputName>
+    <TabOrder>160</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>X(300)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Pack Comment:</SideLabel>
+    <xPos>118</xPos>
+    <yPos>266</yPos>
+    <pWidth>500</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_packcomment</WebInputName>
+    <SummaryLabel>Pack Comment:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89307160</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc72db8abb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_palletlookup</InputName>
+    <TabOrder>230</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>var_palletlookup</SideLabel>
+    <xPos>327</xPos>
+    <yPos>444</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_palletlookup</WebInputName>
+    <SummaryLabel>var_palletlookup</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467479</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efce2ec8bbb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_sectorcode</InputName>
+    <TabOrder>100</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>1</PageSeq>
+    <SideLabel>var_sectorcode</SideLabel>
+    <xPos>124</xPos>
+    <yPos>403</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_sectorcode</WebInputName>
+    <SummaryLabel>var_sectorcode</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467481</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc32997bbb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_shipcountry</InputName>
+    <TabOrder>220</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>var_shipcountry</SideLabel>
+    <xPos>330</xPos>
+    <yPos>440</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_shipcountry</WebInputName>
+    <SummaryLabel>var_shipcountry</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467483</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc42d78cbb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_smart1</InputName>
+    <TabOrder>100</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>var_smart1</SideLabel>
+    <xPos>108</xPos>
+    <yPos>264</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_smart1</WebInputName>
+    <SummaryLabel>var_smart1</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467485</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcb2e88dbb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_smart2</InputName>
+    <TabOrder>110</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>var_smart2</SideLabel>
+    <xPos>125</xPos>
+    <yPos>278</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_smart2</WebInputName>
+    <SummaryLabel>var_smart2</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467487</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcf2848ebb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_smartstring</InputName>
+    <TabOrder>90</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>Smart String:</SideLabel>
+    <xPos>119</xPos>
+    <yPos>188</yPos>
+    <pWidth>498</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_smartstring</WebInputName>
+    <SummaryLabel>Smart String:</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467489</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc42488fbb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_sumsalesid</InputName>
+    <TabOrder>130</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(60)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel>var_sumsalesid</SideLabel>
+    <xPos>123</xPos>
+    <yPos>435</yPos>
+    <pWidth>100</pWidth>
+    <pHeight>21</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiTextBox, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_sumsalesid</WebInputName>
+    <SummaryLabel>var_sumsalesid</SummaryLabel>
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>true</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcTextBox, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467491</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efcb25990bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputs>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_warrantycode</InputName>
+    <TabOrder>260</TabOrder>
+    <DataType>String</DataType>
+    <FormatString>x(30)</FormatString>
+    <InitVal />
+    <StatusText />
+    <Required>false</Required>
+    <PageSeq>2</PageSeq>
+    <SideLabel />
+    <xPos>367</xPos>
+    <yPos>115</yPos>
+    <pWidth>157</pWidth>
+    <pHeight>22</pHeight>
+    <ControlType>Ice.Lib.Framework.EpiUltraCombo, Ice.Lib.EpiClientLib</ControlType>
+    <PromptWhen />
+    <ListItems />
+    <StartDec>0</StartDec>
+    <EndDec>0</EndDec>
+    <IncrPrec>0</IncrPrec>
+    <ValList />
+    <Horizontal>false</Horizontal>
+    <IsGlobal>false</IsGlobal>
+    <OnLeave />
+    <WebInputName>var_warrantycode</WebInputName>
+    <SummaryLabel />
+    <DLRunProgram>false</DLRunProgram>
+    <DLProgramName />
+    <DLProgramInputs />
+    <SourceDBRecid />
+    <HideInSummary>false</HideInSummary>
+    <OnLeave2 />
+    <Invisible>false</Invisible>
+    <Comments />
+    <GlobalInputVar>false</GlobalInputVar>
+    <GlbInputVarName />
+    <NoDispSummary>true</NoDispSummary>
+    <ExternalRef>false</ExternalRef>
+    <AttributeID />
+    <UseMinValue>false</UseMinValue>
+    <UseMaxValue>false</UseMaxValue>
+    <UseIncrValue>false</UseIncrValue>
+    <UseInitVal>false</UseInitVal>
+    <UseToolTip>false</UseToolTip>
+    <UseScreenLabel>false</UseScreenLabel>
+    <UseListValues>false</UseListValues>
+    <SmartPartSeq>0</SmartPartSeq>
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>0</SmartStringEnd>
+    <ShowDistinct>false</ShowDistinct>
+    <DesignControlType>Erp.Lib.Configurator.PcControls.EpiPcUltraCombo, Erp.Lib.Configurator</DesignControlType>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>true</ReadOnly>
+    <SysRevID>89467493</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc52e091bb</SysRowID>
+    <AutoSizeList>false</AutoSizeList>
+    <ListWidth>0</ListWidth>
+    <ImageSource />
+    <ImageLayerID />
+  </PcInputs>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>chr_warranty</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472438</SysRevID>
+    <SysRowID>58c10690-b824-4c69-8185-fb25512f55b9</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>cmb_coresolution</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472439</SysRevID>
+    <SysRowID>4324e633-748c-4270-ae8b-848521b7ccfb</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_frame</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>Changed</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>/* Returns Image details */
+Inputs.var_imagedetails.Value = PCLookUp.DataLookup("SignHolderFrameOption", "image_ref", Inputs.cmb_frame.Value);
+if (( Inputs.cmb_frame.Value != "") &amp;&amp; ( Inputs.var_imagedetails.Value =="")) {Inputs.image_master.Value = @"\\EPICORAPP1\Epicor905\Server\ud\TBSignHolderConfigurator\NoImage.jpg";}
+
+if ((  Inputs.cmb_frame.Value != "") &amp;&amp; ( Inputs.var_imagedetails.Value !="")) {Inputs.image_master.Value = Inputs.var_imagedetails.Value;}</Expression>
+    <SysRevID>93121830</SysRevID>
+    <SysRowID>53176b92-0ed2-4a17-82b1-27e008fbe7f4</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>cmb_frame</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(Inputs.cmb_type.Value != "");</Expression>
+    <SysRevID>89472441</SysRevID>
+    <SysRowID>183ce6d1-a515-44d7-a167-333e0256a27d</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_pallettype</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>Changed</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>/* Returns from csv pallet Pack/Job Comment */
+
+string pallettype = "";
+
+pallettype="";
+
+pallettype = PCLookUp.DataLookup("CountryPalletTypes", "pack_comment", Inputs.cmb_pallettype.Value);
+
+if (pallettype!="") {Inputs.var_packcomment.Value = pallettype;}</Expression>
+    <SysRevID>93121836</SysRevID>
+    <SysRowID>8adfe396-42cd-4052-bae6-f3533f78b985</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_sector</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>Changed</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>Inputs.var_sectorcode.Value = PCLookUp.DataLookup("Sectors", "sector_code", Inputs.cmb_sector.Value);</Expression>
+    <SysRevID>93121833</SysRevID>
+    <SysRowID>fd7410fd-19bf-49a0-9091-03c44b4f5965</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_sumsalescat</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>Changed</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>
+if (Inputs.cmb_sumsalescat.Value == "Core") {Inputs.var_sumsalesid.Value = "COR";}
+if (Inputs.cmb_sumsalescat.Value == "Solution") {Inputs.var_sumsalesid.Value = "SOL";}
+if (Inputs.cmb_sumsalescat.Value == "") {Inputs.var_sumsalesid.Value = "";}</Expression>
+    <SysRevID>93121832</SysRevID>
+    <SysRowID>1c11f8d6-38e7-493d-8ca3-82c2c4cfbaa3</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <InputName>cmb_type</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>Changed</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>string frameoption = "";
+
+frameoption = "";
+
+frameoption = PCLookUp.DataLookup("TBSSignHolderType", "frame_option", Inputs.cmb_type.Value);
+Inputs.var_frameoption.Value = "r" + frameoption;
+
+/* A temporary suspension can be added to a selection */
+string isactive = "";
+isactive = "";
+isactive = PCLookUp.DataLookup("TBSSignHolderType", "suspend_selection", Inputs.cmb_type.Value);
+if (isactive == "True") {
+
+		MessageBox.Show("A temporary suspension has been requested for that selection, please contact the Operations department or make a different selection..", "Note", MessageBoxButtons.OK,  MessageBoxIcon.Information);
+}
+
+Refresh.DynamicList("cmb_frame");</Expression>
+    <SysRevID>93121828</SysRevID>
+    <SysRowID>17fa641e-cf86-4c48-946b-0860fa065726</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_commodity</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472446</SysRevID>
+    <SysRowID>c609ff79-39c2-4518-b2ed-9d42ae36b93d</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_custid</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472447</SysRevID>
+    <SysRowID>b92b3f17-1370-4509-81c8-2b2945b76181</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_fgdesc</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472448</SysRevID>
+    <SysRowID>cc1fb964-e864-4517-8d97-843795b85b7d</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_fgnum</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472449</SysRevID>
+    <SysRowID>ac275edd-5411-4ba9-b87d-e21461dc2b01</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_netweight</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472450</SysRevID>
+    <SysRowID>7b61aac3-1f33-40f8-9091-d62e921ee82b</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_orderdtl</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472451</SysRevID>
+    <SysRowID>501b8871-4b08-4779-817b-0b20a54b0e01</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_palletlookup</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472452</SysRevID>
+    <SysRowID>46875788-71a2-46e9-9022-cdd6ace30f5c</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_sectorcode</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472453</SysRevID>
+    <SysRowID>4cb6a29e-9810-4c3e-94b2-af36a3ec7530</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_shipcountry</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472454</SysRevID>
+    <SysRowID>dcd70de6-51d2-4eab-b024-8582ae25c439</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_smart1</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472455</SysRevID>
+    <SysRowID>c42aa1b4-0d15-4dd7-9d9a-fd0b2f85ea49</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_smart2</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472456</SysRevID>
+    <SysRowID>8b4c577d-f0b5-4d8e-92bb-cb3ad5b28c46</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_smartstring</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472457</SysRevID>
+    <SysRowID>eb5fc911-0b85-4841-830f-d45b3341d54b</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_sumsalesid</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(false);</Expression>
+    <SysRevID>89472458</SysRevID>
+    <SysRowID>67a514e0-af5d-4d6b-9585-178cb1cc3cb4</SysRowID>
+  </PcInputsExpr>
+  <PcInputsExpr>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <InputName>var_warrantycode</InputName>
+    <ConfigID>TBS_A</ConfigID>
+    <TypeCode>ReadOnlyExpression</TypeCode>
+    <SeqNum>1</SeqNum>
+    <Expression>return !(Inputs.chk_overridewarranty.Value == true);</Expression>
+    <SysRevID>89472459</SysRevID>
+    <SysRowID>814dcb36-379a-4f6c-bd99-76d5e26e8e04</SysRowID>
+  </PcInputsExpr>
+  <PcInputVar>
+    <Company>TENLTD</Company>
+    <VarName>glb_test</VarName>
+    <DataType>String</DataType>
+    <InitValue />
+    <SysRevID>90309979</SysRevID>
+    <SysRowID>d427c694-ae62-40b2-aa34-66a7b3edb0ba</SysRowID>
+  </PcInputVar>
+  <PcPage>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <PageSeq>1</PageSeq>
+    <PageTitle />
+    <PromptWhen>            string ...</PromptWhen>
+    <OnLeave />
+    <SkipOnLeaveOPL>false</SkipOnLeaveOPL>
+    <OnLeave2 />
+    <Comments />
+    <ProcessDynLstFirst>false</ProcessDynLstFirst>
+    <DynLstHigher>false</DynLstHigher>
+    <SkipPageProcessOL>false</SkipPageProcessOL>
+    <SkipPageNoInputs>false</SkipPageNoInputs>
+    <SkipOnLeaveOPE>false</SkipOnLeaveOPE>
+    <pWidth>640</pWidth>
+    <pHeight>480</pHeight>
+    <DisplaySeq>1</DisplaySeq>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>90352848</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efc620e7cbb</SysRowID>
+  </PcPage>
+  <PcPage>
+    <Company>TENLTD</Company>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <PageSeq>2</PageSeq>
+    <PageTitle />
+    <PromptWhen />
+    <OnLeave />
+    <SkipOnLeaveOPL>false</SkipOnLeaveOPL>
+    <OnLeave2 />
+    <Comments />
+    <ProcessDynLstFirst>false</ProcessDynLstFirst>
+    <DynLstHigher>false</DynLstHigher>
+    <SkipPageProcessOL>false</SkipPageProcessOL>
+    <SkipPageNoInputs>false</SkipPageNoInputs>
+    <SkipOnLeaveOPE>false</SkipOnLeaveOPE>
+    <pWidth>640</pWidth>
+    <pHeight>480</pHeight>
+    <DisplaySeq>2</DisplaySeq>
+    <ConfigID>TBS_A</ConfigID>
+    <ReadOnly>false</ReadOnly>
+    <SysRevID>89286909</SysRevID>
+    <SysRowID>8944ffd9-3b5d-17bd-e711-7efca2a392bb</SysRowID>
+  </PcPage>
+  <PcPageExpr>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <PageSeq>1</PageSeq>
+    <ConfigID>TBS_A</ConfigID>
+    <SeqNum>1</SeqNum>
+    <TypeCode>Leave</TypeCode>
+    <Expression>            string fgprefix = "";
+            string fgsuffix = "";
+            string fgdesc = "";
+            string coretype = "";
+            string prodgroup = "";
+            string sumsalescat = "";
+
+            fgprefix = "";
+            fgsuffix = "";
+            fgdesc = "";
+            coretype = "";
+            prodgroup = "";
+            sumsalescat = "";
+
+            Inputs.dec_price.Value = 0;
+
+            /* FG Number determination ************************************************************************************************************************************************************/
+
+            fgprefix = PCLookUp.DataLookup("TBSSignHolderType", "fg_prefix", Inputs.cmb_type.Value);
+						fgsuffix = PCLookUp.DataLookup("TBSSignHolderFrameOption", "fg_suffix", Inputs.cmb_frame.Value);
+ 
+            Inputs.var_fgnum.Value = fgprefix + fgsuffix;
+						bool available_part = false;
+
+            /* Return description from Epicor Parts Master Record */
+						available_part = UDMethods.GetPartDescription(Context.CompanyID, Inputs.var_fgnum.Value, out fgdesc);
+
+            if (fgdesc == "") { Inputs.var_fgdesc.Value = "** ERROR ** FG number not found in the Epicor parts master table."; }
+            if (fgdesc != "") { Inputs.var_fgdesc.Value = fgdesc; }
+
+            /*this is for sales price*/
+						decimal UnitPrice = 0m;
+						string PartNum = "";
+						
+						available_part = UDMethods.GetPartPrice(Context.CompanyID, Inputs.var_fgnum.Value, out UnitPrice);
+            if (available_part) {
+                Inputs.dec_price.Value = UnitPrice;
+            }
+
+            /* Set standard Warranty Code */
+            string warranty = "";
+            warranty = PCLookUp.DataLookup("TENUK_FG_MasterTable", "std_warranty", Inputs.var_fgnum.Value);
+            if (warranty == "") { Inputs.chr_warranty.Value = "2YR"; }
+            if (warranty != "") { Inputs.chr_warranty.Value = warranty; }
+
+
+            /* Smart Code string generation **********************************************************************************************************************************************************/
+
+            if (Inputs.cmb_coresolution.Value == "Core") { coretype = "COR"; }
+            if (Inputs.cmb_coresolution.Value == "Solution") { coretype = "SOL"; }
+
+            if (Inputs.cmb_sumsalescat.Value == "Core") { sumsalescat = "COR"; }
+            if (Inputs.cmb_sumsalescat.Value == "Solution") { sumsalescat = "SOL"; }
+
+            prodgroup = "DAS";
+
+            Inputs.var_smartstring.Value = sumsalescat + "|" + coretype + "-" + prodgroup + "|" + Inputs.var_fgnum.Value + "|" + "XXX" + "|" + "XXX" + "|" + "XXX" + "|" + "XXX" + "|" + "XXX" + "|" + "XXX" + "|" + "XXX" + "|" + "XXX" + "|" + "XXX" + "|" + Inputs.var_sectorcode.Value;
+
+            Inputs.var_smart1.Value = coretype + "-" + prodgroup;
+            Inputs.var_smart2.Value = Inputs.var_sectorcode.Value;
+
+
+            /* Net Weight for Intrastat **********************************************************************************************************************************************************/
+
+            /* Calculates Net Weight */
+
+            decimal CompWeight1 = 0m;
+						decimal PartWeight = 0m;
+
+            CompWeight1 = 0;
+
+            if (Inputs.var_fgnum.Value != "")
+            {
+								available_part = UDMethods.GetPartWeight(Context.CompanyID, Inputs.var_fgnum.Value, out PartWeight);
+            }
+            if (available_part) {
+                CompWeight1 = PartWeight;
+            }
+
+            /* Totals the individual component weights */
+            Inputs.var_netweight.Value = CompWeight1;
+
+
+            /* Validity Routines **********************************************************************************************************************************************************/
+
+            /* FG Description validation */
+            if ((Inputs.var_fgdesc.Value == "** ERROR ** FG number not found in the Epicor parts master table.") &amp;&amp; (Inputs.chk_erroron.Value == true))
+            {
+								MessageBox.Show("The Part does not exist in the Parts Master table, contact the Operations department.", "Error", MessageBoxButtons.OK,  MessageBoxIcon.Exclamation);
+								PageLeaveFunctions.SetNextInputPage(1);
+								Args.Cancel = true;
+
+            }
+
+            if ((Inputs.cmb_coresolution.Value != "") &amp;&amp; (Inputs.cmb_sector.Value != ""))
+            {
+                PageLeaveFunctions.SetNextInputPage(2);
+            }
+
+            /* Checks if FG Number passed to sales line is less than 50 Characters */
+            decimal smartcount = 0m;
+            smartcount = 0;
+            smartcount = Inputs.var_smart2.Value.Length;
+            if (smartcount &gt; 50)
+            {
+								MessageBox.Show("The Finished Goods Number exceeds the Maximum number of Characters allowed in the Sales Line Part Number Field......", "Note", MessageBoxButtons.OK,  MessageBoxIcon.Information);
+								PageLeaveFunctions.SetNextInputPage(1);
+								Args.Cancel = true;
+
+            }
+
+            /* Returns Commodity Code from CSV */
+            Inputs.var_commodity.Value = PCLookUp.DataLookup("TENUK_FG_MasterTable", "commodity_code", Inputs.var_fgnum.Value);
+
+						
+            /* If no commodity code is returned from the CSV file it checks the parts master table */
+            string partclass = "";
+            partclass = "";
+            if (Inputs.var_commodity.Value == "")
+            {
+								available_part = UDMethods.GetPartClass(Context.CompanyID, Inputs.var_fgnum.Value, out partclass);
+            }
+
+            /* As Part Class is used to assign Commodity Code */
+						string commodityID = "";
+            if ((Inputs.var_commodity.Value == "") &amp;&amp; (partclass != ""))
+            {
+								available_part = UDMethods.GetPartClassCommodity(Context.CompanyID, partclass, out commodityID);
+								if( available_part)
+									Inputs.var_commodity.Value = commodityID;
+            }
+
+						bool available_ICommCode = false;
+
+            /* Verifies Commodity code exists in IComCode Table within Epicor */
+            string commoditycheck = "";
+            commoditycheck = "";
+            if (Inputs.var_commodity.Value != "")
+            {
+                available_ICommCode = UDMethods.GetICommImportCode(Context.CompanyID, Inputs.var_commodity.Value, out commoditycheck);
+            }
+
+            if (Inputs.var_commodity.Value == "")
+            {
+
+								MessageBox.Show("The Configurator has been unable to determine the Commodity Code for the chosen configuration. Please contact the Operations department.", "Error", MessageBoxButtons.OK,  MessageBoxIcon.Exclamation);
+								PageLeaveFunctions.SetNextInputPage(1);
+								Args.Cancel = true;
+
+            }
+
+            if (Inputs.var_commodity.Value != commoditycheck)
+            {
+
+								MessageBox.Show("The Configurator has assigned a Commodity code that does not have a corresponding Epicor record, please contact the Operations department to correct this error.", "Error", MessageBoxButtons.OK,  MessageBoxIcon.Exclamation);
+								PageLeaveFunctions.SetNextInputPage(1);
+								Args.Cancel = true;
+
+            }
+
+            if ((Inputs.cmb_coresolution.Value == "") || (Inputs.cmb_sumsalescat.Value == "") || (Inputs.cmb_sector.Value == ""))
+            {
+								MessageBox.Show("You have not entered all the mandatory requirements.....", "Note", MessageBoxButtons.OK,  MessageBoxIcon.Information);
+								PageLeaveFunctions.SetNextInputPage(1);
+								Args.Cancel = true;
+
+            }
+            else if ((Inputs.cmb_coresolution.Value != "") || (Inputs.cmb_sumsalescat.Value != "") || (Inputs.cmb_sector.Value != ""))
+            {
+                PageLeaveFunctions.SetNextInputPage(2);
+            }
+
+            /* ********************************************************************************************************************************************************************************** */
+
+            /* Pack Comment */
+
+            string Mode = "";
+            int CustID = 0;
+            int OrderNum = 0;
+            int QuoteNum = 0;
+            string CustCountry = "";
+            string CustName = "";
+            string OTSID = "";
+            bool OTS = false;
+            int OTSCountry = 0;
+
+            /* Determines Current Configuration Mode and order/quote specifics */
+            Mode = Context.Entity;
+            CustID = 0; /* Set to Zero when not used for testing*/
+            CustCountry = "";
+            OrderNum = Context.OrderNumber;
+            QuoteNum = Context.QuoteNumber;
+
+						bool available_QuoteHed = false;
+						bool available_OrderHed = false;
+						bool available_Country = false;
+						bool available_ShipTo = false;
+						bool available_Customer = false;
+
+            /* ********************************************************************************************************************************************************************************** */
+            if (Mode == "Quote")
+            {
+
+								/* Retrieve details from Quote Header */
+				        bool result = UDMethods.GetQuoteHed(Context.CompanyID, QuoteNum, out CustID, out OTSID, out OTS);
+
+                /* Retrieve details from Quote Header */
+			          if (available_QuoteHed)
+			          {
+									Inputs.var_custid.Value = CustID;
+			          }
+
+                /* Retrieves customer name using customer ID */
+								available_Customer = UDMethods.GetCustomer(Context.CompanyID, CustID, out CustName, out CustCountry);
+
+                /* ************************************************************** */
+
+			          /* If a saved shipto address is specified gets country info */
+			          if (OTSID != "")
+			          {
+			              available_ShipTo = UDMethods.GetShipToCountryNum(Context.CompanyID, OTSID, out OTSCountry);
+			              available_Country = UDMethods.GetCountryDescription(Context.CompanyID, OTSCountry, out CustCountry);
+			          }
+
+                Inputs.var_orderdtl.Value = "Mode: " + Mode + "  |  Order/Quote No: " + QuoteNum.ToString() + "   | Cust: " + CustName + "  |   ShipCountry: " + CustCountry;
+                Inputs.var_shipcountry.Value = CustCountry;
+
+						}
+
+
+            /* ********************************************************************************************************************************************************************************** */
+            if (Mode == "Order")
+            {
+								/* Retrieve details from Order Header */
+			          available_OrderHed = UDMethods.GetOrderHed(Context.CompanyID, OrderNum, out CustID, out OTSID, out OTS);
+
+                /* Retrieve details from Order Header */
+                if (available_OrderHed) {
+                    Inputs.var_custid.Value = CustID;
+                }
+
+                /* Retrieves customer name using customer ID */
+                available_Customer = UDMethods.GetCustomer(Context.CompanyID, CustID, out CustName, out CustCountry); 
+
+                /* ************************************************************** */
+
+			          /* If a saved shipto address is specified gets country info */
+			          if (OTSID != "")
+			          {
+			
+			              available_ShipTo = UDMethods.GetShipToCountryNum(Context.CompanyID, OTSID, out OTSCountry);
+										available_Country = UDMethods.GetCountryDescription(Context.CompanyID, OTSCountry, out CustCountry);
+			
+			          }
+
+                Inputs.var_orderdtl.Value = "Mode: " + Mode + "  |  Order/Quote No: " + OrderNum.ToString() + "   | Cust: " + CustName + "  |   ShipCountry: " + CustCountry;
+                Inputs.var_shipcountry.Value = CustCountry;
+						}
+
+            /* ********************************************************************************************************************************************************************************** */
+            if (Mode == "PcStatus")
+            {
+
+                Inputs.var_orderdtl.Value = "Mode: " + Mode;
+                /* Inputs.var_shipcountry.Value = "Albania". */
+
+                Inputs.var_custid.Value = 11131;
+
+            }
+
+            /* ********************************************************************************************************************************************************************************** */
+
+            string palletlookup = "";
+
+            palletlookup = "";
+
+            /* Finds Pallet lookup from csv based on Shipping country*/
+            palletlookup = PCLookUp.DataLookup("CountryPalletList", "pallet_type", Inputs.var_shipcountry.Value);
+
+            if (palletlookup != "")
+            {
+                Inputs.var_palletlookup.Value = palletlookup + "_Lookup";
+                Inputs.var_packcomment.Value = PCLookUp.DataLookup("CountryPalletList", "default_message", Inputs.var_shipcountry.Value);
+            }
+
+            if (palletlookup == "") { Inputs.var_palletlookup.Value = "All_Lookup"; }</Expression>
+    <SysRevID>93121823</SysRevID>
+    <SysRowID>b7e77c2c-eb83-42b8-bb4c-beb6478e5b9c</SysRowID>
+  </PcPageExpr>
+  <PcStrComp>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <PartNum>TBS</PartNum>
+    <RevisionNum>A</RevisionNum>
+    <PosOrder>1</PosOrder>
+    <CompName>var_fgnum</CompName>
+    <CompType>FILL-IN</CompType>
+    <CompDataType>CHARACTER</CompDataType>
+    <DisplayFormat />
+    <SourceDBRecid />
+    <SmartStringStart>0</SmartStringStart>
+    <SmartStringEnd>50</SmartStringEnd>
+    <SysRevID>90556427</SysRevID>
+    <SysRowID>bc871142-fa9f-d4b5-e311-d634e83520c1</SysRowID>
+  </PcStrComp>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>DemandDetail</TableName>
+    <AllowRecordCreation>true</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285647</SysRevID>
+    <SysRowID>22190d6e-9c78-4aee-a369-aae7015bd3e9</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>DemandHead</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285646</SysRevID>
+    <SysRowID>b2d84325-9b4d-41c7-adf5-aae7015bd3e7</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>ECOMtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285637</SysRevID>
+    <SysRowID>2b505e46-e78f-4530-ad11-aae7015bd3df</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>ECOOpDtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285636</SysRevID>
+    <SysRowID>1bec2eae-e07e-4321-8d26-aae7015bd3de</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>ECOOpr</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285635</SysRevID>
+    <SysRowID>9af32138-9ac6-49f8-90af-aae7015bd3de</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>ECORev</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285634</SysRevID>
+    <SysRowID>14f114f8-7a67-47ab-a482-aae7015bd3dd</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>JobAsmbl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285629</SysRevID>
+    <SysRowID>4f3b69b2-35aa-44e1-89df-aae7015bd3d8</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>JobHead</TableName>
+    <AllowRecordCreation>true</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285628</SysRevID>
+    <SysRowID>5afa1359-b671-4554-abac-aae7015bd3d7</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>JobMtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285630</SysRevID>
+    <SysRowID>83b0f0ce-74f1-4766-a612-aae7015bd3da</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>JobOpDtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285633</SysRevID>
+    <SysRowID>e3a3456e-7134-47ff-b2c1-aae7015bd3dc</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>JobOper</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285631</SysRevID>
+    <SysRowID>bf71f275-4b05-4d27-a1c1-aae7015bd3db</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>OrderDtl</TableName>
+    <AllowRecordCreation>true</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285627</SysRevID>
+    <SysRowID>3e50edcf-cbd0-4ec4-a7ca-aae7015bd3d6</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>OrderHed</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285626</SysRevID>
+    <SysRowID>de561b32-3d52-419e-84b4-aae7015bd3d5</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>PODetail</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285645</SysRevID>
+    <SysRowID>ee562723-c749-4e30-9e88-aae7015bd3e5</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>POHeader</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285644</SysRevID>
+    <SysRowID>dd728f16-2a1d-4a3d-9a90-aae7015bd3e4</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>QuoteAsm</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285640</SysRevID>
+    <SysRowID>d5fb7a1b-9aea-4371-97f8-aae7015bd3e1</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>QuoteDtl</TableName>
+    <AllowRecordCreation>true</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285639</SysRevID>
+    <SysRowID>4bbef4f4-cfc8-4e52-83b6-aae7015bd3e1</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>QuoteHed</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285638</SysRevID>
+    <SysRowID>b31e9305-c80d-4e32-851e-aae7015bd3e0</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>QuoteMtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285641</SysRevID>
+    <SysRowID>be67d1de-f1ca-40ce-92e7-aae7015bd3e2</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>QuoteOpDtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285643</SysRevID>
+    <SysRowID>d66f6248-1632-4b80-a229-aae7015bd3e3</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>TBS_A</ConfigID>
+    <TableName>QuoteOpr</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285642</SysRevID>
+    <SysRowID>741865dc-f2ea-464d-90bb-aae7015bd3e3</SysRowID>
+  </PcTargetEntity>
+</ConfigImportExportDataSet>

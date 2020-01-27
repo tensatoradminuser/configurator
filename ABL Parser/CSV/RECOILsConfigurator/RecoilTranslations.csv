@@ -1,0 +1,53 @@
+FieldName,TenLtd,TenFra,TenGmbh
+dec_soqty,Order Qty:,Quantite:,Bestellmenge:
+cmb_recoilselect,Select Recoil:,Selectionnez Recoil :,Wählen Recoil :
+TEXT2,Adhesive Pads:,Pastilles adhesives :,Klebeplättchen :
+chk_35mm,35mm Dia Pad:,35mm Dia Pad :,35-mm- Dia -Auflage :
+chk_14mm,14mm Limpet Pad:,14mm Limpet Pad :,14mm Limpet Pad:
+chk_19x25,19x25mm Pad:,19x25mm Pad:,19x25mm Pad:
+TEXT17,Surface Cleanser Selection:,Surface Nettoyant Selection:,Flächenreinigungsmittel Auswahl:
+cmb_cleanserpad,Cleanser:,nettoyant :,Cleanser:
+chk_fixedqty,Fixed Qty:,Correction Quantite:,Feste Menge:
+dec_cleanserqty,Qty:,Quantite:,Menge:
+TEXT9,A Fixed Qty will not be multiplied by the Sales Order Qty and will appear as a Static qty on the Job.,A Quantite fixe ne sera pas multiplie par l'Ordre des ventes Quantite et apparaitra comme un qte statique sur le Travail .,Eine feste Anzahl nicht durch die Verkäufe Bestellmenge multipliziert werden und wird als eine statische Menge auf dem Job angezeigt.
+TEXT10,If no Fixed Qty is entered a run qty of 1 appears in the BOM and will be multiplied by the Sales order qty.,Si aucune Quantite fixe est entre dans une qte de course de 1 apparait dans la nomenclature et sera multiplie par l'ordre de vente qte .,Wenn keine feste Menge wird eine Laufmenge von 1 erscheint in der Stückliste eingetragen und wird von der Auftragsmengemultipliziert werden.
+chk_blankcleanser,Clear Cleanser Options Selected:,Effacer Cleanser options choisies :,Klar Cleanser Kriterien:
+TEXT7,Smart Code Reporting:,Intelligent de rapports de code:,Smart -Code Berichterstattung:
+cmb_coresolution,Sales Category:,Les ventes Categorie :,Verkauf Kategorie:
+cmb_productgroup,Product Group:,Groupe de produits:,Produkt-Gruppen:
+cmb_sumsalescat,Summary SO Type:,Resume type SO :,Zusammenfassung SO Typ:
+cmb_sector,Sector:,secteur:,Branche:
+chk_bomcosting,Access Granted to BOM Costing:,Acces accorde a l'etablissement des couts de nomenclature :,Zugang zu Stücklistenkalkulation Zugegeben :
+TEXT8,Release: 06/07/2015,Sortie: 07/06/2015,Release: 2015.06.07
+chk_erroron,Error Messaging:,Messagerie d'erreur:,Fehler Messaging:
+chk_partverification,Turn on BOM Verification:,Tournez sur la verification des BOM :,Schalten Sie BOM Überprüfung:
+chk_startover,Warning - Selecting this Check Box will clear all Entries:,Attention - La selection de cette case a cocher va effacer toutes les entrees :,Warnung - Wenn Sie diese Kontrollkästchen werden alle Einträge zu löschen :
+TEXT1,Recoils Product Selector V1.0,Recule Selecteur de produits V1.0,Prallt Product Selector V1.0
+TEXT4,Configuration BOM:,Configuration BOM :,
+TEXT6,Validity:,validite :,
+var_weightlookup,NetWeight:,poids net:,
+TEXT16,Format '1' Refers to bom component level (.xxx) refers to weight measurement,Format '1' refere au niveau de composant bom ( .xxx ) se refere a la mesure du poids,
+TEXT18,BOM Unit Cost Total (EA).,BOM total du cout unitaire ( EA ) .,
+var_bomtotalbase,BOM Cost (EA):,Cout BOM ( EA ) :,
+TEXT20,The Configurator was unable to identify costs for all components within the BOM.,Le configurateur n'a pas pu identifier les couts pour tous les composants dans la nomenclature.,
+TEXT12,Configuration Validity Summary:,Configuration Resume de validite:,
+TEXT5,Sales Line Summary.,Resume de vente de ligne .,
+chk_overridewarranty,Override Warranty Default:,Remplacer Garantie defaut:,
+var_fgnum,FG Num:,FG Num:,
+chr_warranty,Warranty Code:,Code de garantie:,
+var_fgdesc,FG Description:,FG Description:,
+var_orderdtl,Order Detail:,Afin Detail :,
+TEXT11,Sales Line Comment Strings:,Sales Line Commentaire Strings :,
+var_jobcomment,Job Comment:,Job Commentaire:,
+var_linecomment,Sales Comment:,Commentaire de vente :,
+var_packcomment,Pack Comment:,Paquet Commentaire:,
+TEXT13,Specifying a Pallet type will auto populate the Pack/Job Comment.,Specifier un type de palettes sera automatiquement remplir le pack/Commentaire tache .,
+cmb_pallettype,Define Pallet Type:,Definir le type de palettes:,
+TEXT14,(Optional),(Facultatif ),
+TEXT15,Note. Select a Pallet type first then add additional comments (if required).,Note. Selectionnez un type de palettes d'abord puis ajouter des commentaires supplementaires (si necessaire) .,
+var_smartstring,Smart String:,Intelligent cordes :,
+var_commodity,Commodity:,Produit:,
+var_netweight,Net Weight (Kg):,Poids Net / Kg):,
+var_bomvalidity,BOM:,BOM:,
+var_fgvalidity,ASSY:,ASSY:,
+,,,

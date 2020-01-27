@@ -1,0 +1,6 @@
+id,part_prefix,r1,r2,r3,r4,r5,screw_num,screw_qty,add_assy2_part,add_assy2_qty,add_part3_part,add_part3_qty,smartcode_ref,std_ropeendbaseupcharge
+Small Snap Ends,00450,,,,,,,,,,,,SMSNAP,
+Large Snap Ends,550,x,x,x,x,,05508-000,2,,,,,LGSNAP,20
+Small Hook Ends,530,,,,,,,,,,,,SMHOOK,
+Large Hook Ends,540,x,x,x,x,,05508-000,2,,,,,LGHOOK,18
+No Ends,,x,x,x,x,,,,,,,,NOENDS,

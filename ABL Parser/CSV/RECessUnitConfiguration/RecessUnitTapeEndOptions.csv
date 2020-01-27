@@ -1,0 +1,11 @@
+id,part_no,r1,r2,r3,r4,r5,r6,webtype,smart_code,wallclip_lookup
+Anti-Tamper,STE-CONFIG,x,x,,,,,cut,STE,1
+Standard Magnetic tape end,SMTE-CONFIG,x,x,,,,,cut,MTE,2
+Panic Break,PBTE-CONFIG,x,,,,,,roll,PBTE,1
+Wire Clip,WCTE-CONFIG,x,x,,,,,roll,WCTE,
+One Way Loop,OWLTE-CONFIG,x,,,,,,roll,OWLTE,4
+Soft Tape End,SRTE-CONFIG,x,x,,,,,cut,SRTE,1
+Munich Magnetic tape end,52321-CONFIG,x,x,,,,,cut,MM,2
+One Piece Magnetic,52345-CONFIG,,,,,,,cut,OME,2
+TP75A Soft Tape End,ADV572-ACONFIG,x,x,,,,,cut,TP75A,1
+Unbranded Anti-Tamper,STEBLANK-CONFIG,x,x,,,,,cut,STE,1

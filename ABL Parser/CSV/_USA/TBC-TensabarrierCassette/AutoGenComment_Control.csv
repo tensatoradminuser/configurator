@@ -1,0 +1,5 @@
+Control,Notes,amend_permission,generate_auto
+JOB,IF TRUE defined then manual entry of comment type permitted,TRUE,TRUE
+SALES,,TRUE,TRUE
+PACK,,TRUE,N/A
+BOXLABEL,,FALSE,TRUE

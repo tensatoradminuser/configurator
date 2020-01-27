@@ -1,0 +1,19 @@
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\bin\Debug\ABL Parser.exe
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\bin\Debug\ABL Parser.pdb
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.csprojAssemblyReference.cache
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL_Parser.Form1.resources
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL_Parser.Properties.Resources.resources
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.csproj.GenerateResource.cache
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.csproj.CoreCompileInputs.cache
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.exe
+C:\Users\andrew.gardner\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.pdb
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\bin\Debug\ABL Parser.exe.config
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\bin\Debug\ABL Parser.exe
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\bin\Debug\ABL Parser.pdb
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL_Parser.Form1.resources
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL_Parser.Form2.resources
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL_Parser.Properties.Resources.resources
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.csproj.GenerateResource.cache
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.exe
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.pdb
+C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.csprojAssemblyReference.cache

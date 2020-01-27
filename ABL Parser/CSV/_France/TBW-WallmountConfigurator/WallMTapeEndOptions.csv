@@ -1,0 +1,15 @@
+tape_end,part_no,wallclip_lookup,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,webtype,comment_string,zero_tapeendupcharge,std_tapeendupcharge,smart_code
+Verrouilleur,STE-CONFIG,1,x,x,x,x,,,x,,,x,,,,,,cut,Anti-Tamper,0,0,A
+Anti panique 2 sens,PBTE-CONFIG,1,x,x,x,x,,,,,,x,,,,,,roll,Panic Break,0,0,P
+Metallique,WCTE-CONFIG,,x,x,x,x,,,x,,,x,,,,,,roll,Wire Clip,0,0,W
+Anti panique 1 sens,OWLTE-CONFIG,4,x,x,x,x,,,,,,x,,,,,,roll,One Way Loop,,,O
+Soft Tape End,SRTE-CONFIG,1,x,x,x,x,,,x,,,x,,,,,,cut,Soft Tape End,,,S
+Magnetique Munich,52321-CONFIG,2,x,x,x,x,,,,,,x,,,,,,cut,Munich Magnetic tape end,,,MM
+One Piece Magnetic,52345-CONFIG,2,,,,,,,,,,,,,,,,cut,One Piece Magnetic,0,,OM
+Magnetique,SMTE-CONFIG,2,x,x,x,x,,,x,,,x,,,,,,cut,Standard Magnetic tape end,0,,SM
+Verrouilleur Extra large (150 m),52322-CONFIG,3,,,,,x,,,,,,,,,,,roll,150mm Anti-Tamper,,,WA
+Anti Panique double 1 sens Extra large (150 mm),54098-CONFIG,,,,,,x,,,,,,,,,,,roll,150mm One Way Loop Dual set,,,WO
+Magnetique Extra large (150 mm),52914-CONFIG,5,,,,,x,,,,,,,,,,,roll,150mm Magnetic tape end,,,WM
+Embout Qmatic,QM571-CONFIG,1,,,,,,x,,,,,,,,,,cut,Qmatic Tape End,,,Q
+TP75A Soft Tape End,ADV572-ACONFIG,1,,,,,,,x,,,,,,,,,cut,TP75A Soft Tape End,,,S75
+Wallmount XL,,6,,,,,,,,,x,,,,,,,roll,Wallmount XL,,,XL

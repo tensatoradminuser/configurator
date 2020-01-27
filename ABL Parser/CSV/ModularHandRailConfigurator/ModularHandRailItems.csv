@@ -1,0 +1,27 @@
+id,part_num_yellow,part_num_grey,base_ref,elbow_ref,bend_ref,tee_ref,corner_ref,midrail_ref,connector_ref,bracket_ref,tube_ref,allen_ref,image_ref
+Base Foot,NFRYBF,NFRGBF,x,,,,,,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\BaseFoot.jpg
+90 Degree Elbow,NFRY90E,NFRG90E,,x,,,,,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\90DegreeElbow.jpg
+End Bend,NFRYEB,NFRGEB,,,x,,,,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\EndBend.jpg
+90 Degree Tee,NFRY90T,NFRG90T,,,,x,,,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\90DegreeTee.jpg
+3 Way Corner,NFRY3WC,NFRG3WC,,,,,x,,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\3WayCorner.jpg
+63 Degree Tee,NFRY63T,NFRG63T,,,,x,,,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\63DegreeTee.jpg
+Mid Rail Single,NFRYMRS,NFRGMRS,,,,,,x,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\MidRailSingle.jpg
+Mid Rail Double,NFRYMRD,NFRGMRD,,,,,,x,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\MidRailDouble.jpg
+63 Degree Mid Rail Double,NFRY63MRD,NFRG63MRD,,,,,,x,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\63DegreeMidRailDouble.jpg
+Mid Rail Corner,NFRYMRC,NFRGMRC,,,,,,x,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\MidRailCorner.jpg
+Adjustable Mid Rail Double,NFRYAMRD,NFRGAMRD,,,,,,x,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\AdjustableMidRailDouble.jpg
+Adjustable Tee,NFRYAT,NFRGAT,,,,x,,,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\AdjustableTee.jpg
+Angle Connector,NFRYAC,NFRGAC,,,,,,,x,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\AngleConnector.jpg
+Adjustable Mid Rail Single,NFRYAMRS,NFRGAMRS,,,,,,x,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\AdjustableMidRailSingle.jpg
+Side Mount Bracket,NFRYSMB,NFRGSMB,,,,,,,,x,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\SideMountBracket.jpg
+Wall Mount Elbow Bracket,NFRYWEB,NFRGWEB,,,,,,,,x,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\WallMountElbowBracket.jpg
+Wall Mount Tee Bracket,NFRYWTB,NFRGWTB,,,,,,,,x,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\WallMountTeeBracket.jpg
+Wall Mount Short End Bend,NFRYWSEB,NFRGWSEB,,,x,,,,,,,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\WallMountShortEndBend.jpg
+Tube 790mm,NFRYHT790,NFRGHT790,,,,,,,,,x,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\Tube.jpg
+Tube 800mm,NFRYHT800,NFRGHT800,,,,,,,,,x,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\Tube.jpg
+Tube 845mm,NFRYHT845,NFRGHT845,,,,,,,,,x,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\Tube.jpg
+Tube 890mm,NFRYUT890,NFRGUT890,,,,,,,,,x,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\Tube.jpg
+Tube 900mm,NFRYHT900,NFRGHT900,,,,,,,,,x,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\Tube.jpg
+Tube 990mm,NFRYT990,NFRGT990,,,,,,,,,x,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\Tube.jpg
+Tube 1400mm,NFRYWT1400,NFRGWT1400,,,,,,,,,x,,\\EPICORAPP1\Epicor905\Server\ud\ModularHandRailConfigurator\Images\Tube.jpg
+Security Fixing Allen Keys,NFRGSFAK,NFRGSFAK,,,,,,,,,,x,

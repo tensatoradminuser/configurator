@@ -1,0 +1,5 @@
+id,part_no,cdudesk_no,cduceiling_no,r1,r2,r3,r4,r5,e1,e2,e3,smartcode_ledfinish
+Black,33S,33S,AAC,x,,,,,,,,
+Amber LED (CDU),55222-000,,,,,,,,x,,,AMB
+Red LED (PDU),54080-000,,,,,,,,,x,,RED
+Amber LED (CDU),54080-014,,,,,,,,,,x,AMB

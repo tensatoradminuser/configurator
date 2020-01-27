@@ -1,0 +1,55 @@
+base_type,base_part_no,base_finish,cover_part_no,base_kit_part_no,base_box_part_no,fg_base_filter,base_protector,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30,r31,r32,r33,r34,r35,r36,r37,r38,r39,r40,r41,smartcode_entry,smart_basefinish_override,smart_basecover_aspostfinish,smart_basecover_override,smart_baseprotector_override,note_ref,base_comment,supply_default,suspend_selection
+Comme fourni,,,,,,AsSupplied,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,U,,,,,,Universal,,
+MK2 Universelle Std U,11795,universalmk2,11797,52901-33S,05272-000,universal,,x,,x,x,,,,x,,,x,x,,,,,,x,,,,,,x,,,x,,,,,,,,x,,x,,,,,U,,,,,,Universal,pick,
+MK2 Basic B,11795,basicsmk2,11890,52901-33S,05272-000,basics,,,,,x,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,Basics,pick,
+MK2 Base super lourd UH,11796,universalheavymk2,11797,52901-33S,05272-000,universalheavy,,x,,,x,,,,,,,,x,,,x,,,x,x,x,,,,,,,,,,,,,,,,x,,,,,,UH,,,,,,Universal Heavy,pick,
+MK2 Base basic super lourd BH,11796,basicsheavymk2,11890,52901-33S,05272-000,basicsheavy,,,,,,,,,,,,,,,,x,,,x,x,x,,,,,,,,,,,,,,,,x,,,,,,BH,,,,,,Basics Heavy,pick,
+Rollabarrier,,rollabase,,53968-CONFIG,05272-000,Rollabase,,,,,,,,,,x,,,,,,,,,,x,x,,,,,,,,,,,,,,,,,,,,,,RB,,,,,,Rollabarrier,make,
+Outdoor,04392,outdoor,,,,Standard,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OU,,,,,,Outdoor,pick,
+Base Heavy Duty,00434,heavyduty,,,,Standard,,,,,,,x,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,HD,,,,,,Heavyduty,pick,
+Base Magnetique,06615,magnetic,06614,53803-CONFIG,05272-000,magnetic,,,,,,,,,,,,,,,,x,,,x,x,x,,,,,,,,,,,,,,,,,,,,,,M,,,,,,Magnetic,make,
+Base Heavy Duty (vis),00434,heavyduty,,,,utilityscrewfix,,,,,,,,,x,,,,,,x,,,,x,,,,,,,,,,,,,,,,,,,,,,,,SC,,,,,,Heavyduty Screwfix,pick,
+Fixation dans sol (interieur),,surface_mount,,50441-CONFIG,,Floor Socket,,x,,,x,,,,,,,,,,,x,,,x,x,,,,,,,,,,,x,,,,,,x,,,,,,R,,,,,If Rockite or Socket Keys are required please enter them on separate sales lines.,Mini Removable Socket,make,
+Fixation dans sol (exterieur),,surface_mount,,54299-000,,Floor Socket,,x,,,x,,,,,,,,,,,x,,,x,x,,,,,,,,,,x,x,,,,,,x,,,,,,R,,,,,If Rockite or Socket Keys are required please enter them on separate sales lines.,Mini Removable Socket,pick,
+Fixation dans sol 120mm.,,surface_mount,,,,Floor Socket,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,R,,,,,If Rockite or Socket Keys are required please enter them on separate sales lines.,Mini Removable Socket,pick,TRUE
+Fixation dans sol 165mm.,,surface_mount,,52743-000,,Floor Socket,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,x,,,,,,R,,,,,If Rockite or Socket Keys are required please enter them on separate sales lines.,Mini Removable Socket,pick,TRUE
+Fixation dans sol 170mm.,,surface_mount,,,,Floor Socket,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,R,,,,,If Rockite or Socket Keys are required please enter them on separate sales lines.,Mini Removable Socket,pick,TRUE
+Fixation dans sol 180mm.,,surface_mount,,51671-CONFIG,,Floor Socket,,x,,,,,,,,,,,,,,x,,,x,x,,,,,,,,,,,,,,,,,x,,,,,,R,,,,,If Rockite or Socket Keys are required please enter them on separate sales lines.,Mini Removable Socket,pick,TRUE
+Fixation dans sol 60mm.,,surface_mount,,53433-000,,Floor Socket,,,,,,,,,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,,x,,,,,,R,,,,,If Rockite or Socket Keys are required please enter them on separate sales lines.,Mini Removable Socket,pick,TRUE
+Fixation dans sol 80mm.,,surface_mount,,51801-3B,,Floor Socket,,,,,,,,,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,,x,,,,,,R,,,,,If Rockite or Socket Keys are required please enter them on separate sales lines.,Mini Removable Socket,pick,TRUE
+Pas de base,,,,,,nobase,,,,,,,x,x,x,,,,,,x,x,,,x,x,x,,,,,,,,,,,,,,,,,,,,,,X,,,,,,No,,
+Rollabase (noir),,rollabase,,53968-89,05272-000,Rollabase,,,,,,,,,,x,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,RB,,,,,,Rollabarrier,pick,
+Sport,01297,sport,,50125-33S,05272-000,Sport,TRUE,x,,x,,x,,,,,,,,,,x,,,x,x,,,,,,,,,,,,,,,,,,,,,,,S,,,,,,Sport,pick,
+Pied Stowaway,08839,stowaway_feet,,,,Standard,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,ST,,,,,,Stowaway,pick,
+Fixation sur sol,,surface_mount,,50408-000,,Surface Mount,,x,,,x,,,,,,,,,,,x,,,x,x,x,,,,,,,,,,,,,,,,x,,,,,,F,,,,,,Surface Fixed,make,
+Fixation sur sol noir 33S,,surface_mount,,53203-33S,,Surface Mount,,,,,,,,,,,,,,,,x,,,x,,,,,,,,,,,,,,,,,,x,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Fixation sur sol noir RAL 9005,,surface_mount,,53618-9005,,Surface Mount,,x,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Fixation sur sol bleu RAL 5013,,surface_mount,,53618-23,,Surface Mount,,x,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Fixation sur sol FW104e,,surface_mount,,53618-91,,Surface Mount,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Fixation sur sol chrome satine,,surface_mount,,53618-1S,,Surface Mount,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Fixation sur sol RAL Argent 9006,,surface_mount,,53618-9006,,Surface Mount,,x,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,x,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Fixation sur sol RAL Blanc 9003,,surface_mount,,53618-9003,,Surface Mount,,x,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Fixation sur sol RAL Blanc 9010,,surface_mount,,53618-32,,Surface Mount,,x,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Tensaguide fixation sur sol,,surface_mount,,53618-000,,Surface Mount,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Tensaguide fixation sur sol Beige clair,,surface_mount,,53618-45YY65/084,,Surface Mount,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Tensaguide fixation sur sol Blanc RAL 1013,,surface_mount,,53618-1013,,Surface Mount,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Tensaguide fixation sur sol Gris soie,,surface_mount,,,,Surface Mount,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,TRUE
+Assemblee (screwfix heavy duty),,,,,,AsSupplied,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,SC,33S,,,,,Heavyduty Screwfix,pick,
+Assemblee (Universelle),,,,,,AsSupplied,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,U,33,TRUE,,D,,Universal,make,
+MK2 Assemblee (Universelle),,,,,,AsSupplied,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,U,33,TRUE,,D,,Universal,pick,
+Assemblee (magnetique),,,,,,AsSupplied,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M,AAA,TRUE,,,,Magnetic,make,
+Fixation dans sol 180 mm. 316,,surface_mount,,55496-316,,AsSupplied,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,R,,,,,,Mini Removable Socket,pick,
+Fixation dans sol (outdoor) 180 mm. 316,,surface_mount,,54299-316,,AsSupplied,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,,,,,,R,,,,,,Mini Removable Socket,pick,
+Tensaguide fixation sur sol effet brosse,,surface_mount,,53618-3B,,Surface Mount,,,,,,,,,,,,,,,,,,,x,x,,,,,,,,,,,,,,,,,,,,,,,F,,,,,,Surface Fixed,pick,
+Fixation sur sol acier inoxydable brosse,,surface_mount,,50408-3B,,Surface Mount,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,x,,,,,,F,,,,,,Surface Fixed,pick,
+Base magnetique,06615,magnetic,06614,56127-CONFIG,05272-000,magnetic,TRUE,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,x,x,x,,,,,M,,,,,,Magnetic,make,TRUE
+Base magnetique avec calage centralise,06615,magneticlocated,06614,56125-CONFIG,05272-000,magnetic,TRUE,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,x,x,x,,,,,M,,,,,,Magnetic Located,make,TRUE
+Rollabarrier (Poteau telescopique),,rollabase,,56167-CONFIG,,Rollabase,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,RB,,,,,,Rollabarrier,pick,
+MK2 Base super lourd (fonte seule) UH,11796,universalheavymk2,,52901-33S,05272-000,universalheavy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,UH,,,,,,Universal Heavy,pick,
+MK2 Universelle Std (fonte seule) U,11795,universalmk2,,52901-33S,05272-000,universal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,U,,,,,,Universal,pick,
+MK2 Base universelle twin pack (base seule popular),11795,universalmk2,,54593-33S,05272-000,universal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,U,,,,,,Universal,pick,
+MK2 Base universelle avec enjoliveur basic B,11795,universalmk2,11890,52901-33S,05272-000,universal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,Basics,pick,
+MK2 Base basic Qmatic B,11795,universalmk2,11890,52901-33S,05272-000,basics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,B,,,,,,Basics,pick,
+Qmatic MK2 Base Universelle U,11795,qmuniversalmk2,11797,52901-33S,05272-000,universal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,U,,,,,,Universal,pick,
+MK2 Basics 887,11795,basicsmk2,11890,52901-33S,05272-000,universal887,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,U,,,,,,Universal,pick,
+MK2 Base Universelle 888,11795,universal888mk2,11890,52901-33S,05272-000,universal888,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,U,,,,,,Universal,pick,

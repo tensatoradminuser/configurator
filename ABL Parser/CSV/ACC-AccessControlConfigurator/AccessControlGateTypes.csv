@@ -1,0 +1,9 @@
+id,part_num,mech_option,elec_option,ancil_option,fg_num,warranty_code
+Right Hand Standard Mechanical Gate (Polished Chrome),54247-1P,x,,x,TMG-SM1000-RH-1P,1YR
+Left Hand Standard Mechanical Gate (Polished Chrome),54246-1P,x,,x,TMG-SM1000-LH-1P,1YR
+Right Hand Electrical Gate (Polished Chrome),54059-AAA,,x,x,TAG1000-CONFIG,2YR
+Left Hand Electrical Gate (Polished Chrome),54059-AAB,,x,x,TAG1000-CONFIG,2YR
+Right Hand Emergency Exit Mechanical Gate (Polished Chrome),54249-1P,x,,x,TMG-EE1000-RH-1P,1YR
+Left Hand Emergency Exit Mechanical Gate (Polished Chrome),54248-1P,x,,x,TMG-EE1000-LH-1P,1YR
+Bi Directional Gate (Polished Chrome),50339-000,x,,,TMG-BD1000-1P,1YR
+No Gate Body,,,,x,,1YR

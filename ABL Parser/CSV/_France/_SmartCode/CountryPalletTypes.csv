@@ -1,0 +1,4 @@
+pallet_types,Plastic_lookup,Wooden_Lookup,PaperBoard_Lookup,All_Lookup,pack_comment
+Plastic,x,,,x,Utiliser uniquement palette plastique pour cette expedition
+Bois,,x,,x,Utiliser uniquement palette bois pour cette expedition
+Carton dur,,,x,x,Utiliser uniquement palette carton dur pour cette expedition

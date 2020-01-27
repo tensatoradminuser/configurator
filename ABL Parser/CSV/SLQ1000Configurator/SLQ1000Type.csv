@@ -1,0 +1,9 @@
+id,fg_num,pdubom_num,case_finish,cdufront_part,LED_finish,recoil_part,recoil_qty,addbutt_part,addbutt_part1,addbutt_part2,addstickers_part,addstickers_part1,addstickers_part2,smartcode_position,mounting_ref,cycle_time_selector,smartcode_rev,suspend_selection
+SLQ1000 Six Position,SLQ1000-6,55230,1,03033,1,09073-000,6,,,,,,,6,1,std,2,
+SLQ1000 Twelve Position,SLQ1000-12,55230,1,03033,1,09073-000,12,10732-000,,,07319-AAF,,,12,1,std,2,
+SLQ1000 Eighteen Position,SLQ1000-18,55230,1,03033,1,09073-000,18,10732-000,10732-AAA,,07319-AAF,07319-AAG,,18,1,std,2,
+SLQ1000 Twenty Four Position,SLQ1000-24,55230,1,03033,1,09073-000,24,10732-000,10732-AAA,10732-AAB,07319-AAF,07319-AAG,07319-AAH,24,1,std,2,
+Old Revision SLQ1000 Six Position Red LED,SLQ1000-6,55355,1,03018,2,09073-000,6,,,,07319-AAA,,,6,2,std,1,
+Old Revision SLQ1000 Six Position Amber LED,SLQ1000-6,55355,1,03018,3,09073-000,6,,,,07319-AAC,,,6,2,std,1,True
+Old Revision SLQ1000 Nine Position Red LED,SLQ1000-9,55355,1,03018,2,09073-000,9,54081-000,,,07319-AAA,07319-AAB,,9,2,std,1,True
+Old Revision SLQ1000 Nine Position Amber LED,SLQ1000-9,55355,1,03018,3,09073-000,9,54081-000,,,07319-AAC,07319-AAD,,9,2,std,1,True

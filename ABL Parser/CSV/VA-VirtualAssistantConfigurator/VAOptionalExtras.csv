@@ -1,0 +1,8 @@
+optional_extra,part_num,part_qty,assy_flag,power_lead,r1,r2,r3,r4,r5,r6,smartcode_ref
+None,,,,x,x,x,x,,,,X
+Ultra VA Button Unit,55275-9003-CONFIG,1,True,,x,,,,,,ULBT
+IEC to UK Mains Cable (1.5m),08331-33S,1,,x,,,,,,,UK
+IEC to Euro Mains Cable (1.5m),08434-000,1,,x,,,,,,,EU
+With UPS,55508-000,1,True,,,x,,,,,UPS
+Without UPS,55509-000,1,True,,,x,,,,,XUPS
+Class 10 4GB SD Card,10901-000,1,False,,,,x,,,,SD4GB

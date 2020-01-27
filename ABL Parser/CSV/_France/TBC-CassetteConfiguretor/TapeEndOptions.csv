@@ -1,0 +1,16 @@
+tape_end,part_no,r1,r2,r3,r4,r5,r6,r7,comment_string,webtype,smart_code
+Verrouilleur standard,STE-CONFIG,x,,,,,x,x,Anti-Tamper,cut,A
+Anti panique 2 sens,PBTE-CONFIG,x,,,x,,x,,Panic Break,roll,P
+Metallique,WCTE-CONFIG,x,,,,,x,x,Wire Clip,roll,W
+Anti panique 1 sens,OWLTE-CONFIG,x,,,,,x,,One Way Loop,roll,O
+Soft Tape End,SRTE-CONFIG,x,,,x,,x,x,Soft Tape End,cut,S
+Magnetique Munich,52321-CONFIG,x,,,,,,x,Munich Magnetic,cut,MM
+One Piece Magnetic,52345-CONFIG,,,,,,,,One Piece Magnetic,cut,OM
+Magnetique,SMTE-CONFIG,x,,,x,,x,x,Standard Magnetic,cut,SM
+Verrouilleur standard 150 mm,52322-CONFIG,,x,,,,,,150mm Anti-Tamper,roll,WA
+Anti panique 1 sens,54098-CONFIG,,x,,,,,,150mm One Way Loop Dual set,roll,WO
+Magnetique 150 mm,52914-CONFIG,,x,,,,,,150mm Magnetic,roll,WM
+Qmatic,QM571-CONFIG,,,x,,,,,Qmatic,cut,Q
+Product Standard,,,,,,x,,,Product Standard,,PS
+TP75A Soft,ADV572-ACONFIG,,,,,,,x,TP75A Soft,cut,S75
+Tensacone Standard magnetique,55772-CONFIG,,,,,x,,,Tensacone Std Magnetic,cut,SM

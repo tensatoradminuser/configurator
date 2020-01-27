@@ -1,0 +1,3 @@
+id,mode,notes
+fgassy,FULL,"3 mode keywords, FULL,ANY,NONE"
+subassy,N/A,If Any selected then MRP will fulfill any additional material requirement via an external job

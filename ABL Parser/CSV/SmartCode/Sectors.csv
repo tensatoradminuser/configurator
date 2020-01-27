@@ -1,0 +1,21 @@
+id,sector_code
+Channel,CHA
+Commerce,COM
+Education,EDU
+Events,EVE
+Finance,FIN
+Government,GOV
+Health,HEA
+Hospitality,HOS
+Leisure,LEI
+Manufacture,MAN
+Media,MED
+Religion,REL
+Retail,RET
+Sport,SPO
+Tourism,TOU
+Transport,TRA
+Web Sale,WEB
+Health and Safety,HAS
+Third Party,THI
+Intercompany,INC

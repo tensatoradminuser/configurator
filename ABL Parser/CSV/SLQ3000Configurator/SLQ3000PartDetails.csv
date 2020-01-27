@@ -1,0 +1,28 @@
+id,part_num,hub_option,button_option,tranceiver_option,pdu_option,pdupole_option,cdu_option,speaker_option,iec_option,alt_pdu_ps,uk_ps_partnum,eu_ps_partnum,us_ps_partnum,smartcode_ref
+None,,x,x,x,x,x,x,x,x,,,,,X
+Tensator Technology Hub (WSPC),05001-CONFIG,,,,,,,,,,,,,H1
+eQ Wireless Button,53850-000,,x,,,,,,,,,,,B
+eQ Wireless Tranceiver Box (Std),06855-000,,,x,,,,,,,,,,T
+eQ Wireless Tranceiver Box (TDI),06855-AAA,,,,,,,,,,,,,T1
+Micro PDU Red LED Black Case (Desk),54433-000,,,,x,,,,,TRUE,,PSU-Q1864-EU-1,,MR
+Micro PDU White LED Black Case (Desk),54433-32,,,,x,,,,,TRUE,,PSU-Q1864-EU-1,,MW
+Black 1.2m PDU Pole with Top Hat Mounting,11278-33S,,,,,x,,,,,,,,TP1.2
+Black 1.4m Double Headed pole with Top Hat Mounting,54673-33S,,,,,x,,,,,,,,TPD1.4
+"Toshiba 40"" LCD (RV753) full HD TV",07924-000,,,,,,x,,,,,,,C1
+"Toshiba 32"" LCD (32BV700B) full HD TV",09827-000,,,,,,x,,,,,,,C
+Creative Gigaworks T20 2.0 Speakers,06174-000,,,,,,,x,,,,,,S1
+Tensator Technology Hub (AOPEN),05001-AOPEN,,,,,,,,,,,,,H2
+Black PDU Wall Bracket,03020-33S,,,,,x,,,,,,,,W
+Industrial Hard PC,HARD-PC-STANDARD-CONFIG,x,,,,,,,,,,,,H
+eQ Wireless Btn with Mains Adaptor Lead,53850-AAA,,x,,,,,,,,,,,BP
+"LG M2232D 22"" LED SCREEN",10837-000,,,,,,x,,,,,,,C2
+Square PDU Light panel Assembly,53389-000,,,,x,,,,,,,,,LP
+"Samsung S19C450BW 19"" LED 1440x900 Monitor",05333-000,,,,,,x,,,,,,,C3
+Vision Speaker & Amp,06190-000,,,,,,,,,,,,,S
+UK IEC Mains Lead,08331-33S,,,,,,,,x,,,,,UK
+EU IEC Mains Lead,08434-000,,,,,,,,x,,,,,EU
+US IEC Mains Lead,08399-000,,,,,,,,x,,,,,US
+Vision Tech Amp and Adastra Flush mount speaker,55814-CONFIG,,,,,,,x,,,,,,S2
+"LG MP65HQ-P 22"" LED SCREEN",10837-000,,,,,,x,,,,,,,C4
+Micro PDU Red LED Black Case (Ceiling),54433-000CLN,,,,x,,,,,,,,,MRC
+Micro PDU White LED Black Case (Ceiling),54433-32CLN,,,,x,,,,,,,,,MWC

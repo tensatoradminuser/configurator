@@ -1,0 +1,4 @@
+pallet_types,Plastic_lookup,Wooden_Lookup,PaperBoard_Lookup,All_Lookup,pack_comment
+Plastic,x,,,x,Utilise Only Plastic pallets for this shipment (if required).
+Wooden,,x,,x,Utilise Only Wooden pallets for this shipment (if required).
+PaperBoard,,,x,x,Utilise Only Paperboad pallets for this shipment (if required).

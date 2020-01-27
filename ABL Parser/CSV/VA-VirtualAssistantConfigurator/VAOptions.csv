@@ -1,0 +1,7 @@
+VA_type,chassis_prefix,fg_num,image_ref,surround_option,mannequin_prefix,optional_extra,smartcode_ref,suspend_selection
+Ultra Standard,55716,VAUltra,\\EPICORAPP1\Epicor905\Server\ud\VirtualAssistantConfigurator\Ultra.jpg,r1,10777,r3,US,
+Premium,09743,VAUltra,\\EPICORAPP1\Epicor905\Server\ud\VirtualAssistantConfigurator\Premium.jpg,none,10226,,PR,True
+Interactive,,VAUltra,\\EPICORAPP1\Epicor905\Server\ud\VirtualAssistantConfigurator\Interactive.jpg,none,,,IN,True
+Slim,,VASlim,\\EPICORAPP1\Epicor905\Server\ud\VirtualAssistantConfigurator\Slim.jpg,none,,,SL,True
+Ultra with Button Unit,55201,VAUltraBtn,\\EPICORAPP1\Epicor905\Server\ud\VirtualAssistantConfigurator\Ultra.jpg,r2,10777,r1,USB,
+Ultra Standard Version3,55484,VAUltraV3,\\EPICORAPP1\Epicor905\Server\ud\VirtualAssistantConfigurator\UltraV3.jpg,r3,10777,r2,US3,TRUE

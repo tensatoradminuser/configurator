@@ -1,0 +1,21 @@
+id,sector_code
+Distributeur,CHA
+Commerce,COM
+Education,EDU
+Evenementiel,EVE
+Finance,FIN
+Secteur publique,GOV
+Sante,HEA
+Hotellerie,HOS
+Leisure,LEI
+Fabricant,MAN
+Media,MED
+Religion,REL
+Retail,RET
+Sport,SPO
+Tourism,TOU
+Transport,TRA
+Vente en ligne,WEB
+Prevention,HAS
+Representant,THI
+Intercompagnie,INC

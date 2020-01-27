@@ -1,0 +1,4 @@
+cust_num,cust_name,mandatory,ACC,CBS,FRS,IQMBE,IQMPA,IQMPO,MER,RAP,REC,RECOILS,MODHAND,SLQ1,SLQ2,SLQ3,TBC,TBP,TBR,TBS,TBW,TCT,TGA,TGBE,TGPA,TGPBE,TGPO,TGPPA,TGPPO,VA,notes
+1,Tensator Ltd,FALSE,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,dynamic,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup,lookup or dynamic
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

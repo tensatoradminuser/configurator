@@ -1,0 +1,3 @@
+extrusion_type,post_centre_lookup,noncutbeam_partprefix,noncutblankoff_partprefix,maxpurchaselength_mm,beam_end_lookup,upper_channel_option,lower_channel_option,FG_prefix,smartcode_ref,suspend_selection
+Heavy Duty,HDuty,02008,02007,4000,r1,r1,r1,TBB,HD,
+Oval,,,,,,,,,OV,True

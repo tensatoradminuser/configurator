@@ -1,0 +1,6 @@
+Currency,rate_conversion,adjustment_type
+GBP-AED,6.05,Multiply
+GBP-EUR,1.25,Multiply
+GBP-PLN,4.96,Multiply
+GBP-USD,1.65,Multiply
+GBP-GBP,1,Multiply

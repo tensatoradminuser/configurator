@@ -1,0 +1,11 @@
+id,folder,default_fgnum,default_fgdesc
+SLQ,ENGJOB_SLQ,,
+IQM Accessories,ENGJOB_IQMACCESSORIES,IQM Kit,IQM Accessories Kit
+QueueWay,ENGJOB_QUEUEWAY,,
+ShortCutQ,ENGJOB_SHORTCUTQ,SHORTCUTQ,ShortCutQ
+Access Control,ENGJOB_ACCESSCONTROL,Access Control,Access Control Kit
+Manufactured Signs and Frames,ENGJOB_MFGSIGNSFRAMES,,
+Stocked Signs and Frames,ENGJOB_STKSIGNSFRAMES,,
+Tensabarrier Accessories,ENGJOB_TENSACCESSORIES,,
+Chains,ENGJOB_CHAINS,,
+Wall Plates,ENGJOB_WALLPLATES,,

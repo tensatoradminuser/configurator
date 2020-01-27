@@ -1,0 +1,11 @@
+desc,prefix_part,oper_code,fg_num,suspend_selection
+Plastic,300,PICKING,300,
+Safety,303,PICKING,303,TRUE
+Hitching,307,PICKING,307,
+Deco,309,PICKING,309,
+Classic,310,PICKING,310,
+Sphere,312,PICKING,312,
+Contemporary,314,PICKING,314,
+QueueWay Classic,QWY310,PICKING,QWAYRAP,
+QueueWay Sphere,QWY312,PICKING,QWAYRAP,
+QueueWay Contemporary,QWY314,PICKING,QWAYRAP,

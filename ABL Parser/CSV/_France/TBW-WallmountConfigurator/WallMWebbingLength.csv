@@ -1,0 +1,12 @@
+id,uom,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,is_custom_length,fgnum_addition,897_weblengthupcharge,896_weblengthupcharge,899_weblengthupcharge
+2.00,m,,,,,x,,,,,,,,,,,,
+2.30,m,x,,,,x,,,,,,x,,,,,0,
+3.45,m,,x,,,,,,,,,,,,,,,
+3.65,m,,x,,,,,x,,,,,,,,,0,
+4.00,m,,x,,,,,,,,,,,,,,,
+4.60,m,,,x,,,x,,x,,,,,,,,,
+7.70,m,,,,x,,,,,x,,,,,,,,0
+8.50,m,,,,x,,,,,,,,,,,,,
+9.00,m,,,,x,,,,,,,,,,,,,0
+Custom,m,x,x,x,x,x,x,x,x,x,x,x,,TRUE,,,,
+23.00,m+0.2,,,,,,,,,,x,,,,,,,

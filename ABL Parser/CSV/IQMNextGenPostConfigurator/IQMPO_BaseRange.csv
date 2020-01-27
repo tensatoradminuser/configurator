@@ -1,0 +1,8 @@
+base_type,base_part_no,base_finish_lookup,cover_part_no,base_kit_part_no,base_box_part_no,fg_base_filter,base_protector,2inch_height_subtraction,2.5inch_height_subtraction,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,base_comment,listprice_reserve,base_image_lookup,smartcode_entry
+MK2 Universal Std U,11795,universalmk2,11797,52902-33S,05272-000,universal,,51,51,x,,,,,,,,,,,,,,,,,,,,Universal,10.49,universal,U
+MK2 Universal Heavy UH,11796,universalheavymk2,11797,52902-33S,05272-000,universalheavy,,51,51,x,,,,,,,,,,,,,,,,,,,,Universal Heavyweight,17.18,universal,UH
+MK2 Basics Heavy BH,11796,basicsheavymk2,11890,52902-33S,05272-000,basicsheavy,,51,51,x,,,,,,,,,,,,,,,,,,,,Basics Heavyweight,15.37,basics,BH
+MK2 Basics Std B,11795,basicsmk2,11890,52902-33S,05272-000,basics,,51,51,x,,,,,,,,,,,,,,,,,,,,Basics,8.68,basics,B
+MK2 7kg Weight Only,11795,universalmk2,,52902-33S,05272-000,universalbaseonly,,51,51,x,,,,,,,,,,,,,,,,,,,,Universal,6.39,baseonly,U
+MK2 14kg Weight Only,11796,universalheavymk2,,52902-33S,05272-000,universalheavybaseonly,,51,51,x,,,,,,,,,,,,,,,,,,,,Universal Heavyweight,13.08,baseonly,UH
+No Base,,,,,,nobase,,16,16,x,,,,,,,,,,,,,,,,,,,,No Base,0,nobase,

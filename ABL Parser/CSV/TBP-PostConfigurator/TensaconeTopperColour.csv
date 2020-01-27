@@ -1,0 +1,5 @@
+id,part_num,active_status,r1,r2,r3,smartcode_colref,add_part1,add_qty1,add_part2,add_qty2,cass_range
+Orange (015),01092-015,x,,,,015,02565-33S,4,02090-000,1,32
+Blue (23),01092-23,x,,,,23,02565-33S,4,02090-000,1,35
+Yellow (35),01092-35,,,,,35,02565-33S,4,02090-000,1,35
+Green (28),01092-28,,,,,28,02565-33S,4,02090-000,1,

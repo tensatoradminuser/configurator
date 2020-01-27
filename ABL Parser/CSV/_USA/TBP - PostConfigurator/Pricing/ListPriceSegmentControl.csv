@@ -1,0 +1,21 @@
+id,seg2,seg3,seg4,seg5,seg6,seg7,seg8,seg9,seg10,seg11,seg12
+,Base Style + Base Finish,Base Cover Finish,Post Finish + Post Head Finish,CassType,WebbingLength,Tape End,Dual Cass Type,Dual Webbing Length,Dual Tape End,Base Protector,TopCap Label
+csv_columnref,_baseupcharge,_basecoverfinishupcharge,_postfinishupcharge,_cassupcharge,_weblengthupcharge,_tapeendupcharge,_dualcassupcharge,_dualweblengthupcharge,_dualtapeendupcharge,_baseprotectorupcharge,(Calc Via Part Record Sales Price)
+889,std,FALSE,889,FALSE,889,889,FALSE,FALSE,FALSE,std,TRUE
+889T2,std,FALSE,889,FALSE,889,889,FALSE,889T2,889T2,std,TRUE
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,

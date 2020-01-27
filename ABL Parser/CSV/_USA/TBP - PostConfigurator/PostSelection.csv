@@ -1,0 +1,29 @@
+id,post_part_no,dual_post_part_no,post_finish_column_search,dual_post_finish_column_search,subpost_finish_column_search,base_range,dual_base_range,cassette_range,dual_cassette_range,post_packing_box,Dual_Option,pack_as_pairs,reflective_strip,slug_option,slug_partnum,utility_ring,utility_ring_partnum,post_assybom,stowaway_bag,slimline_post_head,allenkey_option,allenkey_partnum,allenkey_qty,purchasedaspairs_stockedaseach,qtymultiplier_conditionexclude,addpart1_partnum,addpart1_qty,addpart1bom,post_comment,cycle_time_selector,postfg_num,weblength_fgnum_addition,oper_code,fromstock_oper_code,base_listprice,dualline_base_listprice,suspend_selection
+Advance 680mm Height,11643,,680_post,,,19,,1,,,,,,,,,,,,,,,,,,,,,Advance 680mm,std,889/680,,TBPBuild,PICKING,,,TRUE
+Advance_889,730450,730550,Advance_889,Advance_889_dual,,1,24,1,2,,TRUE,,,DUALDEFAULT,,,,,,,,,,,,,,,Advance 889,std,889,FALSE,TBPBuild,PICKING,100,196,
+Advance_889 Basics Base (Pre-Assembled),889B,,Advance_889B_post,,,23,,1,,,,,,,,,,,,,,,,,,,,,Advance 889,alt,889,,TBPBuild,PICKING,,,
+Advance_889 Universal Base (Pre-Assembled),889U,,Advance_889_post,,,2,,1,,,,,,,,,,,,,,,,,,,,,Advance 889,alt,889,,TBPBuild,PICKING,100,,
+Gallery,780800,,,,,,,,,,,,,,,,,890HeadAssy,,700000,,,,,,,,,,,,,,,,,
+HeavyDuty_886 (Bayonet),700480,730986,heavyduty_post,heavyduty_dual,,14,26,17,2,,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,HeavyDuty_886 (Bayonet),std,886,,TBPBuild,PICKING,,,
+HeavyDuty_886 (Screwfix),700480,730986,heavyduty_screwfix_post,heavyduty_dual_screwfix_post,,15,27,1,2,,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,HeavyDuty_886 (Screwfix),std,886,,TBPBuild,PICKING,,,
+HeavyDuty_Plus_886P (Screwfix Option),53161,,heavyduty150_screwfix_post,,,16,,5,,,,TRUE,TRUE,,,,,,,,,,,,,,,,HeavyDuty_Plus_886P (Screwfix),std,886P,,TBPBuild,PICKING,,,TRUE
+HeavyDuty_Plus_886P (Bayonet Option),05332,,heavyduty150_screwfix_post,,,17,,5,,,,TRUE,TRUE,,,,,,,,,,,,,,,,HeavyDuty_Plus_886P (Bayonet),std,886P,,TBPBuild,PICKING,,,TRUE
+Marine Post,730450,,marine_post,,,22,,1,,,,,,,,,,,,,,,,,,,,,Marine,std,MARINE,,TBPBuild,PICKING,,,
+Outdoor_885,700480,,popular_post,,,13,,3,,,,TRUE,,,,,,,,,,,,,,,,,Outdoor_885,std,885,,TBPBuild,PICKING,,,
+Plus Advance_889P,08281,,wide_cassette_post,,,8,,5,,,,,,,,,,,,,,,,,,,,,Plus Advance_889P,std,889P,,TBPBuild,PICKING,,,
+Plus Advance_889P (Pre-Assembled),889PBHW,,889phw_subpost,,,16,,5,,,,,,,,,,,,,,,,,,,,,Plus Advance_889P,std,889P,,TBPBuild,PICKING,,,
+Plus Advance_Rollabarrier_889P,08281,,wide_cassette_post,,,9,,8,,,,,,,,,,,,,,,,,,,,,Plus Advance_889P,std,RB1,,TBPBuild,PICKING,,,
+Popular_875,700480,,popular_post,,,12,,4,,,,TRUE,,,,,,,,,TRUE,700659,1,,,,,,Popular_875,std,875,,TBPBuild,PICKING,,,
+QwayPlus,QWAYPLUS,,qwayplus_post,,,9,,7,,,,,,,,,,,,,,,,,,,,,QwayPlus,std,QPLUS,,TBPBuild,PICKING,,,
+Rollabarrier RB1,730450,730550,Advance_889,Advance_889_dual,,5,5,1,2,,TRUE,,,DUALDEFAULT,,,,,,,,,,,,,,,Rollabarrier RB1,std,RB1,,TBPBuild,PICKING,,,
+Rollabarrier RB1 (Pre-Assembled),RB1-89,,rb1sub_post,,,25,,1,,,,,,,,,,,,,,,,,,,,,Rollabarrier RB1,std,RB1,,TBPBuild,PICKING,,,
+Rotating Post,55918,,rotateheadmain_post,,rotateheadsub_post,21,,38,,,,,,,,,,56126-CONFIG,,700000,,,,,,,,,Rotating,std,360,,TBPBuild,PICKING,,,TRUE
+Rotating Post (Pre-Assembled),55919,,rotateheadassy_post,,,21,,38,,,,,,,,,,,,,,,,,,,,,Rotating,std,360,,TBPBuild,PICKING,,,TRUE
+Safety_888,780800,,safety888_post,,safety888sub_post,7,,6,,,,TRUE,,,,,,890HeadAssy,,700000,,,,,,,,,Safety_888,std,888,,TBPBuild,PICKING,,,
+Slimline_890,780800,,slimline_890_build,,slimline_890_build_head,3,,1,,,,,,,,,,890HeadAssy,,700000,,,,,,,,,Slimline 890,std,890,,TBPBuild,PICKING,,,
+Slimline_890U (Pre-Assembled),890U,,Slimline_890,,,4,,1,,,,,,,,,,,,,,,,,,,,,Slimline 890,alt,890,,TBPBuild,PICKING,,,
+Slimline_890B (Pre-Assembled),890B,,slimline_890b_build,,,6,,1,,,,,,,,,,,,,,,,,,,,,Slimline 890B,std,890,,TBPBuild,PICKING,,,
+Stowaway SA1,700480,,stow_post,,,10,,33,,,,,,,,,,,930801,,,,,,TRUE,,,,Stowaway SA1,std,SA,FALSE,TBPBuild,PICKING,,,
+Telescopic Sign Post,11986,,telescopic_post,,,20,,37,,,,,,,,,,56143-CONFIG,,,,,,,,,,,Telescopic Sign,std,893,,TBPBuild,PICKING,,,TRUE
+Tensaclear_TCL,05594,,tensaclear_post,,,18,,1,,,,TRUE,,,,,,,,,,,,,,,,,Tensaclear_TCL,std,TCL,,TBPBuild,PICKING,,,
+Utility_887,730450,,utility887_post,,,6,,1,,,,,,,,,,,,,,,,,,,,,Utility_887,std,887,,TBPBuild,PICKING,,,

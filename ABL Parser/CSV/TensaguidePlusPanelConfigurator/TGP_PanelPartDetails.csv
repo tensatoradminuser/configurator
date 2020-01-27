@@ -1,0 +1,9 @@
+lookup_ref,fg_num,panel_part_prefix,panel_part_prefix2,slat_infill_part_num,num_panel_infills,include_adaptors,adaptor_part1,adaptor_part1_qty,adaptor_part2,adaptor_part2_qty,adaptor_part3,adaptor_part3_qty
+slot-full-1340-2.5inch-HeavyDuty,TBP210,03313,,,,True,09075-012,4,02041-91,3.93,,
+slot-extra-1340-2.5inch-HeavyDuty,TBP220,03315,,,,True,,,,,,
+slat-full-1340-2.5inch-HeavyDuty,TBP410,03287,,,,,,,,,,
+slat-extra-1340-2.5inch-HeavyDuty,TBP420,03289,,,,,,,,,,
+acrylic-full-1340-2.5inch-HeavyDuty,TBP110,06261,,,,True,05843-000,1.412,,,,
+acrylicheader-955-1340-2.5inch-HeavyDuty,TBP150,03281,03280,,,,,,,,,
+acrylic-full-1000-2.5inch-HeavyDuty,TBP100,11926,,,,,,,,,,
+acrylic-full-1900-2.5inch-HeavyDuty,TBP190,11925,,,,,,,,,,

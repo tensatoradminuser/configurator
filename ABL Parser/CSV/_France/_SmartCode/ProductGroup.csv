@@ -1,0 +1,18 @@
+id,group_code,standard_ref,solution_ref
+Tensabarrier,TBR,x,x
+Tensabmedia,TME,,x
+Signaletique,DAS,,x
+Poteau et cordon,RAP,x,
+QueueWay,QWY,x,
+Kit de vente,SKP,x,x
+Controle d'acces,ACC,,x
+Hotellerie,HOS,,x
+Installation,INST,,x
+Point de vente caisse,IQM,,x
+File unique,SLQ,,x
+Tensaguide,TGU,,x
+Tensaguide Plus,TGP,,x
+MSM,MSM,,x
+VQMS,VQMS,,x
+Service,SVC,,x
+Tensator Micam System,TMS,,x

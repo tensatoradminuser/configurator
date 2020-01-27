@@ -1,0 +1,6 @@
+id,pdu_option,cdu_option,smartcode_ledtype
+LED RGA,,x,LR
+STD RGA,x,,SR
+Micro RGA,x,,MR
+STDMic RGA,x,,SMR
+LightPanel,x,,LP

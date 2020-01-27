@@ -1,0 +1,57 @@
+id,cassette_assy,prewind_option,web_type,web_length,wedge_partnum,web_pt_search,fg_filter,tape_end_range,topcap_label_denial,topcap_label_part_prefix,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30,r31,r32,r33,r34,r35,cassfg_num,comment_string,cycle_time_selector,tensalarm_resetfob_partnum,alrmop_time,dustcover_option,r36,padprint_smartcode_suffix,smart_cass_id,topcap_included,NightView_max_length_m,Standard_max_length,fg_desc_type,suspend_selection,web_length_group1,web_length_group2,web_length_group3,web_length_group4,web_length_group5,base_listprice
+pas de cassette,,,,,,,No Cassette,,TRUE,,x,x,x,x,x,,,,,,,,,,,,x,,,,,,,,,,,,,,x,,x,,,,,,,,,,,0,,,,,,,,,,,
+Cassette Tensabrrier standard 3 arrivee 1 depart,53577-AAB,TRUE,STD,1,05968-000,04837,Standard,1,,03466,x,,,x,,,,,,,,,,,,,x,x,,x,,,,,,,,,,,,,,,,CAS,Standard Cassette,std,,,00982-33S,,,1,TRUE,,,,,2.3,,,,,0
+Cassette Tensabrrier standard 3 arrivee 1 depart,53577-AAA,TRUE,STD,1,05968-000,04837,Standard,1,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CAS,Standard Cassette,std,,,00982-33S,,007,2,FALSE,,,,,2.3,,,,,0
+Cassette Tensabrrier standard max 3 arrivee 1 depart,53578-AAB,TRUE,MAX,2,05968-000,08136,Max,1,,03466,x,,x,x,,,,,,,,,,,,,x,,x,,,x,,,,,,,,,,,x,,x,CAS,Max Cassette,std,,,00982-33S,,,3,TRUE,3.45,,,,3.65,,,,,0
+Cassette Tensabrrier imprimee max 3 arrivee 1 depart,53578-AAA,TRUE,MAX,2,05968-000,08136,Max,1,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CAS,Max Cassette,std,,,00982-33S,,007,4,FALSE,3.45,,,,3.65,,,,,0
+ergot magnetic standard cassette plaine,54173-000,,STD,1,,04837,Standard,1,,03466,x,,,x,,,,,,,,,,,,,x,,,,,,,x,,,,,,,,,,,,CAS-MAG,Magnetic Standard Cassette.,std,,,,,,5,TRUE,,,,,,,,,,
+ergot magnetique max cassette plaine,54174-000,,MAX,2,,08136,Magnetic,1,,03466,x,,,x,,,,,,,,,,,,,x,,,,,,,x,,,,,,,,x,,,,CAS-MAG,Magnetic Max Cassette,std,,,,,,6,TRUE,3.45,,,,,,,,,
+ergot magnetique cassette factice,52451-000,,RCV,,,,End Post,,,03466,x,,,x,,,,,,,,,,,,,x,,,,,,,x,,,,x,,,,x,,,,CAS-MAG-RCV,Magnetic Dummy Cassette,std,,,,,,7,TRUE,,,,,,,,,,
+tensalarm 3 arrivee 1 depart,55813-33S,,STD,1,,04837,Alarm,1,,03466,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,CAS,Tensalarm Standard Cassette,std,,20,,,,8,TRUE,,,,,,,,,,
+tensalarm 3 arrivee 1 depart + alarme,55818-33S,,STD,1,,04837,Alarm,1,,03466,,,,,,,,,,,,,x,,,,,,,,,,,,x,,,,,,,,,,,CAS,Tensalarm Standard Cassette,std,55490-000,20,,,,9,TRUE,,,,,,,,,,
+tensalarm 3 arrivee 1 depart max,52309-33S,,MAX,2,,08136,Alarmmax,1,,03466,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,CAS,Tensalarm Max Cassette,std,,20,,,,10,TRUE,3.45,,,,,,,,,
+tensalarm 3 arrivee 1 depart max + alarme,52310-33S,,MAX,2,,08136,Alarmmax,1,,03466,,,,,,,,,,,,,x,,,,,,,,,,,,x,,,,,,,,,,,CAS,Tensalarm Max Cassette,std,55490-000,20,,,,11,TRUE,3.45,,,,,,,,,
+cassette tensabarrier Munich magnetique,52302-000,,STD,1,,04837,Magnetic,1,,03466,x,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,CAS-MAG,Munich Magnetic Cassette,std,,,,,,12,TRUE,,,,,,,,,,
+cassette tensabarrier Schipol magnetique,52303-000,,STD,1,,04837,Magnetic,1,,03466,x,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,CAS-MAG,Schipol Magnetic Cassette,std,,,,,,13,TRUE,,,,,,,,,,
+cassette max tensabarrier Munich magnetique,52315-000,,MAX,2,,08136,Magnetic,1,,03466,x,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,CAS-MAG,Munich Magnetic Max Cassette,std,,,,,,14,TRUE,3.45,,,,,,,,,
+cassette max tensabarrier Schipol magnetique,52316-000,,MAX,2,,08136,Magnetic,1,,03466,x,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,CAS-MAG,Schipol Magnetic Max Cassette,std,,,,,,15,TRUE,3.45,,,,,,,,,
+poteau Dualline 4way,54014-000,,STD,1,,04837,Standard,1,TRUE,,,x,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,,CASD,Dualline Standard Cassette,std,,,,,,16,FALSE,,,,,,,,,,
+poteau Dualline Max 4way,54082-000,,MAX,2,,08136,Max,1,TRUE,,,x,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,CASD,Dualline Max Cassette,std,,,,,,17,FALSE,3.45,,,,,,,,,
+poteau receveur Dualline,58578-33S,,RCV,,,,End Post,1,TRUE,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,CASD-RCV,Dualline Dummy Cassette,std,,,,,,18,FALSE,,,,,,,,,,
+poteau Dualline Heavyduty 4way,59235-33S,,STD,1,,04837,Standard,1,TRUE,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,CASD-ZINC,Dualline HeavyDuty Standard Cassette,std,,,,,,19,FALSE,,,,,,,,,,
+poteau Dualline Heavyduty Max 4way,50478-33S,,MAX,2,,08136,Max,1,TRUE,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,CASD-ZINC,Dualline HeavyDuty Max Cassette,std,,,,,,20,FALSE,3.45,,,,,,,,,
+poteau receveur Dualline Heavyduty,69235-33S,,RCV,,,,End Post,,TRUE,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,CASD-ZINC-RCV,Dualline HeavyDuty Dummy Cassette,std,,,,,,21,FALSE,,,,,,,,,,
+cassette Dualline Magnetic Standard,54175-AAB,,STD,1,,04837,Standard,1,TRUE,,,x,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,CASD-MAG,Dualline Magnetic Standard Cassette,std,,,,,,22,FALSE,,,,,,,,,,
+poteau Universal Heavyduty 4way,54017-000,,HDY,1,,04837,Standard,1,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,CAS-ZINC,HeavyDuty Standard Cassette,std,,,,,,23,TRUE,,,,,,,,,,
+poteau Universal Heavyduty Max 4way,54532-000,,MAX,2,,08136,Max,1,,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,CAS-ZINC,HeavyDuty Max Cassette,std,,,,,,24,TRUE,3.45,,,,,,,,,
+4 Way Dummy Tensator Imprime,54043-AAC,,RCV,,,,End Post,,TRUE,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CAS-RCV,Dummy Cassette,std,,,,,007,25,FALSE,,,,,,,,,,0
+4 Way Dummy entier,54043-AAD,,RCV,,,,End Post,,,03466,x,,x,x,,,,,,,,,,,,,x,,,,,,,,,,,x,,,,,,,,CAS-RCV,Dummy Cassette,std,,,,,,26,TRUE,,,,,,,,,,0
+4 Way Zinc Dummy entier,54048-000,,RCV,,,,End Post,,,03466,x,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,x,,,,,CAS-ZINC-RCV,HeavyDuty Dummy Cassette,std,,,,,,27,TRUE,,,,,,,,,,0
+poteau Wide webbing 150mm imprime Tensator,54159-AAC,,WDE,3,02918-33S,03893,Wide webbing 150mm,2,TRUE,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CAS-PLUS,Plus Cassette,std,,,,,007,28,FALSE,,,,,,,,,,0
+poteau Wide Webbing 150mm dummy entier,54160-AAD,,RCV,,02918-33S,,End Post,,,03466,,,,,x,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,CAS-PLUS-RCV,Plus Dummy Cassette,std,,,,,,29,TRUE,,,,,,,,,,0
+poteau Wide webbing 150mm entier,54159-AAD,,WDE,3,02918-33S,03893,Wide webbing 150mm,2,,03466,,,,,x,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,CAS-PLUS,Plus Cassette,std,,,,,,30,TRUE,,,,,,,,,,0
+poteau Ruban large 150mm Dualline,54211-000,,WDE,3,02918-33S,03893,Wide webbing 150mm,2,,03466,,,,,,,,,,x,,,,,,,,,,,,,,,,,x,,,,,,,,,CASD-PLUS,Plus Dualline Cassette,std,,,,,,31,FALSE,,,,,,,,,,
+poteau Ruban large 150mm dummy Tensator printed,54160-AAC,,RCV,,02918-33S,,End Post,,TRUE,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CAS-PLUS-RCV,Plus Dummy Cassette,std,,,,,007,32,FALSE,,,,,,,,,,
+poteau receveur Ruban large 150mm Dualline end post,52208-000,,RCV,,02918-33S,,End Post,,,03466,,,,,,,,,,x,,,,,,,,,,,,,,,,,,x,,,,,,,,CASD-PLUS-RCV,Plus Dualline Dummy Cassette,std,,,,,,33,FALSE,,,,,,,,,,
+Qmatic Standard Cassette,55161-AAA,,STD,1,,04837,,3,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,CAS,Qmatic Standard Cassette,std,,,,,,34,TRUE,,,,,,,,,,
+Qmatic Max Cassette,55162-AAA,,MAX,4,,08136,,3,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,CAS,Qmatic Max Cassette,std,,,,,,35,TRUE,3.45,,,,,,,,,
+Qmatic Dummy Cassette,55163-AAA,,RCV,,,,,3,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,CAS-RCV,Qmatic Dummy Cassette,std,,,,,,36,TRUE,,,,,,,,,,
+Cassette Zinc Standard 4way,54017-000,,STD,1,,04837,,4,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,CAS-ZINC,HeavyDuty Standard Cassette,std,,,,,,23,TRUE,,,,,,,,,,
+Cassette Zinc Max 4way,54532-000,,MAX,4,,08136,,4,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,CAS-ZINC,HeavyDuty Max Cassette,std,,,,,,24,TRUE,3.45,,,,,,,,,
+Tensacone Orange Max Cassette 4 Way,53657-015,,MAX,5,,08136,,5,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,CAS-TOPPER,Tensacone Max Cassette (Orange),std,,,,,,37,TRUE,3.45,,,,,,,,,
+Tensacone Orange Dummy,54157-015,,RCV,,,,End Post,,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,CAS-TOPPER,Tensacone Dummy Cassette (Orange),std,,,,,,38,TRUE,,,,,,,,,,
+Element mural Midi Interior,53737-000,,STD,6,,04837,Standard,1,TRUE,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,CAS-WM,Midi Interior,std,,,,,,39,FALSE,,,,,,,,,,
+Element mural  Maxi Interior,50061-000,,STD,7,,04837,Standard,1,TRUE,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,CAS-WM,Maxi Interior,std,,,,,,40,FALSE,8.50,,,,,,,,,
+Qmatic sans Cassette,,,,,,,No Cassette,,TRUE,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,,0,FALSE,,,,,,,,,,
+Element mural sangle large Midi Interior,54102-000,,STD,3,,03893,Wide webbing 150mm,2,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,CAS-PLUS-WM,Midi Plus Interior,std,,,,,,41,FALSE,,,,,,,,,,
+Cassette Munich Magnetique Dummy,55578-CONFIG,,RCV,,,,End Post,,,03466,x,,,x,,,,,,,,,,,,,x,,,,,,,x,,,,x,,,,x,,,,CAS-MAG-RCV,Munich Magnetic Dummy Cassette,std,,,,,,42,TRUE,,,,,,,,,,
+Cassette Munich Magnetique Dualline Max 4way,55580-CONFIG,,MAX,2,,08136,Max,1,TRUE,03466,,x,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,,,,,,CASD-MAG,Munich Max Dualline Cassette,std,,,,,,43,FALSE,3.45,,,,,,,,,
+Munich Magnetique Dualline Dummy,55579-CONFIG,,RCV,,,,End Post,,,03466,,x,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,,,CASD-MAG-RCV,Munich Magnetic Dualline Dummy Cassette,std,,,,,,44,FALSE,,,,,,,,,,
+Qmatic Magnetic Std,54173-000,,STD,1,,04837,,1,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,,CAS-MAG,Magnetic Standard Cassette.,std,,,,,,5,TRUE,,,,,,,,,,
+Tensabright 4 Way Std Plain,53577-AAB,,STD,1,,11513,Standard,7,,03466,x,,,x,,,,,,,,,,,,,x,,,,,,,,,,,,,,,,,,,CAS,Tensabright Standard Cassette,std,,,,x,,1,TRUE,,,tensabright,,,,,,,
+poteau Tensabright 4 Way Standard imprime,53577-AAA,,STD,1,,11513,Standard,7,TRUE,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CAS,Tensabright Standard Cassette,std,,,,,007,2,FALSE,,,tensabright,,,,,,,
+poteau Tensabright Dualline 4way,54014-000,,STD,1,,11513,Standard,7,TRUE,03466,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CASD,Tensabright Dualline Cassette,std,,,,x,,16,FALSE,,,tensabright,,,,,,,
+poteau Tensabright Zinc 4 Way Standard,54017-000,,STD,1,,11513,Standard,7,,03466,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,,CAS-ZINC,Tensabright HeavyDuty Cassette,std,,,,x,,23,TRUE,,,tensabright,,,,,,,
+poteau Tensabright Dualline Zinc 4 Way,59235-33S,,STD,1,,11513,Standard,7,TRUE,03466,,x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,CASD-ZINC,Tensabright HeavyDuty Dualline Cassette,std,,,,x,,19,FALSE,,,tensabright,,,,,,,
+cassette magnetique Tensabright Orange Max 4 Way,53657-015,,MAX,1,,11513,Max,5,,03466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,x,,,,CAS-TOPPER,Tensabright Tensacone Max Cassette (Orange),std,,,,,,37,TRUE,3.45,,tensabright,,,,,,,
+cassette magnetique Munich standard Dualline 4way,55942-CONFIG,,STD,1,,04837,Standard,1,TRUE,03466,,x,,,,,,,,,,,,,,,,,,,x,,,x,,,,,,,,,,,,CASD-MAG,Munich Std Dualline Cassette,std,,,,,,45,FALSE,,,,,,,,,,

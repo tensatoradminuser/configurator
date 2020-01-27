@@ -1,0 +1,4 @@
+cust_num,cust_name,mandatory,TBP,TBW,TBC,RAP,TBS,TBR,notes
+1,Tensator Inc,FALSE,lookup,lookup,lookup,lookup,lookup,lookup,lookup or dynamic
+2,Amazon,TRUE,lookup,lookup,lookup,lookup,lookup,lookup,
+4,Test,FALSE,lookup,lookup,lookup,lookup,lookup,lookup,

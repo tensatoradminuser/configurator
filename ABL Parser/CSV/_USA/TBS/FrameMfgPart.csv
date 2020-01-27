@@ -1,0 +1,17 @@
+id,part_prefix,add_part1,add_part1_qty,add_part2,add_part2_qty,add_assy1_part,adaptor_range,r1,r2,r3,r4,r5,r6,7x11-V-LD,7x11-V-HD,7x11-H-LD,7x11-H-HD,8.5x11-V-LD,8.5x11-V-HD,8.5x11-H-LD,8.5x11-H-HD,11x14-V-LD,11x14-V-HD,11x14-H-LD,11x14-H-HD,14x22-V-LD,14x22-V-HD,14x22-H-LD,14x22-H-HD,22x28-V-LD,22x28-V-HD,22x28-H-LD,22x28-H-HD
+7x11 Light Duty Vertical Frame,870015,,,,,,1,,,,,,,x,,,,,,,,,,,,,,,,,,,
+7x11 Heavy Duty Vertical Frame,870043,,,,,,2,,,,,,,,x,,,,,,,,,,,,,,,,,,
+7x11 Light Duty Horizontal Frame,870001,,,,,,1,,,,,,,,,x,,,,,,,,,,,,,,,,,
+7x11 Heavy Duty Horizontal Frame,870029,,,,,,2,,,,,,,,,,x,,,,,,,,,,,,,,,,
+8.5x11 Light Duty Vertical Frame,870600,,,,,,1,,,,,,,,,,,x,,,,,,,,,,,,,,,
+8.5x11 Heavy Duty Vertical Frame,870640,,,,,,2,,,,,,,,,,,,x,,,,,,,,,,,,,,
+8.5x11 Light Duty Horizontal Frame,870680,,,,,,1,,,,,,,,,,,,,x,,,,,,,,,,,,,
+8.5x11 Heavy Duty Horizontal Frame,870720,,,,,,2,,,,,,,,,,,,,,x,,,,,,,,,,,,
+11x14 Light Duty Vertical Frame,870071,,,,,,1,,,,,,,,,,,,,,,x,,,,,,,,,,,
+11x14 Heavy Duty Vertical Frame,870100,,,,,,2,,,,,,,,,,,,,,,,x,,,,,,,,,,
+11x14 Light Duty Horizontal Frame,870057,,,,,,1,,,,,,,,,,,,,,,,,x,,,,,,,,,
+11x14 Heavy Duty Horizontal Frame,870085,,,,,,2,,,,,,,,,,,,,,,,,,x,,,,,,,,
+14x22 Heavy Duty Vertical Frame,870130,,,,,,2,,,,,,,,,,,,,,,,,,,,x,,,,,,
+14x22 Heavy Duty Horizontal Frame,870115,,,,,,2,,,,,,,,,,,,,,,,,,,,,,x,,,,
+22x28 Heavy Duty Vertical Frame,870160,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,x,,
+22x28 Heavy Duty Horizontal Frame,870146,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,x

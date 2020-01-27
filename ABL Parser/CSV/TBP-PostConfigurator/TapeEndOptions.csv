@@ -1,0 +1,17 @@
+tape_end,part_no,r1,r2,r3,r4,r5,r6,webtype,smart_code,r7
+Anti-Tamper,STE-CONFIG,x,,,,,x,cut,STE,x
+Panic Break,PBTE-CONFIG,x,,,x,,x,roll,PBTE,
+Wire Clip,WCTE-CONFIG,x,,,,,x,roll,WCTE,x
+One Way Loop,OWLTE-CONFIG,x,,,,,x,roll,OWLTE,
+Soft Tape End,SRTE-CONFIG,x,,,x,,x,cut,SRTE,x
+Munich Magnetic,52321-CONFIG,x,,,,,,cut,MM,x
+One Piece Magnetic,52345-CONFIG,,,,,,,cut,OME,
+Standard Magnetic,SMTE-CONFIG,x,,,x,,x,cut,MTE,x
+150mm Anti-Tamper,52322-CONFIG,,x,,,,,roll,PAT,
+150mm One Way Loop Dual set,54098-CONFIG,,x,,,,,roll,POW,
+150mm Magnetic,52914-CONFIG,,x,,,,,roll,PSM,
+Qmatic,QM571-CONFIG,,,x,,,,cut,QM,
+Product Standard,,,,,,x,,,PS,
+TP75A Soft,ADV572-ACONFIG,,,,,,,cut,TP75A,x
+Tensacone Std Magnetic,55772-CONFIG,,,,,x,,cut,MTE,
+Unbranded Anti-Tamper,STEBLANK-CONFIG,x,,,x,,x,cut,STE,x

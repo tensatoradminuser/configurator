@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06C32327-C1CE-4B16-83A5-44CDEAA2F6CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ABL_Parser</RootNamespace>
+    <AssemblyName>ABL Parser</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="CSV\ACC-AccessControlConfigurator\AccessControlArmTypes.csv" />
+    <None Include="CSV\ACC-AccessControlConfigurator\AccessControlFixings.csv" />
+    <None Include="CSV\ACC-AccessControlConfigurator\AccessControlGateArmStickers.csv" />
+    <None Include="CSV\ACC-AccessControlConfigurator\AccessControlGatePacking.csv" />
+    <None Include="CSV\ACC-AccessControlConfigurator\AccessControlGateTypes.csv" />
+    <None Include="CSV\ACC-AccessControlConfigurator\AccessControlSplitCups.csv" />
+    <None Include="CSV\ACC-AccessControlConfigurator\AccessControlTriggerTypes.csv" />
+    <None Include="CSV\CBS-CageBannerConfigurator\CafeBannerBannerType.csv" />
+    <None Include="CSV\CBS-CageBannerConfigurator\CafeBannerPostType.csv" />
+    <None Include="CSV\CBS-CageBannerConfigurator\CafeBannerRodType.csv" />
+    <None Include="CSV\ENGJOBConfigurator\ProductGroup.csv" />
+    <None Include="CSV\FRS-FixedRailSystemConfiguration\FixedRailSystem.csv" />
+    <None Include="CSV\FRS-FixedRailSystemConfiguration\FixedRailSystemTypes.csv" />
+    <None Include="CSV\IQMNextGenBeamConfigurator\IQMBE_BeamType.csv" />
+    <None Include="CSV\IQMNextGenBeamConfigurator\IQMBE_MarginValue.csv" />
+    <None Include="CSV\IQMNextGenBeamConfigurator\IQMBE_PostCentre.csv" />
+    <None Include="CSV\IQMNextGenPanelConfigurator\IQMPA_MarginValue.csv" />
+    <None Include="CSV\IQMNextGenPanelConfigurator\IQMPA_PanelType.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_BaseFinish.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_BaseProtectors.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_BaseRange.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_FinishedGoodsNum.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_MarginValue.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_PostHeight.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_PostSubType.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_PostType.csv" />
+    <None Include="CSV\IQMNextGenPostConfigurator\IQMPO_TopCapFinish.csv" />
+    <None Include="CSV\MERchandisingAccessories\Accessories.csv" />
+    <None Include="CSV\ModularHandRailConfigurator\MODHAND_MarginValue.csv" />
+    <None Include="CSV\ModularHandRailConfigurator\ModularHandRailFinish.csv" />
+    <None Include="CSV\ModularHandRailConfigurator\ModularHandRailItems.csv" />
+    <None Include="CSV\ModularHandRailConfigurator\ModularHandRailPrices.csv" />
+    <None Include="CSV\ModularHandRailConfigurator\ModularHandRailTypes.csv" />
+    <None Include="CSV\RECessUnitConfiguration\RecessAlarmOptions.csv" />
+    <None Include="CSV\RECessUnitConfiguration\RecessUnitCutLengthWebbingAlternate.csv" />
+    <None Include="CSV\RECessUnitConfiguration\RecessUnitTapeEndOptions.csv" />
+    <None Include="CSV\RECessUnitConfiguration\RecessUnitType.csv" />
+    <None Include="CSV\RECessUnitConfiguration\RecessUnitWallClips.csv" />
+    <None Include="CSV\RECOILsConfigurator\RecoilPads.csv" />
+    <None Include="CSV\RECOILsConfigurator\RecoilPads_Validation.csv" />
+    <None Include="CSV\RECOILsConfigurator\RecoilTranslations.csv" />
+    <None Include="CSV\SLQ1000Configurator\SLQ1000Finish.csv" />
+    <None Include="CSV\SLQ1000Configurator\SLQ1000Mountings.csv" />
+    <None Include="CSV\SLQ1000Configurator\SLQ1000Type.csv" />
+    <None Include="CSV\SLQ1000Configurator\SLQ1000Voices.csv" />
+    <None Include="CSV\SLQ2000Configurator\SLQ2000CoreParts.csv" />
+    <None Include="CSV\SLQ2000Configurator\SLQ2000Finish.csv" />
+    <None Include="CSV\SLQ2000Configurator\SLQ2000TypeOption.csv" />
+    <None Include="CSV\SLQ3000Configurator\SLQ3000PartDetails.csv" />
+    <None Include="CSV\SmartCode\CostPermissionsList.csv" />
+    <None Include="CSV\SmartCode\CountryPalletTypes.csv" />
+    <None Include="CSV\SmartCode\SalesCurrencyRates.csv" />
+    <None Include="CSV\SmartCode\Sectors.csv" />
+    <None Include="CSV\TBP-PostConfigurator\CassetteRange.csv" />
+    <None Include="CSV\TBP-PostConfigurator\QmaticCassetteFGLookup.csv" />
+    <None Include="CSV\TBP-PostConfigurator\TapeEndOptions.csv" />
+    <None Include="CSV\TBP-PostConfigurator\TensaconeTopperColour.csv" />
+    <None Include="CSV\TBP-PostConfigurator\TopLevelCassetteRange.csv" />
+    <None Include="CSV\TensabarrierSignHolderConfiguration\SignHolderFrameOption.csv" />
+    <None Include="CSV\TensabarrierSignHolderConfiguration\SignHolderType.csv" />
+    <None Include="CSV\TBC-TensaguideBeamConfigurator\TensaguideBeamFinish.csv" />
+    <None Include="CSV\TBC-TensaguideBeamConfigurator\TensaguideBeamLengths.csv" />
+    <None Include="CSV\TBC-TensaguideBeamConfigurator\TensaguideBeamOptions.csv" />
+    <None Include="CSV\TBC-TensaguideBeamConfigurator\TensaguideBeamTypes.csv" />
+    <None Include="CSV\TensaguidePanelConfigurator\TensaguidePanelFinish.csv" />
+    <None Include="CSV\TensaguidePanelConfigurator\TensaguidePanelHeights.csv" />
+    <None Include="CSV\TensaguidePanelConfigurator\TensaguidePanelOptions.csv" />
+    <None Include="CSV\TensaguidePanelConfigurator\TensaguidePanelSides.csv" />
+    <None Include="CSV\TensaguidePanelConfigurator\TensaguidePanelTypes.csv" />
+    <None Include="CSV\TensaguidePanelConfigurator\TensaguidePanelWidths.csv" />
+    <None Include="CSV\TensaguidePlusBeamConfigurator\TGP_BeamEnd.csv" />
+    <None Include="CSV\TensaguidePlusBeamConfigurator\TGP_BeamEndAdaptor.csv" />
+    <None Include="CSV\TensaguidePlusBeamConfigurator\TGP_BeamType.csv" />
+    <None Include="CSV\TensaguidePlusBeamConfigurator\TGP_PostCentre.csv" />
+    <None Include="CSV\TensaguidePlusBeamConfigurator\TGP_SlotOption.csv" />
+    <None Include="CSV\TensaguidePlusPanelConfigurator\TGP_BeamTypeOptions.csv" />
+    <None Include="CSV\TensaguidePlusPanelConfigurator\TGP_PanelHeight.csv" />
+    <None Include="CSV\TensaguidePlusPanelConfigurator\TGP_PanelOptions.csv" />
+    <None Include="CSV\TensaguidePlusPanelConfigurator\TGP_PanelPartDetails.csv" />
+    <None Include="CSV\TensaguidePlusPanelConfigurator\TGP_PostCentreOptions.csv" />
+    <None Include="CSV\TensaguidePlusPanelConfigurator\TGP_PostTypeOptions.csv" />
+    <None Include="CSV\TensaguidePlusPostConfigurator\TGP_BaseFinish.csv" />
+    <None Include="CSV\TensaguidePlusPostConfigurator\TGP_BaseProtectors.csv" />
+    <None Include="CSV\TensaguidePlusPostConfigurator\TGP_BaseRange.csv" />
+    <None Include="CSV\TensaguidePlusPostConfigurator\TGP_FinishedGoodsNum.csv" />
+    <None Include="CSV\TensaguidePlusPostConfigurator\TGP_PostHeight.csv" />
+    <None Include="CSV\TensaguidePlusPostConfigurator\TGP_PostSubType.csv" />
+    <None Include="CSV\TensaguidePlusPostConfigurator\TGP_PostType.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguideBaseFinish.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguideBaseProtectors.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguideBaseRange.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguideCassetteRange.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguideCutLengthWebbingAlternate.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguidePostFinish.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguidePostHeightOptions.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguidePostOptions.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguideTapeEndOptions.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguideTopCapOptions.csv" />
+    <None Include="CSV\TensaguidePostConfigurator\TensaguideWebbingLength.csv" />
+    <None Include="CSV\_France\TBC-CassetteConfiguretor\Assembly_Stocking_Mode.csv" />
+    <None Include="CSV\_France\TBC-CassetteConfiguretor\AutoGenComment_Control.csv" />
+    <None Include="CSV\_France\TBC-CassetteConfiguretor\CassetteRange.csv" />
+    <None Include="CSV\_France\TBC-CassetteConfiguretor\Pricing\ListPriceSegmentControl.csv" />
+    <None Include="CSV\_France\TBC-CassetteConfiguretor\TapeEndOptions.csv" />
+    <None Include="CSV\_France\TBC-CassetteConfiguretor\TopLevelCassetteRange.csv" />
+    <None Include="CSV\_France\TBC-CassetteConfiguretor\WebbingLength.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\Assembly_Stocking_Mode.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\BaseFinish.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\BaseProtectors.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\BaseRange.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\CassetteRange.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\PostFinish.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\PostSelection.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\TapeEndOptions.csv" />
+    <None Include="CSV\_France\TBP-PostConfigurator\WebbingLength.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\Assembly_Stocking_Mode.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\AutoGenComment_Control.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\Pricing\ListPriceSegmentControl.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\WallMCassetteRange.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\WallmountFinishOptions.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\WallmountFixingKits.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\WallmountTypes.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\WallMTapeEndOptions.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\WallMWallClips.csv" />
+    <None Include="CSV\_France\TBW-WallmountConfigurator\WallMWebbingLength.csv" />
+    <None Include="CSV\_France\_SmartCode\1.csv" />
+    <None Include="CSV\_France\_SmartCode\ConfigTestModeCust.csv" />
+    <None Include="CSV\_France\_SmartCode\CountryPalletTypes.csv" />
+    <None Include="CSV\_France\_SmartCode\Customer_Part_Cross_References\Customer_CrossRef_Mandatory.csv" />
+    <None Include="CSV\_France\_SmartCode\Customer_Part_Cross_References\Dynamic_Lookup\TBC.csv" />
+    <None Include="CSV\_France\_SmartCode\Customer_Part_Cross_References\Dynamic_Lookup\TBP.csv" />
+    <None Include="CSV\_France\_SmartCode\Customer_Part_Cross_References\Dynamic_Lookup\TBW.csv" />
+    <None Include="CSV\_France\_SmartCode\TENFR_FG_MasterTable.csv" />
+    <None Include="CSV\_France\_SmartCode\WebbingCutLengthConversionFactor.csv" />
+    <None Include="CSV\_France\_SmartCode\WebbingVariants.csv" />
+    <None Include="CSV\_USA\ENGJOB\ENGJOB_ACCESSCONTROL\Components.csv" />
+    <None Include="CSV\_USA\ENGJOB\ENGJOB_ACCESSCONTROL\Types.csv" />
+    <None Include="CSV\_USA\RAP\Assembly_Stocking_Mode.csv" />
+    <None Include="CSV\_USA\RAP\AutoGenComment_Control.csv" />
+    <None Include="CSV\_USA\RAP\BaseFinish.csv" />
+    <None Include="CSV\_USA\RAP\BaseProtectors.csv" />
+    <None Include="CSV\_USA\RAP\BaseRange.csv" />
+    <None Include="CSV\_USA\RAP\FloatingRing.csv" />
+    <None Include="CSV\_USA\RAP\PostFinish.csv" />
+    <None Include="CSV\_USA\RAP\PostHeadFinish.csv" />
+    <None Include="CSV\_USA\RAP\PostHeadType.csv" />
+    <None Include="CSV\_USA\RAP\PostSelection_mfg.csv" />
+    <None Include="CSV\_USA\RAP\PostSelection_PrebuiltRange.csv" />
+    <None Include="CSV\_USA\RAP\Pricing\ListPriceSegmentControl.csv" />
+    <None Include="CSV\_USA\TBC-TensabarrierCassette\Assembly_Stocking_Mode.csv" />
+    <None Include="CSV\_USA\TBC-TensabarrierCassette\AutoGenComment_Control.csv" />
+    <None Include="CSV\_USA\TBC-TensabarrierCassette\CassetteRange.csv" />
+    <None Include="CSV\_USA\TBC-TensabarrierCassette\Pricing\ListPriceSegmentControl.csv" />
+    <None Include="CSV\_USA\TBC-TensabarrierCassette\TapeEndOptions.csv" />
+    <None Include="CSV\_USA\TBC-TensabarrierCassette\TopLevelCassetteRange.csv" />
+    <None Include="CSV\_USA\TBC-TensabarrierCassette\WebbingLength.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\Assembly_Stocking_Mode.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\AutoGenComment_Control.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\BaseFinish.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\BaseProtectors.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\BaseRange.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\CassetteRange.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\PostFinish.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\PostSelection.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\Pricing\ListPriceSegmentControl.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\Reflective_Strip.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\TapeEndOptions.csv" />
+    <None Include="CSV\_USA\TBP - PostConfigurator\WebbingLength.csv" />
+    <None Include="CSV\_USA\TBR\Assembly_Stocking_Mode.csv" />
+    <None Include="CSV\_USA\TBR\AutoGenComment_Control.csv" />
+    <None Include="CSV\_USA\TBR\Pricing\ListPriceSegmentControl.csv" />
+    <None Include="CSV\_USA\TBR\RopeSelection_PrebuiltRange.csv" />
+    <None Include="CSV\_USA\TBR\TBRopeEndFinish.csv" />
+    <None Include="CSV\_USA\TBR\TBRopeEnds.csv" />
+    <None Include="CSV\_USA\TBR\TBRopeFinish.csv" />
+    <None Include="CSV\_USA\TBR\TBRopeLength.csv" />
+    <None Include="CSV\_USA\TBR\TBRopeType.csv" />
+    <None Include="CSV\VA-VirtualAssistantConfigurator\VAOptionalExtras.csv" />
+    <None Include="CSV\VA-VirtualAssistantConfigurator\VAOptions.csv" />
+    <None Include="CSV\VA-VirtualAssistantConfigurator\VASurroundOptions.csv" />
+    <None Include="CSV\_USA\TBR\TBRopeWallPlateFinish.csv" />
+    <None Include="CSV\_USA\TBR\TBRopeWallPlateType.csv" />
+    <None Include="CSV\_USA\TBS\AssemblyFGNum.csv" />
+    <None Include="CSV\_USA\TBS\AutoGenComment_Control.csv" />
+    <None Include="CSV\_USA\TBS\FrameAdaptor.csv" />
+    <None Include="CSV\_USA\TBS\FrameMfgPart.csv" />
+    <None Include="CSV\_USA\TBS\FrameOrientation.csv" />
+    <None Include="CSV\_USA\TBS\FramePreBuiltPart.csv" />
+    <None Include="CSV\_USA\TBS\FrameSizes.csv" />
+    <None Include="CSV\_USA\TBS\FrameType.csv" />
+    <None Include="CSV\_USA\TBS\FrameWeight.csv" />
+    <None Include="CSV\_USA\TBS\InsertArtWork.csv" />
+    <None Include="CSV\_USA\TBS\InsertFaced.csv" />
+    <None Include="CSV\_USA\TBS\InsertMfgPart.csv" />
+    <None Include="CSV\_USA\TBS\InsertOrientation.csv" />
+    <None Include="CSV\_USA\TBS\InsertPreBuiltPart.csv" />
+    <None Include="CSV\_USA\TBS\InsertThickness.csv" />
+    <None Include="CSV\_USA\TBS\InsertType.csv" />
+    <None Include="CSV\_USA\TBS\Pricing\ListPriceSegmentControl.csv" />
+    <None Include="CSV\_USA\_SmartCode\1.csv" />
+    <None Include="CSV\_USA\_SmartCode\ConfigTestModeCust.csv" />
+    <None Include="CSV\_USA\_SmartCode\Customer_CrossRef_Mandatory.csv" />
+    <None Include="CSV\_USA\_SmartCode\Customer_Part_Cross_References\Dynamic_Lookup\RAP.csv" />
+    <None Include="CSV\_USA\_SmartCode\Customer_Part_Cross_References\Dynamic_Lookup\TBC.csv" />
+    <None Include="CSV\_USA\_SmartCode\Customer_Part_Cross_References\Dynamic_Lookup\TBP.csv" />
+    <None Include="CSV\_USA\_SmartCode\Customer_Part_Cross_References\Dynamic_Lookup\TBR.csv" />
+    <None Include="CSV\_USA\_SmartCode\Customer_Part_Cross_References\Dynamic_Lookup\TBS.csv" />
+    <None Include="CSV\_USA\_SmartCode\ENGJOB_Presets.csv" />
+    <None Include="CSV\_USA\_SmartCode\Operation_Defaults.csv" />
+    <None Include="CSV\_USA\_SmartCode\ProductGroup.csv" />
+    <None Include="CSV\_USA\_SmartCode\SalesCurrencyRates.csv" />
+    <None Include="CSV\_USA\_SmartCode\SumSalesCat.csv" />
+    <None Include="CSV\_USA\_SmartCode\TENUS_FG_MasterTable.csv" />
+    <None Include="CSV\_USA\_SmartCode\WebbingCutLengthConversionFactor.csv" />
+    <None Include="CSV\_USA\_SmartCode\WebbingVariants.csv" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configurations\ACC\ACC.xml" />
+    <Content Include="Configurations\CBS\CBS.xml" />
+    <Content Include="Configurations\ENGJOB\ENGJOB.xml" />
+    <Content Include="Configurations\FRS\FRS.xml" />
+    <Content Include="Configurations\IQMBE\IQMBE.xml" />
+    <Content Include="Configurations\IQMPA\IQMPA.xml" />
+    <Content Include="Configurations\IQMPO\IQMPO.xml" />
+    <Content Include="Configurations\MER\MER.xml" />
+    <Content Include="Configurations\MODHAND\MODHAND.xml" />
+    <Content Include="Configurations\RECOILS\RECOILS.xml" />
+    <Content Include="Configurations\REC\REC.xml" />
+    <Content Include="Configurations\SLQ1\SLQ1.xml" />
+    <Content Include="Configurations\SLQ2\SLQ2.xml" />
+    <Content Include="Configurations\SLQ3\SLQ3.xml" />
+    <Content Include="Configurations\TBC\TBC.xml" />
+    <Content Include="Configurations\TBS\TBS.xml" />
+    <Content Include="Configurations\TBW\TBW.xml" />
+    <Content Include="Configurations\TCT\TCT.xml" />
+    <Content Include="Configurations\TGA\TGA.xml" />
+    <Content Include="Configurations\TGBE\TGBE.xml" />
+    <Content Include="Configurations\TGPA\TGPA.xml" />
+    <Content Include="Configurations\TGPBE\TGPBE.xml" />
+    <Content Include="Configurations\TGPO\TGPO.xml" />
+    <Content Include="Configurations\TGPPA\TGPPA.xml" />
+    <Content Include="Configurations\TGPPO\TGPPO.xml" />
+    <Content Include="Configurations\VA\VA.xml" />
+    <Content Include="Configurations\_France\ENGJOB\FR_ENGJOB.xml" />
+    <Content Include="Configurations\_France\TBC\FR_TBC.xml" />
+    <Content Include="Configurations\_France\TBP\FR_TBP.xml" />
+    <Content Include="Configurations\_France\TBW\FR_TBW.xml" />
+    <Content Include="Configurations\_USA\ENGJOB\US_ENGJOB.xml" />
+    <Content Include="Configurations\_USA\RAP\US_RAP.xml" />
+    <Content Include="Configurations\_USA\TBC\US_TBC.xml" />
+    <Content Include="Configurations\_USA\TBP\US_TBP.xml" />
+    <Content Include="Configurations\_USA\TBR\US_TBR.xml" />
+    <Content Include="Configurations\_USA\TBS\US_TBS.xml" />
+    <Content Include="Configurations\_USA\TBW\US_TBW.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

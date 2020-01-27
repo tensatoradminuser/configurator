@@ -1,0 +1,6 @@
+id,power_option,reset_option,part_num,smartcode_ref
+9V PP3 Battery,x,,01680-000,B
+UK 9V Mains,,,,UM
+EU 9V Mains,x,,54055-000,EM
+Hardwire Button,,x,50481-000,HB
+None,x,x,,X

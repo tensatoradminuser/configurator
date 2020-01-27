@@ -1,0 +1,5 @@
+id,uom,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,is_custom_length,fgnum_addition,889_weblengthupcharge,889T2_dualweblengthupcharge
+7.50,ft,x,,x,,,,,,,,,,/7.60,20,20
+10.00,ft,,x,,,,,,,,,,,,,
+13.00,ft,,x,,,,,,,,,,,,70,70
+Custom ft,ft,x,x,x,,,,,,,,,TRUE,,,

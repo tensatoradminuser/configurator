@@ -1,0 +1,21 @@
+part_ident,cust_part,cust_desc,UPC-12,EAN-13,EAN-14,EAN-8,GTIN-14,barcode_addition
+896+XX801STD2.30B5AZXXX007,896+CUSTNUMB5,This is a cust part x ref desc,896/UPC-12,896/EAN-13,896/EAN-14,896/EAN-8,896/GTIN-14,896/addition
+896+XX801STD2.30B9AZXXX007,896+CUSTNUMB9,This is a cust part x ref desc,,,,,,
+896+XX213MAX3.65B9AZXXX007,896+CUSTNUMMAX,This is a cust part x ref desc,,,,,,
+ADV144+XXX1STD7.60B9AXXXX007,CAS+CUSTNUMSTD,This is a cust part x ref desc,CAS/UPC-12,CAS/EAN-13,CAS/EAN-14,CAS/EAN-8,CAS/GTIN-14,CAS/addition
+,,,,,,,,
+891+XX33S1STD2.30B5AZXXXACY,Config_XPart_Ref,This is a config XPart Refrence,UPC-12,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

@@ -1,0 +1,26 @@
+id,post_part_no,dual_post_part_no,post_finish_column_search,dual_post_finish_column_search,subpost_finish_column_search,base_range,dual_base_range,cassette_range,dual_cassette_range,post_packing_box,Dual_Option,pack_as_pairs,reflective_strip,slug_option,utility_ring,smartcode_entry,post_assybom,stowaway_bag,slimline_post_head,allenkey_option,purchasedaspairs_stockedaseach,post_comment,cycle_time_selector,suspend_selection,supply_default
+Advance_889,730450,05618,Advance_889,Advance_889_dual,,18,19,1,2,05269-000,TRUE,,,,,889,,,,,,Advance 889,std,,make
+Advance_889 Base  Universelle (Pre-Assemble),889U,,Advance_889_post,,,23,,1,,,,,,,,889,,,,,,Advance 889 (Pre-built),alt,,make
+Advance_889 Base magnetique (Pre-Assemble),54395,,Advance_889_Magnetic_post,,,2,,1,,01296-000,,,,,,889,,,,,,Advance 889 (Pre-built),alt,,make
+Slimline_890,00048,,slimline_890_build,,same,18,,1,,05269-000,,,,,,890,890HeadAssy,,09084,,,Slimline 890,std,,pick
+Slimline_890  (Pre-Assemble),890U,,Slimline_890,,,23,,1,,,,,,,,890,,,,,,Slimline 890,alt,,pick
+Rollabarrier RB1,730450,05618,Advance_889,Advance_889_dual,,9,9,1,2,05269-000,TRUE,,,,,RB1,,,,,,Rollabarrier RB1,std,,make
+Utility_887,730450,,utility887_post,,,29,,31,,05269-000,,,,,,887,,,,,,Utility_887,std,,pick
+Safety_888,00048,,safety888_post,,safety888sub_post,30,,31,,05269-000,,,,,,888,890HeadAssy,,09084,,,Safety_888,std,,pick
+Plus Advance_889P,05541,08395,wide_cassette_post,wide_cassette_dual,,15,20,5,10,05269-000,TRUE,,,TRUE,,889P,,,,,,Plus Advance_889P,std,,make
+Plus Advance_Rollabarrier_889P,05541,08395,wide_cassette_post,wide_cassette_dual,,9,,5,,05269-000,,,,TRUE,,RB1,,,,,,Plus Advance_889P,std,,pick
+Stowaway SA1,52106,,stow_post,,,31,,33,,05269-000,,,,,,SA,,01132-000,,,,Stowaway SA1,std,,pick
+Tensalarm_TAL,01118,09269,alarm_post,alarm_dual,,1,1,13,2,05269-000,,,,,,TAL,,,,,,Tensalarm_TAL,std,,pick
+Popular_875,52106,,popular_post,,,8,,4,,04440-000,,TRUE,,,,875,,,,TRUE,,Popular_875,std,,pick
+Outdoor_885,52106,,popular_post,,,7,,3,,04440-000,,TRUE,,,,885,,,,,,Outdoor_885,std,,pick
+HeavyDuty_886 (par vis),52106,52277,heavyduty_screwfix_post,heavyduty_dual_screwfix_post,,14,14,1,2,04440-000,TRUE,TRUE,TRUE,,,886,,,,,,HeavyDuty_886 (Screwfix),std,,pick
+HeavyDuty_886 (par vis) Twin Pack,55416,,heavydutyscrewfixtwin_post,,,34,,1,,04440-000,,,TRUE,,,886,,,,,TRUE,HeavyDuty_886 (Screwfix),alt,,pick
+HeavyDuty_Plus_886P (Screwfix Option),53161,,heavyduty150_screwfix_post,,,14,,5,,04440-000,,TRUE,TRUE,,,886P,,,,,,HeavyDuty_Plus_886P (Screwfix),std,,pick
+Tensaclear_TCL,51813,,tensaclear_post,,,8,,1,,04440-000,,TRUE,,,,TCL,,,,,,Tensaclear_TCL,std,,pick
+Qmatic 889 detache,730450,,qmbuild_post,,,28,,30,,05269-000,,,,,,889,,,,,,Advance 889,std,,pick
+Qmatic 889 Assemble,889U,,qmassy_post,,,23,,30,,,,,,,,889,,,,,,Advance 889,std,,pick
+Qmatic Popular par unite,52106,,qmpop_post,,,25,,30,,,,,,,,875,,,,TRUE,,Popular_875,std,,pick
+Qmatic HeavyDuty par pair,51814,,qmpop_post,,,26,,30,,04440-000,,TRUE,,,,886,,,,,,HeavyDuty_886 (Bayonet),std,,pick
+Advance 680mm,11643,,680_post,,,35,,1,,05269-000,,,,,,889/680,,,,,,Advance 680mm,std,,pick
+Poteau telescopique,11986,,telescopic_post,,,36,,37,,05269-000,,,,,,893,,,,,,Telescopic,std,,pick
+Rotating Post,55919,,rotateheadassy_post,,,37,,38,,05269-000,,,,,,360,,,,,,Rotating,std,,pick

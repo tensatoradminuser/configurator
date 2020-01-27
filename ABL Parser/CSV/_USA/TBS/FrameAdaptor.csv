@@ -1,0 +1,4 @@
+id,part_num,assy_num,add_part1,add_part1_qty,code_output,r1,r2,r3,r4,r5
+NOSC,,,,,NOSC,x,x,,,
+HDSC - Light Duty,,HDSC-33LD,,,HDSC,x,,,,
+HDSC - Heavy Duty,,HDSC-33HD,,,HDSC,,x,,,

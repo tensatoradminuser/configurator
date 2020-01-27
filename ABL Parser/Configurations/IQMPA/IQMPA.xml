@@ -1,0 +1,1742 @@
+<?xml version="1.0" standalone="yes"?>
+<ConfigImportExportDataSet xmlns="http://www.epicor.com/Ice/300/BO/ConfiguratorDef/ConfigImportExport">
+  <PcStatus>
+    <Company>TENLTD</Company>
+    <PartNum />
+    <RevisionNum />
+    <Approved>true</Approved>
+    <ApprovedDate>2020-01-22T00:00:00-05:00</ApprovedDate>
+    <ApprovedBy>keith.humphrey</ApprovedBy>
+    <StringStyle />
+    <Separator />
+    <NumberFormat />
+    <StartNumber>0</StartNumber>
+    <CrtCustPart>false</CrtCustPart>
+    <PrefacePart>false</PrefacePart>
+    <ConfigVersion>21</ConfigVersion>
+    <QuotePCode />
+    <OrderPCode />
+    <OrdQuoCom>false</OrdQuoCom>
+    <JobPickCom>false</JobPickCom>
+    <ShipCom>false</ShipCom>
+    <InvCom>false</InvCom>
+    <CreatePart>false</CreatePart>
+    <CrtPartUsing />
+    <InQuoting>true</InQuoting>
+    <AutoCrtPart>false</AutoCrtPart>
+    <NotUnique>false</NotUnique>
+    <InOrderEntry>true</InOrderEntry>
+    <InJobEntry>false</InJobEntry>
+    <CreateBOM>false</CreateBOM>
+    <ZeroCost>false</ZeroCost>
+    <CrtPartDesc>false</CrtPartDesc>
+    <FileName />
+    <SingleLevelConf>false</SingleLevelConf>
+    <SaveInputValues>false</SaveInputValues>
+    <SetPartNumOnly>false</SetPartNumOnly>
+    <Comments />
+    <AprvRev>true</AprvRev>
+    <EntprsConf>false</EntprsConf>
+    <Synchronize>false</Synchronize>
+    <DispConfSummary>false</DispConfSummary>
+    <PartComments />
+    <CompPricing>false</CompPricing>
+    <ExtConfig>false</ExtConfig>
+    <ExtMfgCompID />
+    <TestPlan>false</TestPlan>
+    <MarkMtlGlb>false</MarkMtlGlb>
+    <SIValuesUseQt>false</SIValuesUseQt>
+    <AllowSmartString>true</AllowSmartString>
+    <InDemandEntry>false</InDemandEntry>
+    <DemandPCode />
+    <AllAltMethods>false</AllAltMethods>
+    <AllowReconPO>false</AllowReconPO>
+    <CompPricingJobMethod>false</CompPricingJobMethod>
+    <CreateRev>false</CreateRev>
+    <DefaultECO />
+    <GenerateMethod>false</GenerateMethod>
+    <PromptForConfig>false</PromptForConfig>
+    <PromptForCheckout>false</PromptForCheckout>
+    <RemoveLink>false</RemoveLink>
+    <SIValuesUseGenMethod>false</SIValuesUseGenMethod>
+    <UseSavedLayout>false</UseSavedLayout>
+    <Description>IQMPA_A</Description>
+    <ConfigType>PC</ConfigType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <RegenConfig>false</RegenConfig>
+    <CreateNewConfigID>false</CreateNewConfigID>
+    <UseTemplatePartDefaults>false</UseTemplatePartDefaults>
+    <DefaultPartNum />
+    <DefaultRevisionNum />
+    <SysRevID>93128775</SysRevID>
+    <SysRowID>93ad271b-088e-828b-e311-c9817db1f3e7</SysRowID>
+    <AttrClassID />
+    <RecycleJobs>false</RecycleJobs>
+    <EWCClientSyncRequired>false</EWCClientSyncRequired>
+    <ShrinkFieldProperties>false</ShrinkFieldProperties>
+    <SampleSmartString />
+  </PcStatus>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>ConvertToDecimal</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>client</FunctionType>
+    <Expression>// Enter validC# code and do not forget this method returns a decimal value.
+decimal result = 0m;
+if (inputstring != "") {result = Convert.ToDecimal(inputstring);}
+
+return result;
+</Expression>
+    <ReturnType>decimal</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90431993</SysRevID>
+    <SysRowID>30f5dd38-4651-4249-83fe-85fda1518aeb</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCountryDescription</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Country country;
+
+Description = "";
+
+country = (from country_Row in Db.Country
+		    where (country_Row.Company == Company &amp;&amp; country_Row.CountryNum == CountryNum)
+		    select country_Row).FirstOrDefault();
+
+if (country == null) { return false; }
+else {
+  Description = country.Description;  
+  return true;
+}
+
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90431996</SysRevID>
+    <SysRowID>744267b8-1223-44ff-969c-f8ecfd3d5d18</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>
+Name = "";
+Country = "";
+
+var customer = (from customer_Row in Db.Customer
+		    where (customer_Row.Company == Company &amp;&amp; customer_Row.CustNum == CustNum)
+		    select new {customer_Row.Name,customer_Row.Country}).FirstOrDefault();
+
+if (customer == null) { return false; }
+else {
+  Name = customer.Name;  
+  Country = customer.Country;
+  return true;
+}
+
+
+
+
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90636677</SysRevID>
+    <SysRowID>ee2c2785-f9ab-4889-bad6-6712a84ada68</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerCurrencyCode</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>CurrencyCode = "";
+
+var customer = (from customer_Row in Db.Customer
+		    where (customer_Row.Company == Company &amp;&amp; customer_Row.CustNum == CustNum)
+		    select new{customer_Row.CurrencyCode}).FirstOrDefault();
+
+if (customer == null) { return false; }
+else {
+  CurrencyCode = customer.CurrencyCode;  
+  return true;
+}
+
+
+
+
+
+
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90636795</SysRevID>
+    <SysRowID>639441b7-4a03-423c-8378-95d9d3cacb39</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerDiscountPercent</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>DiscountPercent = 0m;
+
+var customer = (from customer_Row in Db.Customer
+		    where (customer_Row.Company == Company &amp;&amp; customer_Row.CustNum == CustNum)
+		    select new{customer_Row.DiscountPercent}).FirstOrDefault();
+
+if (customer == null) { return false; }
+else {
+  DiscountPercent = customer.DiscountPercent;
+  return true;
+}
+
+
+
+
+
+
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90636808</SysRevID>
+    <SysRowID>716bd489-40f0-4138-a1cf-595e38aa7d0e</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerDiscountQualifier</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>DiscountQualifier = "";
+
+var customer = (from customer_Row in Db.Customer
+		    where (customer_Row.Company == Company &amp;&amp; customer_Row.CustNum == CustNum)
+		    select new{customer_Row.DiscountQualifier}).FirstOrDefault();
+
+if (customer == null) { return false; }
+else {
+  DiscountQualifier = customer.DiscountQualifier;  
+  return true;
+}
+
+
+
+
+
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90636822</SysRevID>
+    <SysRowID>0f304578-ccb2-4249-a716-e722997b8179</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetICommImportCode</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a bool value.
+Erp.Tables.ICommCode iCommCode;
+
+iCommCode = (from iCommCode_Row in Db.ICommCode
+		    where (iCommCode_Row.Company == Company &amp;&amp; iCommCode_Row.CommodityCode == CommodityCode)
+		    select iCommCode_Row).FirstOrDefault();
+ICommCodeImportCode = "";
+if (iCommCode == null) { return false; }
+else {
+  ICommCodeImportCode = iCommCode.ImportCode;
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432022</SysRevID>
+    <SysRowID>e7919ae4-a78d-46eb-aafa-f8ee0c5b756f</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.OrderHed orderHed;
+
+CustNum = 0;
+ShipToNum = "";
+UseOTS = false;
+
+orderHed = (from orderHed_Row in Db.OrderHed
+		    where (orderHed_Row.Company == Company &amp;&amp; orderHed_Row.OrderNum == OrderNum)
+		    select orderHed_Row).FirstOrDefault();
+
+if (orderHed == null) { return false; }
+else {
+  CustNum = orderHed.CustNum;
+  ShipToNum = orderHed.ShipToNum;
+  UseOTS = orderHed.UseOTS;  
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432027</SysRevID>
+    <SysRowID>73465ff8-f3cb-4ea7-9fb6-ea884ebbe5e0</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHedOTSCountryNum</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.OrderHed orderHed;
+
+OTSCountryNum = 0;
+
+orderHed = (from orderHed_Row in Db.OrderHed
+		    where (orderHed_Row.Company == Company &amp;&amp; orderHed_Row.OrderNum == OrderNum)
+		    select orderHed_Row).FirstOrDefault();
+
+if (orderHed == null) { return false; }
+else {
+  OTSCountryNum = orderHed.OTSCountryNum;  
+  return true;
+}</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432034</SysRevID>
+    <SysRowID>49550eff-22c6-4d49-9aea-a0fc718c9657</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartAvgMaterialCost</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>
+AvgMaterialCost = 0m;
+
+var partCost = (from PartCost_Row in Db.PartCost
+		    where (PartCost_Row.Company == Company &amp;&amp; PartCost_Row.PartNum == PartNum)
+		    select new {PartCost_Row.AvgMaterialCost}).FirstOrDefault();
+
+if (partCost == null) { return false; }
+else {
+  AvgMaterialCost =  partCost.AvgMaterialCost;
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90634646</SysRevID>
+    <SysRowID>882854b9-043e-4723-8faf-23d2ed8f99a0</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClass</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Part part;
+
+PartClass = "";
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  PartClass =  part.ClassID;
+  return true;
+}</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432038</SysRevID>
+    <SysRowID>2d6c1377-78a1-4ba4-ae1f-e319e9b9bb00</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClassCommodity</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a bool value.
+Erp.Tables.PartClass partClass;
+
+PartClassCommodityCode = "";
+
+partClass = (from PartClass_Row in Db.PartClass
+		    where (PartClass_Row.Company == Company &amp;&amp; PartClass_Row.ClassID == ClassID)
+		    select PartClass_Row).FirstOrDefault();
+
+if (partClass == null) { return false; }
+else {
+  PartClassCommodityCode = partClass.CommodityCode;
+  return true;
+}
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432043</SysRevID>
+    <SysRowID>98910fee-7e66-4143-a4af-d7d24eb135e9</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartDescription</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>Erp.Tables.Part part;
+
+Description = "";
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  Description = part.PartDescription;
+  return true;
+}
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432049</SysRevID>
+    <SysRowID>c03a56ac-f7e3-45c9-86ce-0540f1f6efc6</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartIUM</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Part part;
+
+PartIUM = "";
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  PartIUM =  part.IUM;
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432053</SysRevID>
+    <SysRowID>041aa248-cf78-4386-a9c3-b6c0bda5e8f5</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartPrice</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Part part;
+
+UnitPrice = 0m;
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  UnitPrice =  part.UnitPrice;
+  return true;
+}</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432058</SysRevID>
+    <SysRowID>aa5bf1ba-e087-4006-8a57-87812ac19ffb</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartWeight</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter validC# code and do not forget this method returns a decimal value.
+Erp.Tables.Part part;
+
+PartWeight = 0;
+
+/*var partQuery = (from PartRow in Db.Part where part.Company = Session.Company select PartRow);*/
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+if (part == null) { return false; }
+else {
+  PartWeight = part.NetWeight;  
+  return true;
+}
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432063</SysRevID>
+    <SysRowID>54671554-eb46-48a9-9c4c-47d551a1b69e</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.QuoteHed quoteHed;
+
+CustNum = 0;
+ShipToNum = "";
+UseOTS = false;
+
+quoteHed = (from quoteHed_Row in Db.QuoteHed
+		    where (quoteHed_Row.Company == Company &amp;&amp; quoteHed_Row.QuoteNum == QuoteNum)
+		    select quoteHed_Row).FirstOrDefault();
+
+if (quoteHed == null) { return false; }
+else {
+  CustNum = quoteHed.CustNum;
+  ShipToNum = quoteHed.ShipToNum;
+  UseOTS = quoteHed.UseOTS;  
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432068</SysRevID>
+    <SysRowID>fe221c52-f1e5-4a35-94f9-80fe0a2d3779</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHedOTSCountryNum</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.OrderHed orderHed;
+
+OTSCountryNum = 0;
+
+orderHed = (from orderHed_Row in Db.OrderHed
+		    where (orderHed_Row.Company == Company &amp;&amp; orderHed_Row.OrderNum == OrderNum)
+		    select orderHed_Row).FirstOrDefault();
+
+if (orderHed == null) { return false; }
+else {
+  OTSCountryNum = orderHed.OTSCountryNum;  
+  return true;
+}
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432074</SysRevID>
+    <SysRowID>51dd3cbe-5c2e-420a-bdf9-60997556ec02</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>GetShipToCountryNum</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.ShipTo shipTo;
+
+CountryNum = 0;
+
+shipTo = (from shipTo_Row in Db.ShipTo
+		    where (shipTo_Row.Company == Company &amp;&amp; shipTo_Row.ShipToNum == ShipToNum)
+		    select shipTo_Row).FirstOrDefault();
+
+if (shipTo == null) { return false; }
+else {
+  CountryNum = shipTo.CountryNum;  
+  return true;
+}
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432079</SysRevID>
+    <SysRowID>4140108a-1f33-4af3-859f-7e0901ad8239</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionDef>
+    <Company>TENLTD</Company>
+    <FunctionName>PartExists</FunctionName>
+    <Description />
+    <ConfigID>IQMPA_A</ConfigID>
+    <FunctionType>server</FunctionType>
+    <Expression>// Enter valid C# code and do not forget this method returns a boolean value.
+Erp.Tables.Part part;
+
+part = (from Part_Row in Db.Part
+		    where (Part_Row.Company == Company &amp;&amp; Part_Row.PartNum == PartNum &amp;&amp; Part_Row.InActive == false)
+		    select Part_Row).FirstOrDefault();
+
+return part != null;
+
+
+</Expression>
+    <ReturnType>bool</ReturnType>
+    <OldFunctionName />
+    <IsSync>false</IsSync>
+    <GlobalFunc>false</GlobalFunc>
+    <SysRevID>90432084</SysRevID>
+    <SysRowID>398543a6-68e3-44c6-9fe0-09016590e871</SysRowID>
+    <BagID />
+    <NoInputs>false</NoInputs>
+    <ScriptExpression />
+  </PcFunctionDef>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>ConvertToDecimal</FunctionName>
+    <ParameterName>inputstring</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90431994</SysRevID>
+    <SysRowID>4cefb101-4001-41f8-998d-c93012e37f80</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCountryDescription</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90431997</SysRevID>
+    <SysRowID>57b3a6da-ec93-47e5-8401-13ab3bff6421</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCountryDescription</FunctionName>
+    <ParameterName>CountryNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90431998</SysRevID>
+    <SysRowID>f831be86-14a2-4e5b-8068-b136c67bb8f2</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCountryDescription</FunctionName>
+    <ParameterName>Description</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90431999</SysRevID>
+    <SysRowID>de7a47f8-31e3-49a1-ae9a-6a8ec804b249</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432003</SysRevID>
+    <SysRowID>7699e1c2-6186-4d05-9390-30998f48b087</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <ParameterName>Country</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>3</ParamSeq>
+    <SysRevID>90432006</SysRevID>
+    <SysRowID>9feca615-06ee-4019-a92f-9c478e9c46c3</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <ParameterName>CustNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90636665</SysRevID>
+    <SysRowID>978ee5de-a2fe-4543-bbd1-02b74da768aa</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomer</FunctionName>
+    <ParameterName>Name</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432005</SysRevID>
+    <SysRowID>50d82526-9133-46b9-817d-ccea09b78d75</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerCurrencyCode</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432009</SysRevID>
+    <SysRowID>fb4054c3-2fd4-4897-bd62-1bbfb1678c8f</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerCurrencyCode</FunctionName>
+    <ParameterName>CurrencyCode</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432011</SysRevID>
+    <SysRowID>e22cca06-c836-4392-b1f4-0e83bf2414e2</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerCurrencyCode</FunctionName>
+    <ParameterName>CustNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90636784</SysRevID>
+    <SysRowID>021567c7-20e0-41ce-81ad-fb8254d824b5</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerDiscountPercent</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432014</SysRevID>
+    <SysRowID>bb3fa556-9685-43a1-9bdf-90a8545b5ab6</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerDiscountPercent</FunctionName>
+    <ParameterName>CustNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90636796</SysRevID>
+    <SysRowID>4e21f537-41ea-4fc3-b9b8-251bb94b044b</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerDiscountPercent</FunctionName>
+    <ParameterName>DiscountPercent</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>decimal</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432016</SysRevID>
+    <SysRowID>9e042a42-fc11-462f-becd-a35215f53188</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerDiscountQualifier</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432018</SysRevID>
+    <SysRowID>627ee42f-1729-40f3-a371-5e980146c690</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerDiscountQualifier</FunctionName>
+    <ParameterName>CustNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90636812</SysRevID>
+    <SysRowID>d88e5d3b-484e-4a14-ad37-7c920a9171f6</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetCustomerDiscountQualifier</FunctionName>
+    <ParameterName>DiscountQualifier</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432020</SysRevID>
+    <SysRowID>d4704d3b-7a64-49b5-a58b-fbbc59b40afc</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetICommImportCode</FunctionName>
+    <ParameterName>CommodityCode</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432024</SysRevID>
+    <SysRowID>44a478fc-072a-4339-9b42-0be5c35585f3</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetICommImportCode</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432023</SysRevID>
+    <SysRowID>dfd62781-63f1-4319-bad2-3541d922d1e9</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetICommImportCode</FunctionName>
+    <ParameterName>ICommCodeImportCode</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432025</SysRevID>
+    <SysRowID>9de56a7e-1613-40d4-8533-706807ff2d43</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432028</SysRevID>
+    <SysRowID>30a56e23-0aa0-4c6a-87dc-c0a03914544d</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>CustNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432030</SysRevID>
+    <SysRowID>6dfbfa2d-4bce-4861-a2fd-66c0bd756dcd</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>OrderNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432029</SysRevID>
+    <SysRowID>0f619eda-3ab6-4138-a3d6-9621c631db0e</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>ShipToNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>3</ParamSeq>
+    <SysRevID>90432031</SysRevID>
+    <SysRowID>428bbc96-1d4d-4933-9731-898b938abf33</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHed</FunctionName>
+    <ParameterName>UseOTS</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>bool</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>4</ParamSeq>
+    <SysRevID>90432032</SysRevID>
+    <SysRowID>be0be0a0-26c0-4684-bf60-6b891c0a77a6</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHedOTSCountryNum</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432035</SysRevID>
+    <SysRowID>9a28f8f6-0906-4edd-a483-8e5977081362</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHedOTSCountryNum</FunctionName>
+    <ParameterName>OrderNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432036</SysRevID>
+    <SysRowID>5918ea34-d23b-4e48-ae4f-3828d5837150</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetOrderHedOTSCountryNum</FunctionName>
+    <ParameterName>OTSCountryNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432037</SysRevID>
+    <SysRowID>233e9c11-f5a1-41cd-b0a7-cc80ad38fa5f</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartAvgMaterialCost</FunctionName>
+    <ParameterName>AvgMaterialCost</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>decimal</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90634629</SysRevID>
+    <SysRowID>eca30272-253f-4e4b-aa68-ddf7dcd2a3bc</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartAvgMaterialCost</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90634625</SysRevID>
+    <SysRowID>eed45a84-c88d-47e3-a281-2e0710327478</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartAvgMaterialCost</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90634626</SysRevID>
+    <SysRowID>6d97aff8-921b-4e4e-9ca5-6241fa260b6d</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClass</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432039</SysRevID>
+    <SysRowID>618e97b2-4a17-4f0d-8826-72992b185801</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClass</FunctionName>
+    <ParameterName>PartClass</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432041</SysRevID>
+    <SysRowID>87ffe6d1-353f-4175-b791-849c8a407610</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClass</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432040</SysRevID>
+    <SysRowID>0beeaef6-2294-4a28-b1dc-463393529735</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClassCommodity</FunctionName>
+    <ParameterName>ClassID</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432045</SysRevID>
+    <SysRowID>26c31fe9-64b0-441a-a40e-6debff9d30fd</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClassCommodity</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432044</SysRevID>
+    <SysRowID>1f315646-d5ee-497d-95a4-a707a9d698c2</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartClassCommodity</FunctionName>
+    <ParameterName>PartClassCommodityCode</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432046</SysRevID>
+    <SysRowID>e3d9e7be-c916-4ce4-9394-77639d2f8baa</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartDescription</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432050</SysRevID>
+    <SysRowID>e6061855-9b84-4d72-9a91-60888082a64e</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartDescription</FunctionName>
+    <ParameterName>Description</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432052</SysRevID>
+    <SysRowID>62333cd4-db4f-438c-aab9-7391cb2f82a2</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartDescription</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432051</SysRevID>
+    <SysRowID>0828f37d-0fae-4319-9279-65ea960e38c3</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartIUM</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432054</SysRevID>
+    <SysRowID>77392e99-2b0f-462c-bfe5-59ea55fa94ea</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartIUM</FunctionName>
+    <ParameterName>PartIUM</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432056</SysRevID>
+    <SysRowID>96cf8463-04fd-42cc-a31d-e6d670c3952c</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartIUM</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432055</SysRevID>
+    <SysRowID>fb2f1f68-d757-47a4-be50-ce5a03e4483f</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartPrice</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432059</SysRevID>
+    <SysRowID>3edd91e3-f5b8-465f-b725-9ac45e7dc985</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartPrice</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432060</SysRevID>
+    <SysRowID>c8a6e8f0-5d00-4b78-abd4-263c3faf9cd0</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartPrice</FunctionName>
+    <ParameterName>UnitPrice</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>decimal</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432061</SysRevID>
+    <SysRowID>31638af3-b989-4b5b-95ac-ecc8c818d1cb</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartWeight</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432064</SysRevID>
+    <SysRowID>af07953c-b702-4adc-afee-88e7ff51e82c</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartWeight</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432065</SysRevID>
+    <SysRowID>f4f1dedb-da2f-4b08-9fae-b5920c700493</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetPartWeight</FunctionName>
+    <ParameterName>PartWeight</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>decimal</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432066</SysRevID>
+    <SysRowID>91980ab7-2176-40a9-8e6c-9e0a94f8fdfe</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432069</SysRevID>
+    <SysRowID>54721622-93a3-47f5-aced-5f8c779bc8b1</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>CustNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432071</SysRevID>
+    <SysRowID>3a20d538-e63d-47b1-8638-eb1794685011</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>QuoteNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432070</SysRevID>
+    <SysRowID>7049b1d7-7fd1-4e74-98d2-5c923f2b8d78</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>ShipToNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>3</ParamSeq>
+    <SysRevID>90432072</SysRevID>
+    <SysRowID>708b6276-cb00-41f2-a86f-3008ff4d3650</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHed</FunctionName>
+    <ParameterName>UseOTS</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>bool</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>4</ParamSeq>
+    <SysRevID>90432073</SysRevID>
+    <SysRowID>c0fea45c-002e-4483-968a-832db6ced77a</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHedOTSCountryNum</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432075</SysRevID>
+    <SysRowID>52668022-c118-4e47-8056-0239de5f2593</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHedOTSCountryNum</FunctionName>
+    <ParameterName>OrderNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432076</SysRevID>
+    <SysRowID>bad7a309-a720-4aa6-86d3-44aab7e90b55</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetQuoteHedOTSCountryNum</FunctionName>
+    <ParameterName>OTSCountryNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432077</SysRevID>
+    <SysRowID>e44b5bfc-97df-43d3-a7c3-dca883bc3fbc</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetShipToCountryNum</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432080</SysRevID>
+    <SysRowID>72362d4f-47bf-49f4-946a-0e19cbf04b00</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetShipToCountryNum</FunctionName>
+    <ParameterName>CountryNum</ParameterName>
+    <DefaultValue />
+    <Modifier>out</Modifier>
+    <ParamType>int</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>2</ParamSeq>
+    <SysRevID>90432082</SysRevID>
+    <SysRowID>bb03ad07-f4fc-4ee4-bba7-4abd11eb0037</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>GetShipToCountryNum</FunctionName>
+    <ParameterName>ShipToNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432081</SysRevID>
+    <SysRowID>2efa9e73-037c-4b0b-a51f-8115b46e3ce8</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>PartExists</FunctionName>
+    <ParameterName>Company</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>0</ParamSeq>
+    <SysRevID>90432085</SysRevID>
+    <SysRowID>8b5da89c-8dc6-435f-9026-8046b865af27</SysRowID>
+  </PcFunctionParam>
+  <PcFunctionParam>
+    <Company>TENLTD</Company>
+    <FunctionName>PartExists</FunctionName>
+    <ParameterName>PartNum</ParameterName>
+    <DefaultValue />
+    <Modifier />
+    <ParamType>string</ParamType>
+    <ConfigID>IQMPA_A</ConfigID>
+    <ParamSeq>1</ParamSeq>
+    <SysRevID>90432086</SysRevID>
+    <SysRowID>ab9723fe-8e6e-4d6c-93d0-752311b9ef1d</SysRowID>
+  </PcFunctionParam>
+  <PcInputVar>
+    <Company>TENLTD</Company>
+    <VarName>glb_test</VarName>
+    <DataType>String</DataType>
+    <InitValue />
+    <SysRevID>90309979</SysRevID>
+    <SysRowID>d427c694-ae62-40b2-aa34-66a7b3edb0ba</SysRowID>
+  </PcInputVar>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>DemandDetail</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285372</SysRevID>
+    <SysRowID>594f3703-165b-4121-955e-aae7015bd2d1</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>DemandHead</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285371</SysRevID>
+    <SysRowID>4067334c-8fdd-4658-bfbb-aae7015bd2d0</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>ECOMtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285362</SysRevID>
+    <SysRowID>032b66b7-af93-4e8a-b9cd-aae7015bd2c5</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>ECOOpDtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285361</SysRevID>
+    <SysRowID>571eba05-3d19-401d-a1ee-aae7015bd2c5</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>ECOOpr</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285360</SysRevID>
+    <SysRowID>2d16fbee-7aaf-458c-91b8-aae7015bd2c4</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>ECORev</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285359</SysRevID>
+    <SysRowID>92331d10-edcc-4865-bfc9-aae7015bd2c3</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>JobAsmbl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285355</SysRevID>
+    <SysRowID>fdf06d80-dbb5-42c3-a8c3-aae7015bd2c0</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>JobHead</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285354</SysRevID>
+    <SysRowID>c9bec335-a175-4bca-b5d2-aae7015bd2bf</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>JobMtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285356</SysRevID>
+    <SysRowID>9ea62625-25e5-41e6-96df-aae7015bd2c1</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>JobOpDtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285358</SysRevID>
+    <SysRowID>8abd2fab-0d72-4cf6-b96b-aae7015bd2c3</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>JobOper</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285357</SysRevID>
+    <SysRowID>375ce075-9f66-4906-9d11-aae7015bd2c2</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>OrderDtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285353</SysRevID>
+    <SysRowID>6b39b441-f9e2-4f95-86e5-aae7015bd2be</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>OrderHed</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285352</SysRevID>
+    <SysRowID>a418f08b-39ea-4b43-8da7-aae7015bd2bb</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>PODetail</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285370</SysRevID>
+    <SysRowID>96267f6e-84b5-4acd-8809-aae7015bd2d0</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>POHeader</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285369</SysRevID>
+    <SysRowID>8581f4bc-ec5f-4f45-bc18-aae7015bd2ce</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>QuoteAsm</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285365</SysRevID>
+    <SysRowID>10986cc6-619f-4176-83e7-aae7015bd2c7</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>QuoteDtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285364</SysRevID>
+    <SysRowID>c229f93c-cbb9-4288-b72b-aae7015bd2c7</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>QuoteHed</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285363</SysRevID>
+    <SysRowID>97524b95-87da-4636-a3f5-aae7015bd2c6</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>QuoteMtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285366</SysRevID>
+    <SysRowID>ca870f08-94a6-4a57-99d1-aae7015bd2c8</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>QuoteOpDtl</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285368</SysRevID>
+    <SysRowID>f82bd7c4-d034-4d4f-b4b8-aae7015bd2cc</SysRowID>
+  </PcTargetEntity>
+  <PcTargetEntity>
+    <Company>TENLTD</Company>
+    <ConfigID>IQMPA_A</ConfigID>
+    <TableName>QuoteOpr</TableName>
+    <AllowRecordCreation>false</AllowRecordCreation>
+    <AllowPricing>false</AllowPricing>
+    <PromptForConfig>false</PromptForConfig>
+    <IncomingSmartString>false</IncomingSmartString>
+    <AllowReconfig>false</AllowReconfig>
+    <SIValues>false</SIValues>
+    <SysRevID>89285367</SysRevID>
+    <SysRowID>051e06e2-6778-4949-9cb9-aae7015bd2ca</SysRowID>
+  </PcTargetEntity>
+</ConfigImportExportDataSet>

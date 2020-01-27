@@ -1,0 +1,3 @@
+id,prefix_code,std_prodgroup,custom_prodgroup,std_salecat,custom_salecat,STD_smartref,MAX_smartref,WDE_smartref,RCV_smartref
+Standard,-,,,,,,,,
+NightView,/NV,NV,NVTM,SOL,SOL,NVS,NVM,NVW,RCV

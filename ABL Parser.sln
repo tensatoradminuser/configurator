@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABL Parser", "ABL Parser\ABL Parser.csproj", "{06C32327-C1CE-4B16-83A5-44CDEAA2F6CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90689607-10E3-456D-ABB0-F6AC81E9DCBC}"
+	ProjectSection(SolutionItems) = preProject
+		TestSyntax.cs = TestSyntax.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C32327-C1CE-4B16-83A5-44CDEAA2F6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C32327-C1CE-4B16-83A5-44CDEAA2F6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C32327-C1CE-4B16-83A5-44CDEAA2F6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C32327-C1CE-4B16-83A5-44CDEAA2F6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC8D03BE-0882-45F6-8E40-B6EA2F86042F}
+	EndGlobalSection
+EndGlobal

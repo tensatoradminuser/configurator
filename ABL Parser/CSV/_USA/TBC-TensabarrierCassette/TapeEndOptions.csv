@@ -1,0 +1,13 @@
+tape_end,part_no,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,webtype,smart_code,zero_tapeendupcharge,std_tapeendupcharge
+Standard,,x,,,,,x,x,,,,,,cut,C,,
+Panic Break,PBTE-CONFIG,x,,,x,,x,,,,,,,roll,B,,
+Wire Clip,WCTE-CONFIG,x,,,,,x,x,,,,,,roll,A,,
+One Way Loop,OWLTE-CONFIG,x,,,,,x,,,,,,,roll,E,,
+One Piece Magnetic,52345-CONFIG,,,,,,,,,,,,,cut,OM,,
+Standard Magnetic,SMTE-CONFIG,x,,,x,,x,x,,,,,,cut,SM,,
+150mm Anti-Tamper,52322-CONFIG,,x,,,,,,,,,,,roll,WA,,
+150mm One Way Loop Dual set,54098-CONFIG,,,,,,,,,,,,,roll,WO,,
+150mm Magnetic,52914-CONFIG,,x,,,,,,,,,,,roll,WM,,
+Product Standard,,,,,,x,,,,,,,,,PS,,
+Tensacone Std Magnetic,55772-CONFIG,,,,,,,,,,,,,cut,SM,,
+Unbranded Standard,STEBLANK-CONFIG,x,,,,,,,,,,,,cut,CU,,

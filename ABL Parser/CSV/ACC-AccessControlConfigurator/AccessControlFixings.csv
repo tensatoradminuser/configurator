@@ -1,0 +1,4 @@
+fix_type,fg_num,mech_option,elec_option,ancil_option,smart_code
+M10 x 150 Fixing,FRS_M10 x 150,,x,x,M150
+M10 x 80 Fixing,FRS_M10 x 80,x,,x,M80
+None,,x,x,x,X

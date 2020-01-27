@@ -1,0 +1,7 @@
+surround_option,surround_prefix,r1,r2,r3,r4,r5,r6,r7,r8,smartcode_ref
+None,,x,x,,,,,,,X
+Ultra Full,10774,,,,,,,,,UF
+Ultra Partial,11604,x,,,,,,,,UP
+Ultra Partial Button Unit,11605,,x,,,,,,,UPBT
+Ultra Full Button Unit,55310,,,,,,,,,UFBT
+UltraV3 Full,11282,,,x,,,,,,UFV3

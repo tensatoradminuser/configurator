@@ -1,0 +1,12 @@
+id,part_num,fg_num,pricestrip_prefix,pricestrip_qty,riser_partnum,riser_qty,assembly_flag,image_ref,use_Epicor_Desc,disable_refine,non_pick_operation_type,suspend_selection
+MA18 Steel Display Merchandising Shelf 1190mm (W) x 150mm (D),01250,MA18.,,1,,,,\\EPICORAPP1\Epicor905\Server\ud\MerchandisingAccessories\MA18.jpg,,,,
+MA17 Steel Display Merchandising Shelf 1190mm (W) x 225mm (D),01249,MA17.,,1,02738-100,1,,\\EPICORAPP1\Epicor905\Server\ud\MerchandisingAccessories\MA17.jpg,,,,
+MA16 Steel Display Merchandising Shelf 1190mm (W) x 300mm (D),01248,MA16.,,1,,,,\\EPICORAPP1\Epicor905\Server\ud\MerchandisingAccessories\MA16.jpg,,,,
+MA41 Steel Display Merchandising Shelf 596mm (W) x 216mm (D),02387,MA41.,,1,02388-100,,,\\EPICORAPP1\Epicor905\Server\ud\MerchandisingAccessories\MA41.jpg,,,,
+MA3 Wire Basket 560mm (W) x 300mm (D),01241,MA3.,,,,,,\\EPICORAPP1\Epicor905\Server\ud\MerchandisingAccessories\MA3.jpg,,,,
+MA46 Angled Wired Basket 560mm (W) x 300mm (D),03007,MA46.,,,,,,\\EPICORAPP1\Epicor905\Server\ud\MerchandisingAccessories\MA46.jpg,,,,
+Merchandising Display Prong,09032,MA-PRONG,,,,,,\\EPICORAPP1\Epicor905\Server\ud\MerchandisingAccessories\MA5.jpg,TRUE,,,
+Merchanding  Display Hook,09031,MA-HOOK,,,,,,\\EPICORAPP1\Epicor905\Server\ud\MerchandisingAccessories\MA31.jpg,TRUE,,,
+Acrylic Impulse Box with adjustable dividers 1120mm (L) x 300mm (W),52752,IMPBOX,,,,,,,TRUE,,,
+Merchandising Bowl with POS 320mm (D) x 276mm (H),PA12-CONFIG,PA12,,,,,TRUE,,,TRUE,TBRope,
+Merchandising Bowl without POS 320mm (D) x 276mm (H),PA6-CONFIG,PA6,,,,,TRUE,,,TRUE,TBRope,

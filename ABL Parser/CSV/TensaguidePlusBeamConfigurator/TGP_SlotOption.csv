@@ -1,0 +1,8 @@
+slot_insert,part_prefix,part_full,part_full_qty_EA,run_qty_UOM,note,r1,r2,r3,r4,r5,add_part1,smartcode_ref
+None,,,,,,x,,,,,,X
+BlankOff,,,,,Refer to TBP_PostCentre for Blankoff part details,x,,,,,,BLA
+Slatwall,,,,,,x,,,,,,SLA
+Slotted Steel,,00853-33S,1,EA,,x,,,,,02041,SLO
+Acrylic Panel,,05843-000,,M,,x,,,,,,ACP
+Acrylic Header,02041,,,,,x,,,,,,ACH
+Glass Panel,,00853-33S,1,EA,,x,,,,,,GLP

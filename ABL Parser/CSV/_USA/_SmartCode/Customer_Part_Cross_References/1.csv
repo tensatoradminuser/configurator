@@ -1,0 +1,21 @@
+part_ident,cust_part,cust_desc,UPC-12,EAN-13,EAN-14,EAN-8,GTIN-14,barcode_addition
+896+XX801STD7.60B9AZXXX007,896+CUSTNUMB97.60ft,This is a cust part x ref desc,896/UPC-12,896/EAN-13,896/EAN-14,896/EAN-8,896/GTIN-14,896/addition
+896+XX801STD2.30B9AZXXX007,896+CUSTNUMB9,This is a cust part x ref desc,,,,,,
+896+XX213MAX3.65B9AZXXX007,896+CUSTNUMMAX,This is a cust part x ref desc,,,,,,
+ADV144+XXX1STD7.60B9AXXXX007,CAS+CUSTNUMSTD,This is a cust part x ref desc,CAS/UPC-12,CAS/EAN-13,CAS/EAN-14,CAS/EAN-8,CAS/GTIN-14,CAS/addition
+889+UX3BMK22STD7.60B9AXXXX007,889-CUSTPART,This is a cust part x ref desc,889/UPC-12,889/EAN-13,889/EAN-14,889/EAN-8,889/GTIN-14,889/addition
+CAS+XXX2STD7.60B9AXXXX007,CAS-CUSTPART,This is a cust part x ref desc,CAS/UPC-12,CAS/EAN-13,CAS/EAN-14,CAS/EAN-8,CAS/GTIN-14,CAS/addition
+310U+U331P1PCL1PFLXXXXX,RAP-CUSTPART,This is a cust part x ref desc,CAS/UPC-12,RAP/EAN-13,RAP/EAN-14,RAP/EAN-8,RAP/GTIN-14,RAP/addition
+310U-1P,RAP-PREBUILTCUST,This is a cust part x ref desc,CAS/UPC-12,RAP/EAN-13,RAP/EAN-14,RAP/EAN-8,RAP/GTIN-14,RAP/addition
+541+LGSNAP1P226.000XXXXXXX,541-CUSTPART,This is a cust part x ref desc,CAS/UPC-12,RAP/EAN-13,RAP/EAN-14,RAP/EAN-8,RAP/GTIN-14,TBR/addition
+QWAYROPE-21-6-2P,TBR_PREBUILTCUSTPART,This is a cust part x ref desc,CAS/UPC-12,RAP/EAN-13,RAP/EAN-14,RAP/EAN-8,RAP/GTIN-14,TBR/addition
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

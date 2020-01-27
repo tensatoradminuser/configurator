@@ -1,0 +1,4 @@
+panel_type,panel_part_prefix,panel_part1,panel_part1qty,add_part1,add_part1qty,add_part2,add_part2qty,allowadditional_header,image,listprice_reserve,fg_num,suspend_selection
+Wooden SlatWall Panel,03287,,1,,,,,,\\TENLTD-EPIC2\Epicor905\Server\ud\IQMNextGenPanelConfigurator\Images\Panel.jpg,28.47,IQMIW,
+ABS SlatWall Panel,10540,,2,,,,,,\\TENLTD-EPIC2\Epicor905\Server\ud\IQMNextGenPanelConfigurator\Images\Panel.jpg,14.33,IQMIP,
+Acrylic Header,11114,11115,1,,,,,x,\\TENLTD-EPIC2\Epicor905\Server\ud\IQMNextGenPanelConfigurator\Images\Header.jpg,0,IQMHE,

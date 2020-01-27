@@ -1,0 +1,11 @@
+id,part_num,post_ref,beam_ref,fixing_ref,cup_ref
+Fixed Rail End Post,FRS_EP-1P,x,,,
+Fixed Rail Middle Post,FRS_MP-1P,x,,,
+Fixed Rail T Post,FRS_TP-1P,x,,,
+Fixed Rail Left Hand Post,FRS_CLHP-1P,x,,,
+Fixed Rail Right Hand Post,FRS_CRHP-1P,x,,,
+Cross Rail 1.5Mt,FRS_CR1.5-1P,,x,,
+Cross Rail 2.0Mt,FRS_CR2.0-1P,,x,,
+M10 x 150 Fixing,FRS_M10 x 150,,,x,
+M10 x 80 Fixing,FRS_M10 x 80,,,x,
+Fixed Rail Aluminium cup fixing kit,ACFK,,,,x

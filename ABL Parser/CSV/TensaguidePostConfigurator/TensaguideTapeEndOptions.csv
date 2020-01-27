@@ -1,0 +1,9 @@
+tape_end,part_no,r1,r2,r3,r4,r5,r6,webtype,smart_code
+Anti-Tamper,STE-CONFIG,x,,,,,,cut,STE
+Panic Break,PBTE-CONFIG,x,,,,,,roll,PBTE
+Wire Clip,WCTE-CONFIG,x,,,,,,roll,WCTE
+One Way Loop,OWLTE-CONFIG,x,,,,,,roll,OWLTE
+Soft Tape End,SRTE-CONFIG,x,,,,,,cut,SRTE
+TP75A Soft Tape End,ADV572-ACONFIG,x,,,,,,cut,TP75A
+None,,x,,,,,,,XXX
+Unbranded Anti-Tamper,STEBLANK-CONFIG,x,,,,,,cut,STE

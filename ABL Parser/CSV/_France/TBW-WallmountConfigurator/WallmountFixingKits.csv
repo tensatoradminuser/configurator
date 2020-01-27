@@ -1,0 +1,23 @@
+id,fixing_kit_part,single_part_no,run_qty,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,supply_default,comment_string,897_fixupcharge,899_fixupcharge,smartcode_ref
+Standard,,,,x,x,x,x,x,x,x,x,,,,,make,Standard,0,0,X
+Sur Verre (52335),52335-000,,,x,,,,,,,,,,,,pick,Glass (52335),,,GL
+Sur Verre (52390),52390-000,,,,x,x,,,x,,,,,,,pick,Glass (52390),,,GL
+Sur Rack (52331),52331-CONFIG,,,x,,,,,,,,,,,,pick,Rack fixing (52331),0,,RA
+Sur Rack (52330),52330-000,,,,x,,,,,,,,,,,pick,Rack fixing (52330),,,RA
+Sur Rack (50453),50453-000,,,,,x,,,,,,,,,,pick,Rack fixing (50453),,0,RA
+Semi permanent (52328),52328-CONFIG,,,x,,,,,,,,,,,,pick,Semi Permanent (52328),0,0,SP
+Semi permanent (52329),52329-000,,,,x,,,,,,,,,,,pick,Semi Permanent (52329),,,SP
+Semi permanent (50452),50452-CONFIG,,,,,x,,,,,,,,,,pick,Semi Permanent (50452),,,SP
+Pot Magnet 40mm Midi,54447-CONFIG,,,x,x,,,,,,,,,,,pick,Pot Magnet 40mm Midi,0,0,M40
+Pot Magnet 15mm Midi,52336-000,,,x,x,,x,,,,,,,,,pick,Pot Magnet 15mm Midi,0,0,M15
+Collier 55-70mm (52333),52333-000,,,x,x,,,,,,,,,,,pick,Post 55-70mm (52333),0,,P55
+Collier  65-85mm (Std (50451)),50451-000,,,x,x,,x,,,,,,,,,pick,Post 65-85mm (Std (50451)),0,,P65
+Collier  90-120mm (52334),52334-000,,,x,x,,,,,,,,,,,pick,Post 90-120mm (52334),0,,P90
+Collier  55-70mm,,00040-000,2,,,x,,,,,,,,,,pick,Post 55-70mm,,0,P55
+Collier  65-85mm (Std),,00759-000,2,,,x,,,,,,,,,,pick,Post 65-85mm (Std),,0,P65
+Collier  90-120mm,,01425-000,2,,,x,,,,,,,,,,pick,Post 90-120mm,,0,P90
+Pot Magnet 15mm Maxi,52336-Maxi,,,,,x,,,,,,,,,,pick,Pot Magnet 15mm Maxi,,,M15
+Pot Magnet 40mm Maxi,54447-Maxi,,,,,x,,,,,,,,,,pick,Pot Magnet 40mm Maxi,,,M40
+Pit Bridge Bracket,55548-000,,,x,,,,,,,,,,,,pick,Pit Bridge Bracket,,,PB
+Pot Magnet 15mm Mini,52336-Mini,,,,,,,,x,,,,,,,pick,Pot Magnet 15mm Mini,,,M15
+Plaque noire epoxy de fixation sur verre,56168-CONFIG,,,,,,x,,,,,,,,,pick,Mini Alarm Glass Mount Kit in Black,,,GLAL33S

@@ -1,0 +1,3 @@
+extrusion_type,noncutpost_partprefix,post_height_lookup,maxpurchaselength_mm,post_position_lookup,profile_max_exits,noncutinfill_partprefix,tube_insert_partnum,tube_insert_qty,tube_insert_fixing_partnum,tube_insert_fixing_qty,add_partnum1,add_partqty1,add_partnum2,add_partqty2,topcap_partprefix_num,topcap_fixing_partnum,topcap_fixing_qty,topcap_label_part_prefix,topcap_label_deny,base_range_lookup,smartcode_ref,suspend_selection
+2 Inch Standard,01486,2inch,,,,,,,,,,,,,,,,,,,2.0,TRUE
+2.5 Inch Standard,02002,2.5inch,4000,r1,4,02007,02672-000,1,01764-000,4,,,,,02009,01045-000,2,03466,,r1,2.5,

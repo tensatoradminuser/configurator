@@ -1,0 +1,8 @@
+id,uom,r1,r2,r3,r4,r5,r6,r7,r8,is_custom_length,fgnum_addition
+7.50,ft,x,,,,,,,,,-7.60
+10.00,ft,,x,,,,,,,,
+13.00,ft,,x,,,,,,,,
+15.00,ft,,,,,,,,,,
+24.00,ft,,,,,,,,,,
+30.00,ft,,,,,,,x,,,
+Custom,ft,x,x,x,,,,x,,TRUE,

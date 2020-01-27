@@ -1,0 +1,6 @@
+id,postprefix_part,postfinish_lookup,posthead_lookup,baserange_lookup,post_packing_box,post_assybom,addpart1_partnum,addpart1_qty,addassy1_partnum,addassy1_qty,post_comment,cycle_time_selector,oper_code,fromstock_oper_code,fg_calc_mode,FG_calc_info,config_head_labelname,suspend_selection
+Standard,780800,1,1,1,,,,,,,,,TBPBuild,PICKING,BASE,BASE = FGNUM - BASE,Post,
+Safety,780800,3,2,1,,,,,,,,,TBPBuild,PICKING,NONE,NONE = FGNUM PREFIX,Post,
+Hitching,780150,4,3,1,,,820887,2,,,,,TBPBuild,PICKING,NONE,NONE = FGNUM PREFIX,Post,
+1310 Sign Stand (Mfg Post),780800,6,5,3,,,,,,,,,TBPBuild,,BASE,BASE = FGNUM - BASE,Sign,
+PDS 1330,tbc,9,,,,,,,,,,,,,,,,

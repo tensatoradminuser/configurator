@@ -1,0 +1,5 @@
+id,rope_supply_default,rope_length_variance,rope_length,part_prefix,finish_lookup,end_type,endfinish_lookup,fg_num,uom_ref,rope_core_partnum,core_ropelength_variance,rope_outer_part_prefix,outer_ropelength_variance,add_assy1_part,add_assy1_qty,add_part1_part,add_part1_qty,add_part2_part,add_part2_qty,smartcode_prod,cycle_time_selector,wallplate_option,oper_code,fromstock_oper_code,std_lengthperftupcharge,suspend_selection
+Twisted (543),PICK,-0.34,1,930590,1,1,1,543,FT,,,,,,,,,,,TWR,std,,TBRBuild,PICKING,5.50,
+Velour (541),PICK,0,2,10001,2,2,2,541,FT,930551,-0.34,,0.08,,,820076,2,,,VLR,std,,TBRBuild,PICKING,8.50,
+Naugahyde (542),PICK,0,3,10002,3,3,3,542,FT,930551,,,,,,820076,2,,,NHR,std,,TBRBuild,PICKING,9.50,
+Polyhemp (545),PICK,-0.34,4,980352,4,4,4,545,FT,,,,,,,,,,,PHR,std,,TBRBuild,PICKING,5.50,

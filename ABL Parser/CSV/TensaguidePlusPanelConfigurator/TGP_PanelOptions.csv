@@ -1,0 +1,5 @@
+panel_type,lookup_ref,panel_height_option,smartcode_ref,suspend_selection
+Slatwall,slat,r1,SLA,
+Slotted Steel,slot,r2,SLO,
+Acrylic,acrylic,r3,ACR,
+Acrylic Header,acrylicheader,r4,ACH,

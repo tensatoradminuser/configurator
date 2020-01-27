@@ -1,0 +1,7 @@
+lookup,beam_part_no,beam_finishlookup,beam_trim_part_no,fg_code,beamend_part_no,beamend_lock_cams,beamend_assy,gasket_part_no,gasket_qty
+standard-1340,04731,1,04732,FBS461,56792-AAA,50050-33S,,00853-33S,1
+standard-1500,13532,6,08054,FBS465,56792-AAA,50050-33S,,00853-33S,2
+standard-2120,02557,2,02558,FBS463,56792-AAA,50050-33S,,00853-33S,2
+standard-2220,07507,3,,FBS465,56792-AAA,50050-33S,,00853-33S,2
+standard-Custom,13532,4,08054,FBS465,56792-AAA,50050-33S,,00853-33S,
+oval-Custom,02334,5,,FBS465,,,52501-000,,

@@ -1,0 +1,6 @@
+id,prefix_code,std_prodgroup,custom_prodgroup,std_salecat,custom_salecat,STD_smartref,MAX_smartref,WDE_smartref,RCV_smartref
+DyeSub,-,,,,,,,,
+ScreenPrint,/SP,,,,,SPS,SPM,SPW,RCV
+NightView,/NV,,,,,NVS,NVM,NVW,RCV
+Anti Static,/AS,,,,,ATS,ATM,ATW,RCV
+Standard,-,,,,,,,,

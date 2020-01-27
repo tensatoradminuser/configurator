@@ -1,0 +1,4 @@
+UOM,web_internal_allowance,decimal_ref
+ft,0.50,TRUE
+m,0.15,FALSE
+m+0.2,0.20,FALSE
