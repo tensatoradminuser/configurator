@@ -352,6 +352,7 @@
     <Content Include="Configurations\_USA\TBR\US_TBR.xml" />
     <Content Include="Configurations\_USA\TBS\US_TBS.xml" />
     <Content Include="Configurations\_USA\TBW\US_TBW.xml" />
+    <Content Include="UAEInfo.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,306 @@
+General CSVs
+
+			* Used in more than 1 configuration.
+
+
+
+				Lookup Table							Name						Done x = yes
+
+
+			TENUK_FG_MasterTable													x
+			CommodityCode_Conversion_Matrix												x
+			Customer_PartNumber_Verification											x
+			WebbingLengthConversionFactors												x
+
+
+
+		ITM	1 Done for testing
+			SmartCode\PartClass.csv							PartClass					x
+			SmartCode\CommodityCodes.csv						CommodityCodes					x		
+
+		CBS	1 Done for testing
+			CafeBannerConfigurator\CafeBannerPostType.csv				CafeBannerPostType				x
+			CafeBannerConfigurator\CafeBannerRodType.csv				CafeBannerRodType				x
+			CafeBannerConfigurator\CafeBannerBannerType.csv				CafeBannerBannerType				x	
+
+		TBS	1 Done for testing
+
+			TBSignholderConfigurator\SignHolderType.csv				SignHolderType					x
+			TBSignholderConfigurator\SignHolderFrameOption.csv			SignHolderFrameOption				x
+
+		TBC	1 Done for testing
+			TBPostConfigurator\TopLevelCassetteRange.csv				TopLevelCassetteRange				x
+			TBPostConfigurator\CassetteRange.csv					CassetteRange					x				
+			TBPostConfigurator\WebbingLength.csv					WebbingLength *					x
+			TBPostConfigurator\TapeEndOptions.csv					TapeEndOptions *				x
+			SmartCode\TopCapLabels.csv						TopCapLabels *					x
+
+		TGBE	1 Done for testing
+			TensaguideBeamConfigurator\TensaguideBeamTypes.csv			TensaguideBeamTypes				x
+			TensaguideBeamConfigurator\TensaguideBeamLengths.csv			TensaguideBeamLengths				x
+			TensaguideBeamConfigurator\TensaguideBeamFinish.csv			TensaguideBeamFinish				x
+			TensaguideBeamConfigurator\TensaguideBeamOptions.csv			TensaguideBeamOptions				x			
+
+		TBR - 	1 Done for testing							Converter fails to pass Progress code!
+			TBRopeConfigurator\TBRopeType.csv					TBRopeType					x
+			TBRopeConfigurator\TBRopeLength.csv					TBRopeLength					x
+			TBRopeConfigurator\TBRopeFinish.csv					TBRopeFinish					x
+			TBRopeConfigurator\TBRopeEnds.csv					TBRopeEnds					x
+			TBRopeConfigurator\TBRopeEndFinish.csv					TBRopeEndFinish					x
+			TBRopeConfigurator\TBRopeWallPlateType.csv				TBRopeWallPlateType				x
+			TBRopeConfigurator\TBRopeWallPlateFinish.csv				TBRopeWallPlateFinish				x
+												
+
+		SLQ3	1 Done for testing
+			SLQ3000Configurator\SLQ3000PartDetails.csv				SLQ3000PartDetails				x
+
+
+		VA	1 Done for testing
+			VirtualAssistantConfigurator\VAOptions.csv				VAOptions					x
+			VirtualAssistantConfigurator\VAOptionalExtras.csv			VAOptionalExtras				x
+			VirtualAssistantConfigurator\VASurroundOptions.csv			VASurrounOptions				x
+
+
+
+		TBW	1 *
+			TBWallmountConfigurator\WallmountTypes.csv				WallmountTypes					x
+			TBWallmountConfigurator\WallmountFinishOptions.csv			WallmountFinishOptions				x
+			TBWallmountConfigurator\WallmountFixingKits.csv				WallmountFixingKits				x
+			TBWallmountConfigurator\WallMCassetteRange.csv				WallMCassetteRange				x
+			TBWallmountConfigurator\WallMWebbingLength.csv				WallMWebbingLength				x
+			TBWallmountConfigurator\WallMTapeEndOptions.csv				WallMTapeEndOptions				x
+			TBWallmountConfigurator\WallMWallClips.csv				WallMWallClips					x
+			SmartCode\TopCapLabels.csv						TopCapLabels *					x
+			
+
+		TBP	1 *
+			TBPostConfigurator\PostSelection(Revised).csv				PostSelectionRev				x
+			TBPostConfigurator\PostFinish(Revised).csv				PostFinishRev					x
+			TBPostConfigurator\BaseRange.csv					BaseRange					x
+			TBPostConfigurator\BaseFinish.csv					BaseFinish					x
+			TBPostConfigurator\CassetteRange.csv					CassetteRange *					x
+			TBPostConfigurator\WebbingLength.csv					WebbingLength *					x
+			TBPostConfigurator\TapeEndOptions.csv					TapeEndOptions *				x
+			\SmartCode\TopCapLabels.csv						TopCapLabels *					x
+							
+
+		TGPO	1 *
+			TensaguidePostConfigurator\TensaguidePostHeightOptions.csv		TensaguidePostHeightOptions			x		
+			TensaguidePostConfigurator\TensaguidePostFinish.csv			TensaguidePostFinish				x
+			TensaguidePostConfigurator\TensaguideTopCapOptions.csv			TensaguideTopCapOptions				x
+			TensaguidePostConfigurator\TensaguideBaseRange.csv			TensaguideBaseRange				x
+			TensaguidePostConfigurator\TensaguideBaseFinish.csv			TensaguideBaseFinish				x
+			TensaguidePostConfigurator\TensaguideBaseProtectors.csv			TensaguideBaseProtectors			x
+			TensaguidePostConfigurator\TensaguideWebbingLength.csv			TensaguideWebbingLength				x
+			TensaguidePostConfigurator\TensaguideCassetteRange.csv			TensaguideCassetteRange				x
+			TensaguidePostConfigurator\TensaguideTapeEndOptions.csv			TensaguideTapeEndOptions			x
+			TensaguidePostConfigurator\TensaguidePostOptions.csv			TensaguidePostOptions 				x
+			
+
+
+
+
+
+
+			
+
+
+
+
+
+		MessageBox.Show("....",
+		"Note",
+		MessageBoxButtons.OK,
+		MessageBoxIcon.Warning);
+
+
+
+		MessageBox.Show("....",
+		"Note",
+		MessageBoxButtons.OK,
+		MessageBoxIcon.Information);
+
+    		PageLeaveFunctions.SetNextInputPage(1);
+		Args.Cancel = true;
+
+
+
+		MessageBox.Show("....",
+		"Error",
+		MessageBoxButtons.OK,
+		MessageBoxIcon.Exclamation);
+
+    PageLeaveFunctions.SetNextInputPage(1);
+		Args.Cancel = true;
+
+
+
+TENUK_FG_MasterTable
+CommodityCode_Conversion_Matrix
+Customer_PartNumber_Verification
+
+return Inputs.var_salescatref.Value != ""; 
+
+// var_salescatref<>""
+
+
+
+
+
+                if (Inputs.var_part3.Value != "")
+                {
+										string Description = "";
+                    available_part = UDMethods.GetPartDescription(Context.CompanyID, Inputs.var_fgnum.Value, out Description);
+                    if (available_part) {
+                        fgdesc= Description;
+                    }
+
+                    if ((Inputs.var_part3.Value != "") && (BannerDesc != "")) { Inputs.var_linecomments.Value = BannerDesc; }
+                }
+                if (Inputs.var_part3.Value == "") { Inputs.var_linecomments.Value = ""; }
+
+
+										string PartClass = "";
+                    available_part = UDMethods.GetPartClass(Context.CompanyID, Inputs.var_fgnum.Value, out PartClass);
+                    if (available_part) {
+                        partclass = PartClass;
+                    }
+
+
+
+
+									string CommodityCode = "";
+                  bool available_partclass = UDMethods.GetPartCommodityCode(Context.CompanyID, partclass, out CommodityCode);
+                  if (available_partclass) {
+                      commoditystart = CommodityCode;
+                  }
+
+									  string ICommCodeImportCode = "";
+                    bool available_ICommCode = UDMethods.GetICommImportCode(Context.CompanyID, commodityconverted, out ICommCodeImportCode);
+                    if (available_ICommCode) {
+                        commoditycheck = ICommCodeImportCode;
+                    }
+
+
+if (Inputs.chr_custompolepart2.Value != "") {
+
+	string PartTypeCode = "";
+	bool available_part = UDMethods.GetPartTypeCode(Context.CompanyID, Inputs.chr_custompolepart2.Value, out PartTypeCode);
+	if (available_part) {
+	  custompoletype2 = PartTypeCode;
+	}
+
+}
+
+
+string PartIUM = "";
+bool available_part = UDMethods.GetPartIUM(Context.CompanyID,Inputs.var_topwebpart.Value, out PartIUM);
+if (available_part) {
+  webuom = PartIUM;
+}
+
+  
+string PartSalesUM = "";
+bool available_part = UDMethods.GetPartSalesUM(Context.CompanyID,Inputs.cmb_partentry.Value out PartSalesUM);
+if (available_part) {
+  Inputs.var_suom.Value = PartSalesUM;
+}
+
+
+            if (Inputs.var_fgnum.Value != "")
+            {
+                available_part = UDMethods.GetPartWeight(Context.CompanyID, Inputs.var_fgnum.Value, out PartWeight);
+								if (available_part) {
+                	CompWeight1 = PartWeight;
+            		}
+            }
+
+
+
+						decimal UnitPrice =0m;
+						string PricePerCode = "";
+            available_part = UDMethods.GetPartPrice(Context.CompanyID, Inputs.var_fgnum.Value, out UnitPrice, out PricePerCode);
+            if (available_part) {
+                Inputs.dec_price.Value = UnitPrice;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+							  string Mode = "";
+							  int CustID = 0;
+							  int OrderNum = 0;
+							  int QuoteNum = 0;
+							  string CustCountry = "";
+							  string CustName = "";
+							  string OTSID = "";
+							  bool OTS = false;
+							  int OTSCountry = 0;
+								string currencyCode = "";
+
+
+
+/* ********************************************************************************************************************************************************************************** */
+      if (Mode == "Quote")
+      {
+					/* Retrieve details from Quote Header */
+					bool available_QuoteHed = UDMethods.GetQuoteHed(Context.CompanyID, QuoteNum, out CustID, out OTSID, out OTS, out currencyCode);
+			
+			    if (available_QuoteHed)
+			    {
+			        /*Inputs.var_custid.Value = CustID;*/
+			        /*Inputs.var_custcurrency.Value = currencyCode;*/
+			        /*Inputs.var_custcurrency1.Value = currencyCode;*/
+			    }                  
+
+					/* ************************************************************** */
+
+					/* Retrieves customer name using customer ID */
+					bool available_Customer = UDMethods.GetCustomer(Context.CompanyID, CustID, out CustName, out CustCountry, out currencyCode);
+					
+					/* If a saved shipto address is specified gets country info */
+					if (OTSID != "")
+					{
+					    bool available_ShipTo = UDMethods.GetShipToCountryNum(Context.CompanyID, OTSID, out OTSCountry);
+					    bool available_Country = UDMethods.GetCountryDescription(Context.CompanyID, OTSCountry, out CustCountry);
+					}
+			
+				  Inputs.var_orderdtl.Value = "Mode: " + Mode + "  |  Order/Quote No: " + QuoteNum.ToString() + "   | Cust: " + CustName + "  |   ShipCountry: " + CustCountry;
+				  Inputs.var_shipcountry.Value = CustCountry;
+			}
+
+     /* ********************************************************************************************************************************************************************************** */
+     if (Mode == "Order")
+     {
+					/* Retrieve details from Order Header */
+			      bool available_OrderHed = UDMethods.GetOrderHed(Context.CompanyID, OrderNum, out CustID, out OTSID, out OTS, out currencyCode);
+			
+			      if (available_OrderHed)
+			      {
+			        /*Inputs.var_custid.Value = CustID;
+			        Inputs.var_custcurrency.Value = currencyCode;
+			        Inputs.var_custcurrency1.Value = currencyCode;*/
+			      }
+			
+			      /* Retrieves customer name using customer ID */
+			      bool available_Customer = UDMethods.GetCustomer(Context.CompanyID, CustID, out CustName, out CustCountry, out currencyCode);
+			
+			      /* If a saved shipto address is specified gets country info */
+			      if (OTSID != "")
+			      {
+			          bool available_ShipTo = UDMethods.GetShipToCountryNum(Context.CompanyID, OTSID, out OTSCountry);
+								bool available_Country = UDMethods.GetCountryDescription(Context.CompanyID, OTSCountry, out CustCountry);
+			      }
+			
+					 Inputs.var_orderdtl.Value = "Mode: " + Mode + "  |  Order/Quote No: " + OrderNum.ToString() + "   | Cust: " + CustName + "  |   ShipCountry: " + CustCountry;
+					 Inputs.var_shipcountry.Value = CustCountry;
+     }
+

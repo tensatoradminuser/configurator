@@ -17,3 +17,13 @@ C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.
 C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.exe
 C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.pdb
 C:\Users\keith.humphrey\source\repos\ABL Parser\ABL Parser\obj\Debug\ABL Parser.csprojAssemblyReference.cache
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\bin\Debug\ABL Parser.exe.config
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\bin\Debug\ABL Parser.exe
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\bin\Debug\ABL Parser.pdb
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\obj\Debug\ABL Parser.csprojAssemblyReference.cache
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\obj\Debug\ABL_Parser.Form1.resources
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\obj\Debug\ABL_Parser.Form2.resources
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\obj\Debug\ABL_Parser.Properties.Resources.resources
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\obj\Debug\ABL Parser.csproj.GenerateResource.cache
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\obj\Debug\ABL Parser.exe
+C:\Users\keith.humphrey\source\repos\configurator\ABL Parser\obj\Debug\ABL Parser.pdb
