@@ -334,6 +334,17 @@
     <Content Include="Configurations\_France\TBC\FR_TBC.xml" />
     <Content Include="Configurations\_France\TBP\FR_TBP.xml" />
     <Content Include="Configurations\_France\TBW\FR_TBW.xml" />
+    <Content Include="Configurations\_UAE\CBS\CBS.xml" />
+    <Content Include="Configurations\_UAE\ITM\ITM.xml" />
+    <Content Include="Configurations\_UAE\SLQ3\SLQ3.xml" />
+    <Content Include="Configurations\_UAE\TBC\TBC.xml" />
+    <Content Include="Configurations\_UAE\TBGE\TGBE.xml" />
+    <Content Include="Configurations\_UAE\TBP\TBP.xml" />
+    <Content Include="Configurations\_UAE\TBR\TBR.xml" />
+    <Content Include="Configurations\_UAE\TBS\TBS.xml" />
+    <Content Include="Configurations\_UAE\TBW\TBW.xml" />
+    <Content Include="Configurations\_UAE\TGPO\TGPO.xml" />
+    <Content Include="Configurations\_UAE\VA\VA.xml" />
     <Content Include="Configurations\_USA\ENGJOB\US_ENGJOB.xml" />
     <Content Include="Configurations\_USA\RAP\US_RAP.xml" />
     <Content Include="Configurations\_USA\TBC\US_TBC.xml" />
